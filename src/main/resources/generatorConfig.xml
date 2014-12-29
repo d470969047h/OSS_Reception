@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--提供数据库驱动的jar文件路径-->
+    <classPathEntry location="D://SQL Server 2012/sqljdbc4-4.0.2206.100.jar"/>
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin"/>
+        <!--<plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">-->
+        <!--<property name="searchString" value="Example$"/>-->
+        <!--<property name="replaceString" value="Criteria"/>-->
+        <!--</plugin>-->
+
+        <!--分页插件-->
+        <plugin type="com.shinowit.mybatis.plugin.SelectByPage4SqlServerPlugin"/>
+
+        <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                        connectionURL="jdbc:sqlserver://localhost:1433;databaseName=oss"
+                        userId="sa"
+                        password="daihui888">
+        </jdbcConnection>
+
+        <!--是否强制使用大写数字-->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.shinowit.entity"
+                            targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+
+        <!--需要与spring整合时必须保证xml文件与mapper接口在同一个package下面-->
+        <sqlMapGenerator targetPackage="com.shinowit.dao.mapper"
+                         targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.shinowit.dao.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!--********************建表***********************-->
+        <!--会员充值信息表-->
+        <table tableName="TBa_SupplyRecordInfo">
+
+        </table>
+
+        <!--会员收货地址信息表-->
+        <table tableName="TBa_MembeAddrInfo">
+            <generatedKey column="ID" sqlStatement="SqlServer"
+                          identity="true"/>
+
+        </table>
+
+        <!--会员信息-->
+        <table tableName="TBa_MemberInfo">
+            <generatedKey column="ID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
+
+        <!--订单详情-->
+        <table tableName="TMe_OrderDetailsInfo">
+            <generatedKey column="ID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
+
+        <!--订单-->
+        <table tableName="TMe_OrderInfo">
+            <generatedKey column="ID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
+
+        <!--配送商-->
+        <table tableName="TBa_DeliveryInfo">
+            <generatedKey column="ID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
+
+        <table tableName="TMe_UnitInfo">
+
+        </table>
+
+        <table tableName="TMe_ProStatusInfo">
+
+        </table>
+
+        <table tableName="TMe_MerchandiseCInfo">
+
+        </table>
+
+        <table tableName="TMe_MerchandiseInfo">
+
+        </table>
+
+        <table tableName="TMe_OutStockDetailsInfo">
+
+        </table>
+
+        <table tableName="TMe_OutStockInfo">
+
+        </table>
+
+        <table tableName="TMe_StockInfo">
+
+        </table>
+
+        <table tableName="TMe_InStockDetailsInfo">
+
+        </table>
+
+        <table tableName="TMe_InStockInfo">
+
+        </table>
+
+        <table tableName="TAu_OperInfo">
+
+        </table>
+
+        <table tableName="TBa_LogInfo">
+
+        </table>
+
+        <table tableName="TAu_Power">
+
+        </table>
+
+        <table tableName="TAu_Authorization">
+
+        </table>
+
+        <table tableName="TAu_RoleInfo">
+
+        </table>
+
+
+        <table tableName="TBa_SupplierInfo">
+            <generatedKey column="ID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
+
+        <table tableName="TAu_MenuInfo">
+            <generatedKey column="ID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
+
+
+    </context>
+</generatorConfiguration>
+
+
