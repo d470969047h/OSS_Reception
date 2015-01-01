@@ -95,10 +95,10 @@ public class UserRegController {
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
-            redirectAttributes.addFlashAttribute("some_msg", "注册成功，请登录邮箱激活账号！");
-            return "/index";
+            request.setAttribute("some_msg", "注册成功，请登录邮箱激活账号！");
+            return "/login";
         } else {
-            model.addAttribute("some_msg", "注册失败！");
+            request.setAttribute("some_msg", "注册失败！");
             return "/reg";
         }
     }
@@ -111,6 +111,6 @@ public class UserRegController {
             userInfoDAO.updateUserStatus(validUser.getUsername());
         }
         System.out.println("用户名：" + tbaMemberinfo.getUsername() + "验证码：" + valid_string);
-        return "/index";
+        return "redirect:/index/index";
     }
 }

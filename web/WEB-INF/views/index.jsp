@@ -14,7 +14,49 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>启奥</title>
+    <style>
+        .errorClass {
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
     <%@ include file="/common/commonhead.jsp" %>
+    <script type="text/javascript" src="<%=path%>/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="<%=path%>/js/jquery.paginate.js"></script>
+    <link type="text/css" href="<%=path%>/css/pagestyle.jsp" rel="stylesheet"/>
+    <script type="text/javascript">
+
+        //分页部分
+        $(function () {
+            $("#pagedome").paginate({
+                count: $("#merDisTotalPage").val(),
+                start: $("#merDispageIndex").val(),
+                display: 16,
+                border: true,
+                border_color: '#fff',
+                text_color: '#fff',
+                background_color: 'black',
+                border_hover_color: '#ccc',
+                text_hover_color: '#000',
+                background_hover_color: '#fff',
+                images: false,
+                mouse: 'slide',
+                onChange: function (merDispageIndex) {
+                    var url;
+                    $(document).ready(function () {
+                        debugger;
+                        var merchandisecid = $("#merchandisecid").val();
+                        if (merchandisecid == null || merchandisecid == "") {
+                            url = "<%=path%>/index/index?merDispageIndex=" + merDispageIndex;
+                            return
+                        }
+                        url = "<%=path%>/index/index?merDispageIndex=" + merDispageIndex + "&merchandisecid=" + merchandisecid;
+                    });
+                    return location.href = url;
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -23,6 +65,11 @@
     <div id="top">
         <a href="index.html"><img src="<%=path%>/images/logo.gif" alt="Estimation" width="255" height="58" border="0"
                                   class="logo"/></a>
+
+        <%--辅助存储标签,用户分页--%>
+        <input type="hidden" id="merchandisecid" value="${tmemerchandisec.merchandisecid}" class="txtBox"/>
+        <input type="hidden" id="merDisTotalPage" value="${merDisTotalPage}" class="txtBox"/>
+        <input type="hidden" id="merDispageIndex" value="${merDispageIndex}" class="txtBox"/>
 
         <p class="topDiv"></p>
 
@@ -104,39 +151,29 @@
                 <h2>商品分类</h2>
                 <ul>
                     <c:forEach items="${mserCInfoList}" var="merC">
-                        <li><a href="/innerpage.jsp">${merC.merchandisecname}</a></li>
+                        <li>
+                            <a href="<%=path %>/index/index?merchandisecid=${merC.merchandisecid}">${merC.merchandisecname}</a>
+                        </li>
                     </c:forEach>
                 </ul>
 
-                <form:form action="${ctx}/index/queryMerC" method="get" modelAttribute="pageIndex">
-                    &nbsp; &nbsp; &nbsp;
-                    <a href="<%=path %>/index/queryMerC?pageIndex=${pageIndex-1<0?1:pageIndex-1}" style="color:black;"><<</a>&nbsp;
-                    第${pageIndex}页/共${totalPage}页
-                    <a href="<%=path %>/index/queryMerC?pageIndex=${pageIndex+1}" style="color:black;">>></a>
+                <form:form action="${ctx}/index/index" method="get">
+                    &nbsp; &nbsp;
+                    <a href="<%=path %>/index/index?MerCpageIndex=${MerCpageIndex-1==0?1:MerCpageIndex-1}"
+                       style="color:black;"><<</a>&nbsp;
+                    第${MerCpageIndex}页/共${totalPage}页
+                    <a href="<%=path %>/index/index?MerCpageIndex=${MerCpageIndex+1}" style="color:black;">>></a>
                 </form:form>
 
-                <h2 class="detail">纸皮巴旦木龙果</h2>
+                <h2 class="detail">本月前16强商品</h2>
                 <ul class="leftLink">
-                    <li><a href="#">特级椒盐味</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">特级椒盐味</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">特级椒盐味</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">特级椒盐味</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
-                    <li><a href="#">纸皮巴旦木龙果</a></li>
+                    <c:forEach items="${mserInfoList}" var="mer">
+                        <li><a href="/innerpage.jsp">${mer.merchandisename}</a></li>
+                    </c:forEach>
                 </ul>
                 <br class="spacer"/>
 <span style="color:#f9c441;">ssss<br/>
-ssssssssss<br/>
+<br/>
 </span>
             </div>
             <!--left end -->
@@ -150,63 +187,23 @@ ssssssssss<br/>
             <!--hotsale_ad end -->
             <!--hotsale start -->
             <div class="hotsale">
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/T1.jpg" width="310"
-                                                                     height="310" border="0"/></a></dt>
-                    <dd>实心眼 特级薄皮奶香味 巴旦木 250g</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/pro_02.jpg" width="160"
-                                                                     height="160" border="0"/></a></dt>
-                    <dd>推荐 新疆和田 玉枣 32元 肉厚 相当于昆仑山四星</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/pro_03.jpg" width="160"
-                                                                     height="160" border="0"/></a></dt>
-                    <dd>推荐 新疆和田 玉枣 32元 肉厚 相当于昆仑山四星</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/pro_04.jpg" width="160"
-                                                                     height="160" border="0"/></a></dt>
-                    <dd>推荐 新疆和田 玉枣 32元 肉厚 相当于昆仑山四星</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/pro_05.jpg" width="160"
-                                                                     height="160" border="0"/></a></dt>
-                    <dd>推荐 新疆和田 玉枣 32元 肉厚 相当于昆仑山四星</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/pro_06.jpg" width="160"
-                                                                     height="160" border="0"/></a></dt>
-                    <dd>推荐 新疆和田 玉枣 32元 肉厚 相当于昆仑山四星</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/pro_07.jpg" width="160"
-                                                                     height="160" border="0"/></a></dt>
-                    <dd>推荐 新疆和田 玉枣 32元 肉厚 相当于昆仑山四星</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
-                <dl>
-                    <dt><a href="inner-page.html" target="_new"><img src="<%=path%>/images/pro_08.jpg" width="160"
-                                                                     height="160" border="0"/></a></dt>
-                    <dd>推荐 新疆和田 玉枣 32元 肉厚 相当于昆仑山四星</dd>
-                    <dd><span class="viv1">￥:18.0</span><span class="viv2"><a href="inner-page.html" target="_new"><img
-                            src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span></dd>
-                </dl>
+                <c:forEach items="${merInfoDisplayList}" var="merInfo">
+                    <dl>
+                        <dt><a href="<%=path %>/innerpage/merDetail?merDeatilID=${merInfo.merchandiseid}" target="_new"><img
+                                src="<%=path%>/${merInfo.picpath}" width="310" height="310" border="0"/></a></dt>
+                        <dd>${merInfo.merchandisename}&nbsp;${merInfo.remark}</dd>
+                        <dd><span class="viv1">￥:${merInfo.price}</span><span class="viv2"><a
+                                href="<%=path %>/innerpage/merDetail?merDeatilID=${merInfo.merchandiseid}"
+                                target="_new"><img
+                                src="<%=path%>/images/vivioow_b2.jpg" width="80" height="24" border="0"/></a></span>
+                        </dd>
+                    </dl>
+                </c:forEach>
                 <br class="spacer"/>
+            </div>
+
+            <div class="ccon" style=" margin-left:100px;">
+                <div id="pagedome" style="text-align: center;"></div>
             </div>
             <!--hotsale end -->
         </div>

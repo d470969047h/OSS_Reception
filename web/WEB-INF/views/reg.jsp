@@ -98,6 +98,7 @@
                     <tbody>
                     <tr>
                         <label class="errorClass" style="margin-left: 290px">${errMsg}</label>
+                        <label class="errorClass" style="margin-left: 290px">${some_msg}</label>
                         <td class="sty03" valign="top" align="right">请设定用户名：</td>
                         <td class="sty01" valign="top">
                             <form:input path="username"/>

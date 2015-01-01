@@ -58,6 +58,9 @@
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.10" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.6.10" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.log4jdbc:log4jdbc:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />
     <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />

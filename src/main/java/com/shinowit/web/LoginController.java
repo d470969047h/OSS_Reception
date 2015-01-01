@@ -33,7 +33,7 @@ public class LoginController {
         if ((null != currentMember) && (currentMember.getPwd().equals(tbaMemberinfo.getPwd()))) {
             if (true == currentMember.getStatus()) {
                 request.getSession(true).setAttribute("loginStatus", true);
-                return "/index";
+                return "redirect:/index/index";
             } else {
                 request.setAttribute("errMsg", "该用户尚未激活账号，请登录注册邮箱激活账号！");
                 return "/login";

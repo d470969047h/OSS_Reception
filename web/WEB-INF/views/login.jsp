@@ -80,6 +80,7 @@
                 <div class="regSetTabBox">
                     <div class="regSetTabMenu">
                         <label class="errorClass"> ${errMsg}</label>
+                        <label class="errorClass"> ${some_msg}</label>
                         <ul>
                             <li id="one1" onclick="setTab('one',1,2)" class="hover">口口香用户</li>
                             <li class="" id="one2" onclick="setTab('one',2,2)" style="display:none;">VIP用户</li>
