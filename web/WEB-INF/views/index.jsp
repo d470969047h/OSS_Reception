@@ -44,7 +44,6 @@
                 onChange: function (merDispageIndex) {
                     var url;
                     $(document).ready(function () {
-                        debugger;
                         var merchandisecid = $("#merchandisecid").val();
                         if (merchandisecid == null || merchandisecid == "") {
                             url = "<%=path%>/index/index?merDispageIndex=" + merDispageIndex;

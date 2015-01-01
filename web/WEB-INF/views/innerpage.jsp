@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: SC
-  Date: 2014/12/24
-  Time: 20:52
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -60,8 +53,7 @@
 <!--top start -->
 <!--top start -->
 <div id="top">
-    <a href="index.html"><img src="<%=path%>/images/logo.gif" alt="Estimation" width="255" height="58" border="0"
-                              class="logo"/></a>
+    <a href="index.html"><img src="<%=path%>/images/logo.gif" alt="Estimation" width="255" height="58" border="0" class="logo"/></a>
 
     <p class="topDiv"></p>
 
@@ -185,7 +177,7 @@
                         </tr>
                         <tr>
                             <td valign="top" align="right" width="111"
-                                height="28" style=" font-size:14px;color:#666; font-weight:bold;">原&nbsp;&nbsp;&nbsp; 价：
+                                height="28" style=" font-size:12px;color:#666; font-weight:bold;">原&nbsp;&nbsp;&nbsp; 价：
                             </td>
                             <td valign="top" width="212" height="28"><span
                                     style="text-decoration:line-through; font-size:14px;color:#666; font-weight:bold;">￥${merInfo.price}</span>

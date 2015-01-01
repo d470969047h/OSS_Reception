@@ -86,20 +86,20 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
-    <!--默认静态资源,防止拦截器拦截-->
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.gif</url-pattern>
-    </servlet-mapping>
+    <!--默认静态资源,防止拦截器拦截，但是没有缓存-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>default</servlet-name>-->
+        <!--<url-pattern>*.gif</url-pattern>-->
+    <!--</servlet-mapping>-->
 
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.jpg</url-pattern>
-    </servlet-mapping>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>default</servlet-name>-->
+        <!--<url-pattern>*.jpg</url-pattern>-->
+    <!--</servlet-mapping>-->
 
-    <servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>*.js</url-pattern>
-    </servlet-mapping>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>default</servlet-name>-->
+        <!--<url-pattern>*.js</url-pattern>-->
+    <!--</servlet-mapping>-->
 
 </web-app>

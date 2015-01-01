@@ -22,10 +22,12 @@ public class CheckLoginInterceptor extends HandlerInterceptorAdapter {
         //获取请求的uri来判断哪些请求可以放行
         String uri = request.getRequestURI();
         if (uri.endsWith("/index/index") || (uri.endsWith("/reg/reg"))
-                || (uri.endsWith("/login/login")) || (uri.endsWith("/css/*.jsp"))
+                || (uri.endsWith("/login/login"))
                 || (uri.endsWith("/reg/validCode")) || (uri.endsWith("/login/userlogin"))
                 || (uri.endsWith("/reg/userReg")) || (uri.endsWith("/reg/valid"))
-                || (uri.endsWith("/innerpage/merDetail"))) {
+                || (uri.endsWith("/innerpage/merDetail"))
+                || (uri.startsWith("/css"))|| (uri.startsWith("/js"))
+                || (uri.startsWith("/images"))|| (uri.startsWith("/common"))) {
             return true;
         }
         response.sendRedirect(request.getContextPath() + "/login/login");

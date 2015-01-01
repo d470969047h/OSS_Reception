@@ -46,7 +46,7 @@ div.jqZoomPup {
     height                  : 50px;
     */
     border: 1px solid #aaa;
-    background: #ffffff url(../images/zoomlens.gif) 50% top no-repeat;
+    background: #ffffff url(<%=request.getContextPath()%>/../images/zoomlens.gif) 50% top no-repeat;
     opacity: 0.3;
     -moz-opacity: 0.3;
     -khtml-opacity: 0.3;
