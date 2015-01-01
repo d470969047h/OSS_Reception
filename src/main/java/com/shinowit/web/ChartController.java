@@ -31,18 +31,9 @@ public class ChartController {
 
     @RequestMapping(value = "/trolley")
     public ModelAndView merDetailInfo(@RequestParam(value = "merDeatilID") String  merDeatilID){
-        ModelAndView result=new ModelAndView("innerpage");
+        ModelAndView result=new ModelAndView("trolley");
 
-        //查询商品信息
-        TmeMerchandiseinfo merInfo=merInfoDAO.selectByPrimaryKey(merDeatilID);
 
-        TmeUnitinfo unitInfo=unitDAO.selectByPrimaryKey(merInfo.getUnitid());
-
-        //查询商品库存信息
-        TmeStockinfo merStockInfo=stockInfoDAO.selectByPrimaryKey(merInfo.getId());
-        result.addObject("merInfo",merInfo);
-        result.addObject("unitInfo",unitInfo);
-        result.addObject("merStockInfo",merStockInfo);
         return result;
     }
 
