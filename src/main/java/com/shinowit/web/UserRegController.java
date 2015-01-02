@@ -1,8 +1,5 @@
 package com.shinowit.web;
 
-import com.shinowit.dao.mapper.TbaMemberinfoMapper;
-import com.shinowit.entity.TbaMemberinfo;
-import com.shinowit.entity.TbaMemberinfoExample;
 import com.shinowit.framework.dao.UpdateUserInfoDAO;
 import com.shinowit.tools.SendHtmlEmail;
 import org.springframework.stereotype.Controller;

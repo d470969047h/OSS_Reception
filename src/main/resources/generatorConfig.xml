@@ -153,6 +153,17 @@
                           identity="true"/>
         </table>
 
+        <!--购物车-->
+        <table tableName="TMe_Trolley">
+            <generatedKey column="TrolleyID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
+
+        <!--购物车明细-->
+        <table tableName="TMe_TrolleyItem">
+            <generatedKey column="TrolleyItemID" sqlStatement="SqlServer"
+                          identity="true"/>
+        </table>
 
     </context>
 </generatorConfiguration>

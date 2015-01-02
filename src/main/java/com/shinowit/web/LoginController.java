@@ -1,7 +1,5 @@
 package com.shinowit.web;
 
-import com.shinowit.dao.mapper.TbaMemberinfoMapper;
-import com.shinowit.entity.TbaMemberinfo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;

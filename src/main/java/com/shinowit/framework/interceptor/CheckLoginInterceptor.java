@@ -13,6 +13,7 @@ public class CheckLoginInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+
         //取session对象
         HttpSession session = request.getSession();
         if (null != session && session.getAttribute("loginStatus") != null) {//放行

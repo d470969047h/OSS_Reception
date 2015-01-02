@@ -1,8 +1,5 @@
 package com.shinowit.web;
 
-import com.shinowit.dao.mapper.TmeMerchandiseinfoMapper;
-import com.shinowit.dao.mapper.TmeStockinfoMapper;
-import com.shinowit.dao.mapper.TmeUnitinfoMapper;
 import com.shinowit.entity.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -35,8 +32,6 @@ public class InnerpageController {
         TmeMerchandiseinfo merInfo=merInfoDAO.selectByPrimaryKey(merDeatilID);
 
         TmeUnitinfo unitInfo=unitDAO.selectByPrimaryKey(merInfo.getUnitid());
-//        TmeStockinfoExample example=new TmeStockinfoExample();
-//        example.createCriteria().andMerchandiseidEqualTo(merInfo.getMerchandiseid());
 
         //查询商品库存信息
         TmeStockinfo merStockInfo=stockInfoDAO.selectByPrimaryKey(merInfo.getId());

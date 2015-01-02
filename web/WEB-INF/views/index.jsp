@@ -77,7 +77,7 @@
             <li><a href="<%=path%>/index/index" class="hover">首页</a></li>
             <li><a href="#">关于我们</a></li>
             <li><a href="#">在线客服</a></li>
-            <li class="chart"><a href="chart.html">购物车</a></li>
+            <li class="chart"><a href="<%=path%>/trolley/trolley">购物车</a></li>
         </ul>
         <p class="navRight"></p>
 
