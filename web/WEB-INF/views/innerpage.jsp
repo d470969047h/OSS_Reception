@@ -47,6 +47,13 @@
             });
         });
     </script>
+
+    <!--添加购物车后的提示信息-->
+    <script type="text/javascript">
+        $("#msg").click(function(){
+            alert(${someMsg});
+        });
+    </script>
 </head>
 <body>
 <div id="box">
@@ -157,75 +164,86 @@
     <div id="mid">
         <h6><img height="28" src="<%=path%>/images/cp_1.jpg" width="584" border="0"/></h6>
         <!--pro_price start -->
-        <div class="pro_price">
-            <dl>
-                <dt>
-                    <%--<img src="<%=path%>/${merInfo.picpath}" width="310" height="310"/>--%>
-                <div class="jqzoom" style='margin-right:5px;'><img src="<%=path%>/${merInfo.picpath}"width="320" height="320"
-                                         alt="shoe"  jqimg="<%=path%>/${merInfo.picpath}"></div>
-                </dt>
-                <dd>
-                    <table height="413" border="1" cellpadding="0" cellspacing="0"
-                           style="border-collapse:collapse; border:#ccc 1px solid;">
-                        <tbody>
-                        <tr>
-                            <td valign="top" align="middle" width="323" colspan="2"
-                                height="30"><font
-                                    color="#bb1213"
-                                    style=" font-size:24px; font-weight:bold;"><strong>${merInfo.merchandisename}</strong></font>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top" align="right" width="111"
-                                height="28" style=" font-size:12px;color:#666; font-weight:bold;">原&nbsp;&nbsp;&nbsp; 价：
-                            </td>
-                            <td valign="top" width="212" height="28"><span
-                                    style="text-decoration:line-through; font-size:14px;color:#666; font-weight:bold;">￥${merInfo.price}</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top" align="right" width="111"
-                                height="29" style=" font-size:14px;color:#666; font-weight:bold;">促 销 价：
-                            </td>
-                            <td valign="top" width="212" height="28"><span
-                                    style=" font-size:22px;color:#c00; font-weight:bold;">￥${merInfo.price}</span></td>
-                        </tr>
-                        <tr>
-                            <td valign="top" align="right" width="111"
-                                height="28" style=" font-size:14px;color:#666; font-weight:bold;">规&nbsp;&nbsp;&nbsp; 格：
-                            </td>
-                            <td valign="top" width="212" height="28" style=" font-size:14px;">${merInfo.spec}</td>
-                        </tr>
-                        <tr>
-                            <td valign="top" align="right" width="111" height="28"
-                                style=" font-size:14px;color:#666; font-weight:bold;">数&nbsp;&nbsp;&nbsp;量：
-                            </td>
-                            <td valign="top" width="212" height="15" style="padding: 20px 0 0 20px">
-                                <input type="button" id="jian" value="-"/>
-                                <input type="text" id="num" value="1"/>
-                                <input type="button" id="add" value="+"/>
-                                <label>(${unitInfo.name})</label>
-                                <br/><br/>
-                                <label>库存数量：${merStockInfo.num}</label>
-                                <label>(${unitInfo.name})</label>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align="middle" width="323" colspan="2" height="60">
-                                <input type="submit"
-                                       style="width:135px; height:40px; border:0;background-image: url(<%=path%>/images/buyNow.gif)"
-                                       value=""/>
+        <form:form action="${ctx}/trolley/addToTrolley" method="post" modelAttribute="merInfo">
+            <div class="pro_price">
+                <dl>
+                    <dt>
+                            <%--<img src="<%=path%>/${merInfo.picpath}" width="310" height="310"/>--%>
+                    <input type="hidden" name="merchandiseid" value="${merInfo.merchandiseid}"/>
+                    <div class="jqzoom" style='margin-right:5px;'><img src="<%=path%>/${merInfo.picpath}"width="320" height="320"
+                                                                       alt="shoe"  jqimg="<%=path%>/${merInfo.picpath}"></div>
+                    </dt>
+                    <dd>
+
+                        <table height="413" border="1" cellpadding="0" cellspacing="0"
+                               style="border-collapse:collapse; border:#ccc 1px solid;">
+                            <tbody>
+                            <tr>
+                                <td valign="top" align="middle" width="323" colspan="2"
+                                    height="30"><font
+                                        color="#bb1213"
+                                        style=" font-size:24px; font-weight:bold;"><strong><form:label path="merchandisename">
+                                         ${merInfo.merchandisename}
+                                        </form:label></strong></font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right" width="111"
+                                    height="28" style=" font-size:12px;color:#666; font-weight:bold;">原&nbsp;&nbsp;&nbsp; 价：
+                                </td>
+                                <td valign="top" width="212" height="28"><span
+                                        style="text-decoration:line-through; font-size:14px;color:#666; font-weight:bold;"> ￥${merInfo.price}
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right" width="111"
+                                    height="29" style=" font-size:14px;color:#666; font-weight:bold;">促 销 价：
+                                </td>
+                                <td valign="top" width="212" height="28"><span
+                                        style=" font-size:22px;color:#c00; font-weight:bold;">
+                                            <form:label path="price">￥${merInfo.price} </form:label>
+                                        </span></td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right" width="111"
+                                    height="28" style=" font-size:14px;color:#666; font-weight:bold;">规&nbsp;&nbsp;&nbsp; 格：
+                                </td>
+                                <td valign="top" width="212" height="28" style=" font-size:14px;">${merInfo.spec}</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" align="right" width="111" height="28"
+                                    style=" font-size:14px;color:#666; font-weight:bold;">数&nbsp;&nbsp;&nbsp;量：
+                                </td>
+                                <td valign="top" width="212" height="15" style="padding: 20px 0 0 20px">
+                                    <input type="button" id="jian" value="-"/>
+                                    <input type="text" id="num" name="num" value="1"/>
+                                    <input type="button" id="add" value="+"/>
+                                    <label>(${unitInfo.name})</label>
+                                    <br/><br/>
+                                    <label>库存数量：${merStockInfo.num}</label>
+                                    <label>(${unitInfo.name})</label>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <label> ${someMsg}</label>
+                                <td align="middle" width="323" colspan="2" height="60">
                                     <input type="submit"
-                                           style="width:180px; height:40px;border:0;background-image: url(<%=path%>/images/addToCar.gif)"
+                                           style="width:135px; height:40px; border:0;cursor:pointer;background-image: url(<%=path%>/images/buyNow.gif)"
                                            value=""/>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </dd>
-                <%--<br class="spacer"/>--%>
-            </dl>
-        </div>
+                                    <input type="submit" id="msg"
+                                           style="width:180px; height:40px;border:0;cursor:pointer;background-image: url(<%=path%>/images/addToCar.gif)"
+                                           value=""/>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </dd>
+                        <%--<br class="spacer"/>--%>
+                </dl>
+            </div>
+        </form:form>
         <!--pro_detail start -->
         <div class="pro_detail">
             <h3>--详细介绍--</h3>

@@ -1,5 +1,11 @@
 package com.shinowit.web;
 
+import com.shinowit.dao.mapper.TmeMerchandisecinfoMapper;
+import com.shinowit.dao.mapper.TmeMerchandiseinfoMapper;
+import com.shinowit.entity.TmeMerchandisecinfo;
+import com.shinowit.entity.TmeMerchandisecinfoExample;
+import com.shinowit.entity.TmeMerchandiseinfo;
+import com.shinowit.entity.TmeMerchandiseinfoExample;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;

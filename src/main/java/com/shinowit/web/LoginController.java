@@ -1,5 +1,7 @@
 package com.shinowit.web;
 
+import com.shinowit.dao.mapper.TbaMemberinfoMapper;
+import com.shinowit.entity.TbaMemberinfo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,6 +33,7 @@ public class LoginController {
         if ((null != currentMember) && (currentMember.getPwd().equals(tbaMemberinfo.getPwd()))) {
             if (true == currentMember.getStatus()) {
                 request.getSession(true).setAttribute("loginStatus", true);
+                request.getSession(true).setAttribute("userName", currentMember.getUsername());
                 return "redirect:/index/index";
             } else {
                 request.setAttribute("errMsg", "该用户尚未激活账号，请登录注册邮箱激活账号！");
