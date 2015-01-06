@@ -56,7 +56,9 @@ a:hover
 #Label_Addressee h2,h3,h4,h5,h6{ font-size:12px;}
 .bxSty{padding:1px;margin:auto;margin-top:17px;}
 
-.bxSty td{padding:5px 0 5px 0;}
+.bxSty td{
+    padding:5px 0 5px 0;
+}
 .bxSty1{color:#666666;padding:1px; margin-top:17px;*margin-bottom:-8px;}
 
 .bxSty1 td{padding:5px 0 5px 0;}

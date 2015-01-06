@@ -13,7 +13,7 @@
 <%String path = request.getContextPath();%>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>启奥</title>
+    <title>晖晖电子超市</title>
     <style>
         .errorClass {
             color: #ff0000;

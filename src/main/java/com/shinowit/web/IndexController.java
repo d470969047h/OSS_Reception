@@ -37,6 +37,7 @@ public class IndexController {
         TmeMerchandiseinfoExample exampleMerDisplay = new TmeMerchandiseinfoExample();
         List<TmeMerchandiseinfo> merchandiseinfoDisplayList;
         ModelAndView result = new ModelAndView("index");
+
         if (null == MerCpageIndex) {
             MerCpageIndex = 1;
         }

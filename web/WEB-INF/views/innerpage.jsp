@@ -5,7 +5,7 @@
 <%String path = request.getContextPath();%>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
-    <title>启奥</title>
+    <title>商品详情</title>
     <%@ include file="/common/commonhead.jsp" %>
     <link type="text/css" href="<%=path%>/css/NumAdd.jsp" rel="stylesheet"/>
     <link type="text/css" href="<%=path%>/css/jqzoom.jsp" rel="stylesheet"/>
@@ -48,12 +48,6 @@
         });
     </script>
 
-    <!--添加购物车后的提示信息-->
-    <script type="text/javascript">
-        $("#msg").click(function(){
-            alert(${someMsg});
-        });
-    </script>
 </head>
 <body>
 <div id="box">
@@ -69,7 +63,7 @@
         <li><a href="index.html" class="hover">首页</a></li>
         <li><a href="#">关于我们</a></li>
         <li><a href="#">在线客服</a></li>
-        <li class="chart"><a href="chart.html">购物车</a></li>
+        <li class="chart"><a href="<%=path%>/trolley/trolley">购物车</a></li>
     </ul>
     <p class="navRight"></p>
 
@@ -232,7 +226,7 @@
                                     <input type="submit"
                                            style="width:135px; height:40px; border:0;cursor:pointer;background-image: url(<%=path%>/images/buyNow.gif)"
                                            value=""/>
-                                    <input type="submit" id="msg"
+                                    <input type="submit"
                                            style="width:180px; height:40px;border:0;cursor:pointer;background-image: url(<%=path%>/images/addToCar.gif)"
                                            value=""/>
                                 </td>

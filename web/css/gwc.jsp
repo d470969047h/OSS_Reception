@@ -105,9 +105,14 @@ img
 .sesi{color:#999999}
 .tesesi{height:12px;}
 .tzmx{color:#999999}
-#imgw{ border: 1px #c8c8c8 solid; width:48px; height:48px;}
-.imgw{ border: 1px #c8c8c8 solid; width:48px; height:48px; _margin-left:-2px; margin:0 auto; display:block;}
-.imgw img{width:48px; height:48px; border:none; display:block;}
+#imgw{  width:48px; height:48px;}
+.imgw{
+    /*width:150px; */height:150px; _margin-left:-2px; margin:0 auto; display:block;}
+.imgw img{
+    width:150px;
+    height:150px;
+    border:none;
+    display:block;}
 .imgWidth{width:48PX;}
 .giveSelect{padding-left:15px;}/*
 .mcar{padding-top:0px;padding:0px 0px 5px 1px;width:80px; float:left;}
