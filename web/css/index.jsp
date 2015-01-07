@@ -35,7 +35,7 @@ body{margin:auto; overflow-x:hidden;}
 .tb2_td3{ width:170px; padding-left:12px; padding-right:18px;}
 .tb2_td3 a{  line-height:22px;}
 .tb2_tdx{
-    widows: 160;px; }
+    width: 170px; }
 .tb2_td7{ width:89px;}
 
 .gwc_tb3{ width:100%; border:1px solid #d2d2d2; background:#e7e7e7; height:46px; margin-top:20px; }

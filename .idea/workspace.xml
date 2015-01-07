@@ -2,114 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f81376e-3e67-40c9-8d16-dd962688dc5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/Calculation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.1.4.2-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sql/myOSS.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/test.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/AddressController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/ConfirmAddressController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/OrderConfiremController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Intellij-IDEA-F2E" afterPath="$PROJECT_DIR$/../Intellij-IDEA-F2E" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MySqlDGTool" afterPath="$PROJECT_DIR$/../MySqlDGTool" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringMVC_SSH" afterPath="$PROJECT_DIR$/../SpringMVC_SSH" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oss" afterPath="$PROJECT_DIR$/../oss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorization.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorizationExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorizationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauAuthorizationMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauAuthorizationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauAuthorizationMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauAuthorizationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauMenuinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauMenuinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauMenuinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauMenuinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauOperinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauOperinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauOperinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauOperinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauRoleinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauRoleinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauRoleinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauRoleinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaLoginfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaLoginfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaLoginfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaLoginfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMemberinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMemberinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMemberinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMemberinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplierinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplierinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplierinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplierinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeProstatusinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeProstatusinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeProstatusinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeProstatusinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeStockinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeStockinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeStockinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeStockinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolley.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolley.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitem.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitemExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitemExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyitemMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyitemMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyitemMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyitemMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeUnitinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeUnitinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeUnitinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeUnitinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chart.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/gmxx.jsp" afterPath="$PROJECT_DIR$/web/css/gmxx.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/gwc.jsp" afterPath="$PROJECT_DIR$/web/css/gwc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/index.jsp" afterPath="$PROJECT_DIR$/web/css/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/pagestyle.jsp" afterPath="$PROJECT_DIR$/web/css/pagestyle.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.jsp" afterPath="$PROJECT_DIR$/web/css/style.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OSS_Reception.iws" />
@@ -136,48 +44,38 @@
       <file leaf-file-name="chart.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chart.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20430107" vertical-offset="4260" max-vertical-offset="7002">
-              <caret line="243" column="23" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.49462366" vertical-offset="5214" max-vertical-offset="7254">
+              <caret line="305" column="24" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="innerpage.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp">
+      <file leaf-file-name="TrolleyController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="5310">
-              <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4212" max-vertical-offset="5598">
+              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagestyle.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/pagestyle.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="2394">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/index.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1026">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="936">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1584" max-vertical-offset="3852">
-              <caret line="88" column="39" selection-start-line="87" selection-start-column="11" selection-end-line="88" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="4284">
+              <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -196,13 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/getpwd.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfo.java" />
-        <option value="$PROJECT_DIR$/web/css/loginandreg.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomTimestampConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shinowit/test/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shinowit/test/Test.java" />
@@ -225,10 +116,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/framework/dao/MerInfoPagingDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/AjaxController.java" />
         <option value="$PROJECT_DIR$/web/css/innerstyle.jsp" />
-        <option value="$PROJECT_DIR$/web/css/pagestyle.jsp" />
         <option value="$PROJECT_DIR$/web/html/Index.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/css/style.jsp" />
         <option value="$PROJECT_DIR$/web/css/jqzoom.jsp" />
         <option value="$PROJECT_DIR$/web/css/NumAdd.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/ChartController.java" />
@@ -240,13 +129,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/UserRegController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java" />
         <option value="$PROJECT_DIR$/web/css/gmxx.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/web/css/gwc.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/test.jsp" />
-        <option value="$PROJECT_DIR$/web/css/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/ConfirmAddressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/AddressController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/OrderConfiremController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp" />
+        <option value="$PROJECT_DIR$/web/css/style.jsp" />
+        <option value="$PROJECT_DIR$/web/css/pagestyle.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/chart.jsp" />
+        <option value="$PROJECT_DIR$/web/css/index.jsp" />
       </list>
     </option>
   </component>
@@ -350,7 +248,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -421,6 +318,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -588,6 +503,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,11 +536,11 @@
       <recent name="com.shinowit.framework.convert.interceptor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitRepository\OSS_Reception\web\css" />
+      <recent name="E:\GitRepository\OSS_Reception\src\main\java\com\shinowit\web" />
       <recent name="E:\GitRepository\OSS_Reception\web\WEB-INF\views" />
       <recent name="E:\GitRepository\OSS_Reception\web\js" />
-      <recent name="E:\GitRepository\OSS_Reception\web\css" />
       <recent name="E:\GitRepository\OSS_Reception\web\sql" />
-      <recent name="E:\GitRepository\OSS_Reception\web\images\merPic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitRepository\OSS_Reception\web\html" />
@@ -731,6 +647,38 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -757,38 +705,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1008,7 +924,8 @@
       <workItem from="1420354528477" duration="26286000" />
       <workItem from="1420416372540" duration="4384000" />
       <workItem from="1420423708137" duration="40993000" />
-      <workItem from="1420502624431" duration="300000" />
+      <workItem from="1420502624431" duration="40668000" />
+      <workItem from="1420589636462" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="商品图片">
       <created>1419827049633</created>
@@ -1026,11 +943,15 @@
       <created>1420182301453</created>
       <updated>1420182301453</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="购物车部分还差jQuery选择器">
+      <created>1420503185709</created>
+      <updated>1420503185709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330519000" />
+    <option name="totallyTimeSpent" value="371579000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1056,7 +977,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5584" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1068,25 +989,25 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.488" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3904" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17700455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26172465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3904" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.472" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
@@ -1094,8 +1015,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22768533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1107,8 +1028,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3904" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1133,11 +1054,12 @@
     <MESSAGE value="商品详情部分最后一次提交" />
     <MESSAGE value="新添加了购物车表和购物车明细表" />
     <MESSAGE value="添加到购物车，还差alert功能和库存关联" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加到购物车，还差alert功能和库存关联" />
+    <MESSAGE value="购物车部分还差jQuery选择器" />
+    <option name="LAST_COMMIT_MESSAGE" value="购物车部分还差jQuery选择器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="78" />
+      <option name="time" value="85" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1145,55 +1067,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/getpwdover.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="2376">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30100334" vertical-offset="0" max-vertical-offset="598">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/validCode.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61290324" vertical-offset="1044" max-vertical-offset="2196">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-1.9.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="172638">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.11.RELEASE/spring-jdbc-3.2.11.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321492" vertical-offset="13817" max-vertical-offset="24894">
-          <caret line="876" column="15" selection-start-line="876" selection-start-column="15" selection-end-line="876" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar!/org/apache/commons/dbcp/DelegatingPreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33208954" vertical-offset="1207" max-vertical-offset="6786">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24247491" vertical-offset="17441" max-vertical-offset="68688">
-          <caret line="977" column="0" selection-start-line="977" selection-start-column="0" selection-end-line="977" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomTimestampConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54180604" vertical-offset="0" max-vertical-offset="598">
@@ -1244,14 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6" vertical-offset="3267" max-vertical-offset="6066">
-          <caret line="201" column="50" selection-start-line="201" selection-start-column="50" selection-end-line="201" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/framework/dao/UpdateUserInfoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5719063" vertical-offset="0" max-vertical-offset="598">
@@ -1260,23 +1125,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/innerstyle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41935483" vertical-offset="0" max-vertical-offset="18054">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/loginandreg.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="1476">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/getpwd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23507462" vertical-offset="0" max-vertical-offset="1764">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="85" />
         </state>
       </provider>
@@ -1288,33 +1139,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/common/commonhead.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47285464" vertical-offset="0" max-vertical-offset="571">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33779263" vertical-offset="1346" max-vertical-offset="1998">
           <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3548387" vertical-offset="0" max-vertical-offset="5634">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/pagestyle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5271454" vertical-offset="1589" max-vertical-offset="2376">
-          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1386,21 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/NumAdd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56742555" vertical-offset="0" max-vertical-offset="612">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/InnerpageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36923078" vertical-offset="162" max-vertical-offset="810">
-          <caret line="32" column="88" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33277592" vertical-offset="4067" max-vertical-offset="8658">
@@ -1421,27 +1235,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="2037" max-vertical-offset="9288">
           <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/gwc.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6779661" vertical-offset="1728" max-vertical-offset="3042">
-          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/gmxx.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10752688" vertical-offset="1020" max-vertical-offset="5616">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.11.RELEASE/spring-web-3.2.11.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33114755" vertical-offset="3193" max-vertical-offset="4500">
-          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1459,49 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.096774" vertical-offset="2376" max-vertical-offset="4284">
-          <caret line="228" column="6" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="774">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.97686833" vertical-offset="495" max-vertical-offset="1530">
-          <caret line="74" column="35" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="35" />
-          <folding>
-            <element signature="method#merInfoAdd#0;class#TrolleyController#0" expanded="false" />
-            <element signature="method#updateTolleyItem#0;class#TrolleyController#0" expanded="false" />
-            <element signature="method#deleteTolleyItem#0;class#TrolleyController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1584" max-vertical-offset="3852">
-          <caret line="88" column="39" selection-start-line="87" selection-start-column="11" selection-end-line="88" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1026">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33277592" vertical-offset="161" max-vertical-offset="16866">
@@ -1509,18 +1260,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4882943" vertical-offset="122" max-vertical-offset="774">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="5310">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.80597013" vertical-offset="378" max-vertical-offset="5310">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1584" max-vertical-offset="3852">
+          <caret line="88" column="39" selection-start-line="87" selection-start-column="11" selection-end-line="88" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/InnerpageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66220737" vertical-offset="0" max-vertical-offset="810">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3225807" vertical-offset="3024" max-vertical-offset="5688">
+          <caret line="127" column="96" selection-start-line="127" selection-start-column="96" selection-end-line="127" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871" vertical-offset="1350" max-vertical-offset="2376">
+          <caret line="92" column="86" selection-start-line="92" selection-start-column="86" selection-end-line="92" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/OrderConfiremController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.632107" vertical-offset="0" max-vertical-offset="630">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3548387" vertical-offset="1602" max-vertical-offset="2376">
+          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6451613" vertical-offset="1746" max-vertical-offset="2898">
+          <caret line="117" column="276" selection-start-line="117" selection-start-column="276" selection-end-line="117" selection-end-column="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75384617" vertical-offset="3267" max-vertical-offset="6066">
+          <caret line="206" column="20" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.paginate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43076923" vertical-offset="1998" max-vertical-offset="4572">
+          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/innerstyle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="18054">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/gwc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3042">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/getpwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22580644" vertical-offset="0" max-vertical-offset="1764">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common/commonhead.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34676006" vertical-offset="0" max-vertical-offset="571">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2580645" vertical-offset="0" max-vertical-offset="5634">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/NumAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50437826" vertical-offset="0" max-vertical-offset="612">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/pagestyle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="2394">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="4284">
+          <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.11.RELEASE/spring-web-3.2.11.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33114755" vertical-offset="3193" max-vertical-offset="4500">
+          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/gmxx.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3655914" vertical-offset="2856" max-vertical-offset="5616">
+          <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87096775" vertical-offset="180" max-vertical-offset="1026">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1296">
+          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20430107" vertical-offset="4260" max-vertical-offset="7002">
-          <caret line="243" column="23" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.49462366" vertical-offset="5214" max-vertical-offset="7254">
+          <caret line="305" column="24" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -157,7 +157,7 @@
                 </ul>
 
                 <form:form action="${ctx}/index/index" method="get">
-                    &nbsp; &nbsp;
+                    <%--&nbsp;  &nbsp;  &nbsp; --%>
                     <a href="<%=path %>/index/index?MerCpageIndex=${MerCpageIndex-1==0?1:MerCpageIndex-1}"
                        style="color:black;"><<</a>&nbsp;
                     第${MerCpageIndex}页/共${totalPage}页

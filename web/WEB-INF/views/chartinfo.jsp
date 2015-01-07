@@ -115,7 +115,7 @@
                         </div></td>
                     </tr>
                     <tr>
-                        <td class="typeTd2"><span class="addDeleteSty addFontCol"><a href="#"><span class="addFontCol">修改</span></a><span class="addFontCol">　|</span>　<a href="#"><span class="addFontCol">删除</span></a></span><span class="addSpanSty"><a href="chart03.html"><img src="<%=path%>/images/button_qr.gif" border="0" onclick="#" /></a></span><br />
+                        <td class="typeTd2"><span class="addDeleteSty addFontCol"><a href="#"><span class="addFontCol">修改</span></a><span class="addFontCol">　|</span>　<a href="#"><span class="addFontCol">删除</span></a></span><span class="addSpanSty"><a href="<%=path%>/order/order"><img src="<%=path%>/images/button_qr.gif" border="0" onclick="#" /></a></span><br />
                         </td>
                     </tr>
                     <tr>

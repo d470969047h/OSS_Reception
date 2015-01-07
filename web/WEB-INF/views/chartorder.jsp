@@ -90,7 +90,7 @@
                         <td height="100" align="center" ><h3><span style="color:#f90;">您好，如没有问题，此页面为最后提交订单页面！</span></h3></td>
                     </tr>
                     <tr>
-                        <td height="50" class="typeTd2"><a href="chart04.html"><img src="<%=path%>/images/button_000.gif" border="0" onclick="#" /></a><br />
+                        <td height="50" class="typeTd2"><a href="<%=path%>/order/orderOver"><img src="<%=path%>/images/button_000.gif" border="0" onclick="#" /></a><br />
                         </td>
                 </table>
 <SPAN

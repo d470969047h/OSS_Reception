@@ -11,7 +11,7 @@
 <%String path = request.getContextPath();%>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>无标题文档</title>
+    <title>收货地址管理</title>
     <%@ include file="/common/commonhead.jsp" %>
 </head>
 
@@ -125,7 +125,7 @@
                                 移动电话：138********<br/>
                                 <span class="addDeleteSty addFontCol"><a href="#"><span class="addFontCol">修改</span></a><span
                                         class="addFontCol">　|</span>　<a href="#"><span class="addFontCol">删除</span></a></span><span
-                                        class="addSpanSty"><a href="chart02.html"><img
+                                        class="addSpanSty"><a href="<%=path%>/address/conAddress"><img
                                         src="<%=path%>/images/button_pszADd.gif" border="0" onclick=""/></a></span></li>
                             <li class="liSty"></li>
                         </ul>
@@ -245,7 +245,7 @@
                                                     手机与固定电话至少有一项必填 </p>
                                             </li>
                                             <li class="conLi6"><span id="errorMobile"></span></li>
-                                            <li class="conLi7"><span class="addSpanSty"><a href="chart02.html"><img
+                                            <li class="conLi7"><span class="addSpanSty"><a href="<%=path%>/address/conAddress"><img
                                                     src="<%=path%>/images/button_pszADd.gif" alt="" border="0"
                                                     onclick=""/></a></span></li>
                                         </ul>

@@ -36,6 +36,7 @@ cursor:pointer;
 }
 ul.jPag-pages{
 float:left;
+height:29px;
 list-style-type:none;
 margin:0px 0px 0px 0px;
 padding:0px;

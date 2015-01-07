@@ -19,16 +19,16 @@
     <script type="text/javascript" src="<%=path%>/js/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="<%=path%>/js/jquery.1.4.2-min.js"></script>
     <script type="text/javascript" src="<%=path%>/js/Calculation.js"></script>
+
+
     <!--全选，数量加减-->
     <script type="text/javascript">
         $(document).ready(function () {
-
             //jquery特效制作复选框全选反选取消(无插件)
             // 全选
             $(".allselect").click(function () {
                 $(".gwc_tb2 input[name=newslist]").each(function () {
                     $(this).attr("checked", true);
-                    $(this).next().css({ "background-color": "#3366cc", "color": "#ffffff" });
                 });
                 GetCount();
             });
@@ -38,10 +38,8 @@
                 $(".gwc_tb2 input[name=newslist]").each(function () {
                     if ($(this).attr("checked")) {
                         $(this).attr("checked", false);
-                        $(this).next().css({ "background-color": "#ffffff", "color": "#000000" });
                     } else {
                         $(this).attr("checked", true);
-                        $(this).next().css({ "background-color": "#3366cc", "color": "#000000" });
                     }
                 });
                 GetCount();
@@ -51,7 +49,6 @@
             $("#cancel").click(function () {
                 $(".gwc_tb2 input[name=newslist]").each(function () {
                     $(this).attr("checked", false);
-                    $(this).next().css({ "background-color": "#ffffff", "color": "#000000" });
                 });
                 GetCount();
             });
@@ -59,7 +56,6 @@
             // 所有复选(:checkbox)框点击事件
             $(".gwc_tb2 input[name=newslist]").click(function () {
                 if ($(this).attr("checked")) {
-                    $(this).next().css({ "background-color": "#3366cc", "color": "#ffffff" });
                 } else {
                     $(this).next().css({ "background-color": "#ffffff", "color": "#000000" });
                 }
@@ -69,9 +65,9 @@
             $(".gwc_tb2 input[name=newslist]").click(function () {
                 // $("#total2").html() = GetCount($(this));
                 GetCount();
-                //alert(conts);
             });
         });
+
         //******************
         function GetCount() {
             var conts = 0;
@@ -91,45 +87,57 @@
         }
     </script>
 
-
-    <!--修改商品小计和数量-->
-    <%--<script type="text/javascript">--%>
+    <!---提交选中的商品---->
+    <script type="text/javascript">
+        <%--$(function () {--%>
+        <%--$("#jz2").click(function () {--%>
         <%--$(".gwc_tb2 input[name=newslist]").each(function () {--%>
-            <%--if ($(this).attr("checked")) {--%>
-                <%--for (var i = 0; i < $(this).length; i++) {--%>
-
-                    <%--$.ajax({--%>
-
-                    <%--});--%>
-                <%--}--%>
-            <%--}--%>
+        <%--if ($(this).attr("checked")) {--%>
+        <%--for (var i = 0; i < $(this).length; i++) {--%>
+        <%--var trolleyitemid = $(".gwc_tb2 input[name=newslist]:checked").attr("dataid");//获取该商品ID--%>
+        <%--var num = $(".tb1_td5").children("input[type=text]").val();//获取该商品数量--%>
+        <%--$.ajax({--%>
+        <%--url: "<%=path%>/trolley/updateTolleyItem/" + num + "/" + trolleyitemid + ""--%>
         <%--});--%>
-    <%--</script>--%>
-        <%--$(document).ready(function () {--%>
-            <%--$("#currentNum").blur(function () {--%>
-                <%--var num = $("#currentNum").val();--%>
-                <%--var trolleyitemid = $("#trolleyitemid").val();--%>
-                <%--$.ajax({--%>
-                    <%--url: "<%=path%>/trolley/updateTolleyItem/" + num + "/" + trolleyitemid + ""--%>
-                <%--})--%>
-            <%--});--%>
+        <%--window.location="<%=path%>/address/address";--%>
+        <%--}--%>
+        <%--}--%>
         <%--});--%>
+        <%--});--%>
+        <%--}--%>
+
+        $(function () {
+            $(".jz2").click(function () {
+                var index = 0;
+                $(".gwc_tb2 input[name=newslist]").each(function () {
+                    if ($($(".gwc_tb2 input[name=newslist]")[index]).attr("checked")) {
+                        var trolleyitemid = $($(".gwc_tb2 input[name=newslist]:checked")[index]).attr("dataid");//获取该商品ID
+                        var num = $($(".tb1_td5").children("input[type=text]")[index]).val();//获取该商品数量
+                        $.ajax({
+                            url: "<%=path%>/trolley/updateTolleyItem/" + num + "/" + trolleyitemid + ""
+                        });
+                    }
+                    index = index + 1;
+                });
+                window.location = "<%=path%>/address/address";
+            });
+        });
+        <%--var list=$(".gwc_tb2 input[name=newslist]:checked");--%>
+        <%--for(var i=0;i<list.length;i++) {--%>
+        <%--if ($(this).attr("checked")) {--%>
+        <%--var trolleyitemid = $($(".gwc_tb2 input[name=newslist]:checked")[i]).attr("dataid");//获取该商品ID--%>
+        <%--var num = $(".tb1_td5").children("input[type=text]").val();//获取该商品数量--%>
+        <%--$.ajax({--%>
+        <%--url: "<%=path%>/trolley/updateTolleyItem/" + num + "/" + trolleyitemid + ""--%>
+        <%--});--%>
+        <%--}--%>
+        <%--}--%>
+        <%--window.location = "<%=path%>/address/address";--%>
+        <%--});--%>
+        //        });
 
 
-    <%--<script type="text/javascript">--%>
-    <%--function del() {--%>
-    <%--var trolleyitemid=$("#trolleyitemid").val();--%>
-    <%--$.ajax({--%>
-    <%--url: "<%=path%>/trolley/deleteTolleyItem/"+trolleyitemid+"",--%>
-    <%--beforeSend: function(){--%>
-    <%--alert("确认要删除该商品么？");--%>
-    <%--},--%>
-    <%--complete: function(){--%>
-    <%--alert("该商品已删除！");--%>
-    <%--}--%>
-    <%--});--%>
-    <%--}--%>
-    <%--</script>--%>
+    </script>
 </head>
 <body>
 <div id="box">
@@ -223,10 +231,12 @@
                         int index = 0;
                     %>
                     <c:forEach items="${trolleyitemList}" var="merShowInfo">
-                        <input type="hidden" value="${merShowInfo.trolleyitemid}" id="trolleyitemid"/>
+                        <%--<input type="hidden" value="${merShowInfo.trolleyitemid}" id="trolleyitemid<%=index%>"/>--%>
                         <table cellpadding="0" cellspacing="0" class="gwc_tb2">
                             <tr>
-                                <td class="tb2_td1"><input type="checkbox" value="1" name="newslist" id="newslist-<%=index%>"/>
+                                <td class="tb2_td1"><input type="checkbox" name="newslist"
+                                                           dataid="${merShowInfo.trolleyitemid}"
+                                                           id="newslist-<%=index%>"/>
                                 </td>
                                 <td align="center" class="gwcSuit" width="180"><span class="imgw">
                                     <a href="#" target="_blank">
@@ -238,7 +248,7 @@
                                         style=";font-weight: bold;">${merShowInfo.merchandisename}</span></a>
                                 </td>
                                 <td class="tb2_td3" align="center" style="font-family:'楷体';font-weight: bold;">￥<span
-                                           id="unitPrice">${merShowInfo.unitprice}</span>
+                                        id="unitPrice">${merShowInfo.unitprice}</span>
                                 </td>
                                 <td class="tb1_td5">
                                     <input id="min1<%=index%>" name=""
@@ -260,6 +270,7 @@
                             </tr>
                         </table>
 
+
                         <!---商品加减算总数---->
                         <script type="text/javascript">
                             $(function () {
@@ -271,7 +282,7 @@
                                     GetCount();
                                 });
                                 $("#min1<%=index%>").click(function () {
-                                  var num= t.val(parseInt(t.val()) - 1);
+                                    var num = t.val(parseInt(t.val()) - 1);
                                     if (num == 0) {
                                         alert("商品数量不能为0！");
                                         return
@@ -308,6 +319,7 @@
                             $("#zong1").text(parseInt(num).toFixed(2));
                             $("#shuliang").text(len.length);
                         }
+
                         //setTotal();
                     })
                 </script>
@@ -326,8 +338,10 @@
                         <td class="tb3_td3">合计(不含运费):<span>￥</span><span style=" color:#ff5500;"><label id="zong1"
                                                                                                         style="color:#ff5500;font-size:14px; font-weight:bold;"></label></span>
                         </td>
-                        <td class="tb3_td4"><span id="jz1">结算</span><a href="#" style=" display:none;" class="jz2"
-                                                                       id="jz2">结算</a></td>
+                        <td class="tb3_td4">
+                            <span id="jz1">结算</span>
+                            <a href="<%=path%>/address/address" style=" display:none;" class="jz2" id="jz2">结算</a>
+                        </td>
                     </tr>
                 </table>
 

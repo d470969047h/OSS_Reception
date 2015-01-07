@@ -68,7 +68,7 @@ ul{
     margin:18px 0 0 0;
 }
 #top ul{
-    width:277px;
+    width:290px;
     height:24px;
     background:url(<%=request.getContextPath()%>/images/nav_bg.gif) 0 0 repeat-x;
     float:left;
