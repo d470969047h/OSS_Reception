@@ -76,7 +76,7 @@ a:hover
 .psAdd li{ list-style:none; clear:left; text-align:left; height:21px;}
 
 .psAdd li p{ float:left; margin:0;}
-.psAdd li .pSty01{ width:106px; padding-top:4px !important; padding-top:5px;}
+.psAdd li .pSty01{ padding-top:4px !important; padding-top:5px;}
 .psAdd li .pSty02{ width:630px; text-align:left;}
 .psAdd input{border:1px solid #a5afc3;padding:3px ;}
 

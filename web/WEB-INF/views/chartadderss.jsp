@@ -13,6 +13,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>收货地址管理</title>
     <%@ include file="/common/commonhead.jsp" %>
+    <script type="text/javascript" src="<%=path%>/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="<%=path%>/js/liandong.js"></script>
+    <script type="text/javascript">
+        var _path='${ctx}'
+    </script>
 </head>
 
 <body>
@@ -73,37 +78,37 @@
 <!--guide01 end -->
 <!--body start -->
 <div id="body">
-    <div id="Login">
-        <DIV id="gwc">
-            <div id="step_" align="left">结算步骤: <span class="" id="shoppingstep_0">1.登录注册</span> &gt;&gt; <span
-                    class="shoppingstepcontrol" id="shoppingstep_2">2.填写核对订单信息</span> &gt;&gt; <span class=""
-                                                                                                     id="shoppingstep_3">3.提交订单</span>
-            </div>
-            <div id="onEdit"></div>
-            <DIV class="title"><SPAN id="transferSpan"></SPAN></DIV>
-            <DIV id="divPointError" style="DISPLAY: none; FLOAT: left; MARGIN: 0px 0px 10px">
-                <DIV class="pointErrorMsg">您目前的积分为：<SPAN id="myPointNumber">0</SPAN>分，本次购物需支付：<SPAN
-                        id="needPointNumber">0</SPAN>分，请修改购物车中的积分换购产品。
-                </DIV>
-                <IMG id="imgPointError"
-                     src="<%=path%>/images/jifenbuzhu.gif" useMap=#Map border=0>
-                <MAP id="Map"
-                     name=Map>
-                    <AREA shape=RECT coords=962,9,972,19
-                          href="javascript:ClosePointError();">
-                </MAP>
-            </DIV>
-            <DIV id=OffProductList></DIV>
-            <TABLE cellSpacing=0 cellPadding=0 width=100% border=0>
-                <TBODY>
-                <TR>
-                    <TD vAlign=center align=left><SPAN
-                            id="TenPayNotice"></SPAN></TD>
-                </TR>
-                </TBODY>
-            </TABLE>
-            <div id="AddressContent">
-                <!--begin-->
+<div id="Login">
+<DIV id="gwc">
+<div id="step_" align="left">结算步骤: <span class="" id="shoppingstep_0">1.登录注册</span> &gt;&gt; <span
+        class="shoppingstepcontrol" id="shoppingstep_2">2.填写核对订单信息</span> &gt;&gt; <span class=""
+                                                                                         id="shoppingstep_3">3.提交订单</span>
+</div>
+<div id="onEdit"></div>
+<DIV class="title"><SPAN id="transferSpan"></SPAN></DIV>
+<DIV id="divPointError" style="DISPLAY: none; FLOAT: left; MARGIN: 0px 0px 10px">
+    <DIV class="pointErrorMsg">您目前的积分为：<SPAN id="myPointNumber">0</SPAN>分，本次购物需支付：<SPAN
+            id="needPointNumber">0</SPAN>分，请修改购物车中的积分换购产品。
+    </DIV>
+    <IMG id="imgPointError"
+         src="<%=path%>/images/jifenbuzhu.gif" useMap=#Map border=0>
+    <MAP id="Map"
+         name=Map>
+        <AREA shape=RECT coords=962,9,972,19
+              href="javascript:ClosePointError();">
+    </MAP>
+</DIV>
+<DIV id=OffProductList></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width=100% border=0>
+    <TBODY>
+    <TR>
+        <TD vAlign=center align=left><SPAN
+                id="TenPayNotice"></SPAN></TD>
+    </TR>
+    </TBODY>
+</TABLE>
+<div id="AddressContent">
+    <!--begin-->
   <span id="Label_AddressList">
     <div class="bxSty4">
         <table width="100%" cellpadding="0" cellspacing="0" class="addDivTab tabSty01">
@@ -129,7 +134,7 @@
                                         src="<%=path%>/images/button_pszADd.gif" border="0" onclick=""/></a></span></li>
                             <li class="liSty"></li>
                         </ul>
-                        <div style="height:25px!important;color:#fff;">dddddddddddd</div>
+                        <div style="height:25px!important;color:#fff;"></div>
                     </div>
                     <div id="edit">
                         <div class="bxSty1">
@@ -154,51 +159,16 @@
                                             <li class="conLi1"><span class="errorstring" id="errorName"></span></li>
                                             <li>
                                                 <p class="pSty01" align="right">配送省份/直辖市：</p>
-
                                                 <p>
-                                                    <select id="ProvinceID" name="ProvinceID"
-                                                            onchange="ShowCity(this.options[selectedIndex].text);CheckProvince()">
+                                                    <select id="provinceID" name="provinceID"  >
                                                         <option selected="selected" value="">--请选择--</option>
-                                                        <option value="%e5%8c%97%e4%ba%ac">北京</option>
-                                                        <option value="%e5%a4%a9%e6%b4%a5">天津</option>
-                                                        <option value="%e6%b2%b3%e5%8c%97">河北</option>
-                                                        <option value="%e5%b1%b1%e8%a5%bf">山西</option>
-                                                        <option value="%e5%86%85%e8%92%99%e5%8f%a4">内蒙古</option>
-                                                        <option value="%e8%be%bd%e5%ae%81">辽宁</option>
-                                                        <option value="%e5%90%89%e6%9e%97">吉林</option>
-                                                        <option value="%e9%bb%91%e9%be%99%e6%b1%9f">黑龙江</option>
-                                                        <option value="%e4%b8%8a%e6%b5%b7">上海</option>
-                                                        <option value="%e6%b1%9f%e8%8b%8f">江苏</option>
-                                                        <option value="%e6%b5%99%e6%b1%9f">浙江</option>
-                                                        <option value="%e5%ae%89%e5%be%bd">安徽</option>
-                                                        <option value="%e7%a6%8f%e5%bb%ba">福建</option>
-                                                        <option value="%e6%b1%9f%e8%a5%bf">江西</option>
-                                                        <option value="%e5%b1%b1%e4%b8%9c">山东</option>
-                                                        <option value="%e6%b2%b3%e5%8d%97">河南</option>
-                                                        <option value="%e6%b9%96%e5%8c%97">湖北</option>
-                                                        <option value="%e6%b9%96%e5%8d%97">湖南</option>
-                                                        <option value="%e5%b9%bf%e4%b8%9c">广东</option>
-                                                        <option value="%e5%b9%bf%e8%a5%bf">广西</option>
-                                                        <option value="%e6%b5%b7%e5%8d%97">海南</option>
-                                                        <option value="%e9%87%8d%e5%ba%86">重庆</option>
-                                                        <option value="%e5%9b%9b%e5%b7%9d">四川</option>
-                                                        <option value="%e8%b4%b5%e5%b7%9e">贵州</option>
-                                                        <option value="%e4%ba%91%e5%8d%97">云南</option>
-                                                        <option value="%e8%a5%bf%e8%97%8f">西藏</option>
-                                                        <option value="%e9%99%95%e8%a5%bf">陕西</option>
-                                                        <option value="%e7%94%98%e8%82%83">甘肃</option>
-                                                        <option value="%e9%9d%92%e6%b5%b7">青海</option>
-                                                        <option value="%e5%ae%81%e5%a4%8f">宁夏</option>
-                                                        <option value="%e6%96%b0%e7%96%86">新疆</option>
                                                     </select>
                                                     &nbsp;&nbsp;市：
-                                                    <select id="CityID" name="CityID"
-                                                            onchange="ShowArea(this.options[selectedIndex].text);CheckCity()">
+                                                    <select id="CityID" name="CityID"  >
                                                         <option selected="selected" value="">--请选择--</option>
                                                     </select>
                                                     &nbsp;&nbsp;县/区：
-                                                    <select id="AreaID" name="AreaID"
-                                                            onchange="GetPostalCodeNew(this.options[this.selectedIndex].text,'CityID','ProvinceID'),ShowV(this.options[this.selectedIndex].text);CheckArea()">
+                                                    <select id="AreaID" name="AreaID" >
                                                         <option selected="selected" value="">--请选择--</option>
                                                     </select>
                                                     &nbsp;&nbsp;<span class="reusableColor4">*</span>&nbsp;&nbsp; </p>
@@ -245,7 +215,8 @@
                                                     手机与固定电话至少有一项必填 </p>
                                             </li>
                                             <li class="conLi6"><span id="errorMobile"></span></li>
-                                            <li class="conLi7"><span class="addSpanSty"><a href="<%=path%>/address/conAddress"><img
+                                            <li class="conLi7"><span class="addSpanSty"><a
+                                                    href="<%=path%>/address/conAddress"><img
                                                     src="<%=path%>/images/button_pszADd.gif" alt="" border="0"
                                                     onclick=""/></a></span></li>
                                         </ul>
@@ -269,23 +240,23 @@
         </div>
     </div>
     </span><!--end-->
-            </div>
+</div>
 <SPAN
         id="leavelNotMustPresentLsit"></SPAN>
 
-            <DIV class="sty006 reusableColor3" align=left>您在购物过程中有任何疑问，请查阅 <A
-                    href="#" target=_blank><SPAN
-                    class="reusableColor1">帮助中心</SPAN></A> 或 <A href="#"
-                                                                target=_blank><SPAN
-                    class="reusableColor1">联系客服</SPAN></A></DIV>
-            <DL class="dobuleBorder" style="display:none;">
-                <DT><STRONG>关于"我的购物车"</STRONG></DT>
-                <DD>·为方便您提交订单，您添加至"我的购物车"中已经选择的、尚未提交订单的商品清单，我们将为您保留90天。<BR>·在商品保留期间，您所选择商品的价格、优惠政策、库存、配送时间等信息可能会有所变化，请以网页最新信息为准。
-                </DD>
-            </DL>
-        </DIV>
-    </div>
-    <br class="spacer"/>
+<DIV class="sty006 reusableColor3" align=left>您在购物过程中有任何疑问，请查阅 <A
+        href="#" target=_blank><SPAN
+        class="reusableColor1">帮助中心</SPAN></A> 或 <A href="#"
+                                                    target=_blank><SPAN
+        class="reusableColor1">联系客服</SPAN></A></DIV>
+<DL class="dobuleBorder" style="display:none;">
+    <DT><STRONG>关于"我的购物车"</STRONG></DT>
+    <DD>·为方便您提交订单，您添加至"我的购物车"中已经选择的、尚未提交订单的商品清单，我们将为您保留90天。<BR>·在商品保留期间，您所选择商品的价格、优惠政策、库存、配送时间等信息可能会有所变化，请以网页最新信息为准。
+    </DD>
+</DL>
+</DIV>
+</div>
+<br class="spacer"/>
 </div>
 <!--footer start -->
 <div id="footer">

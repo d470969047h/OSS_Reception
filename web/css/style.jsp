@@ -146,7 +146,7 @@ ul{
 /*------------------------------------------------top--------------------*/
 .nav{ height:37px; line-height:37px; margin-top:-2px;}
 .nav ul{ background:url(<%=request.getContextPath()%>/images/nav01.jpg) 0 0 repeat-x;height:37px; line-height:37px;}
-.nav ul li{ float:left; border-right:#ccc 1px solid; padding-left:12px; padding-right:12px;}
+.nav ul li{ float:left; border-right:#ccc 1px solid; padding-left:12px; padding-right:6px;}
 .nav ul li.first{background:url(<%=request.getContextPath()%>/images/border.gif) 0 0 no-repeat;}
 .nav ul li.last{ float:right; background:url(<%=request.getContextPath()%>/images/border.gif) right top no-repeat; padding-right:10px; color:#c00; border-right:none;}
 .recommend{padding:20px; padding-top:8px; background:url(<%=request.getContextPath()%>/images/what_our_policy.gif) right bottom no-repeat; border:#f8b923 1px solid;}

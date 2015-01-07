@@ -165,6 +165,21 @@
                           identity="true"/>
         </table>
 
+        <!--省-->
+        <table tableName="province">
+
+        </table>
+
+        <!--市-->
+        <table tableName="city">
+
+        </table>
+
+        <!--区-->
+        <table tableName="district">
+
+        </table>
+
     </context>
 </generatorConfiguration>
 

@@ -87,24 +87,28 @@
         }
     </script>
 
+    <!---总数---->
+    <script type="text/javascript">
+        $(function () {
+            $(".quanxun").click(function () {
+                setTotal();
+            });
+            function setTotal() {
+                var len = $(".tot");
+                var num = 0;
+                for (var i = 0; i < len.length; i++) {
+                    num = parseInt(num) + parseInt($(len[i]).text());
+                }
+                $("#zong1").text(parseInt(num).toFixed(2));
+                $("#shuliang").text(len.length);
+            }
+
+            //setTotal();
+        })
+    </script>
+
     <!---提交选中的商品---->
     <script type="text/javascript">
-        <%--$(function () {--%>
-        <%--$("#jz2").click(function () {--%>
-        <%--$(".gwc_tb2 input[name=newslist]").each(function () {--%>
-        <%--if ($(this).attr("checked")) {--%>
-        <%--for (var i = 0; i < $(this).length; i++) {--%>
-        <%--var trolleyitemid = $(".gwc_tb2 input[name=newslist]:checked").attr("dataid");//获取该商品ID--%>
-        <%--var num = $(".tb1_td5").children("input[type=text]").val();//获取该商品数量--%>
-        <%--$.ajax({--%>
-        <%--url: "<%=path%>/trolley/updateTolleyItem/" + num + "/" + trolleyitemid + ""--%>
-        <%--});--%>
-        <%--window.location="<%=path%>/address/address";--%>
-        <%--}--%>
-        <%--}--%>
-        <%--});--%>
-        <%--});--%>
-        <%--}--%>
 
         $(function () {
             $(".jz2").click(function () {
@@ -122,21 +126,6 @@
                 window.location = "<%=path%>/address/address";
             });
         });
-        <%--var list=$(".gwc_tb2 input[name=newslist]:checked");--%>
-        <%--for(var i=0;i<list.length;i++) {--%>
-        <%--if ($(this).attr("checked")) {--%>
-        <%--var trolleyitemid = $($(".gwc_tb2 input[name=newslist]:checked")[i]).attr("dataid");//获取该商品ID--%>
-        <%--var num = $(".tb1_td5").children("input[type=text]").val();//获取该商品数量--%>
-        <%--$.ajax({--%>
-        <%--url: "<%=path%>/trolley/updateTolleyItem/" + num + "/" + trolleyitemid + ""--%>
-        <%--});--%>
-        <%--}--%>
-        <%--}--%>
-        <%--window.location = "<%=path%>/address/address";--%>
-        <%--});--%>
-        //        });
-
-
     </script>
 </head>
 <body>
@@ -304,25 +293,7 @@
                         %>
                     </c:forEach>
                 </table>
-                <!---总数---->
-                <script type="text/javascript">
-                    $(function () {
-                        $(".quanxun").click(function () {
-                            setTotal();
-                        });
-                        function setTotal() {
-                            var len = $(".tot");
-                            var num = 0;
-                            for (var i = 0; i < len.length; i++) {
-                                num = parseInt(num) + parseInt($(len[i]).text());
-                            }
-                            $("#zong1").text(parseInt(num).toFixed(2));
-                            $("#shuliang").text(len.length);
-                        }
 
-                        //setTotal();
-                    })
-                </script>
                 <table cellpadding="0" cellspacing="0" class="gwc_tb3">
                     <tr>
                         <td class="tb1_td1"><input id="checkAll" class="allselect" type="checkbox"/></td>
