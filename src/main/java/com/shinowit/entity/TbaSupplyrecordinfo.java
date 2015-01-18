@@ -89,7 +89,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.ID
      *
      * @return the value of TBa_SupplyRecordInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -101,7 +100,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.ID
      *
      * @param id the value for TBa_SupplyRecordInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -113,7 +111,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.UserName
      *
      * @return the value of TBa_SupplyRecordInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getUsername() {
@@ -125,7 +122,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.UserName
      *
      * @param username the value for TBa_SupplyRecordInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUsername(String username) {
@@ -137,7 +133,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.PayAccountNo
      *
      * @return the value of TBa_SupplyRecordInfo.PayAccountNo
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPayaccountno() {
@@ -149,7 +144,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.PayAccountNo
      *
      * @param payaccountno the value for TBa_SupplyRecordInfo.PayAccountNo
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPayaccountno(String payaccountno) {
@@ -161,7 +155,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.PayBank
      *
      * @return the value of TBa_SupplyRecordInfo.PayBank
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPaybank() {
@@ -173,7 +166,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.PayBank
      *
      * @param paybank the value for TBa_SupplyRecordInfo.PayBank
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPaybank(String paybank) {
@@ -185,7 +177,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.RecAccountNo
      *
      * @return the value of TBa_SupplyRecordInfo.RecAccountNo
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRecaccountno() {
@@ -197,7 +188,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.RecAccountNo
      *
      * @param recaccountno the value for TBa_SupplyRecordInfo.RecAccountNo
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRecaccountno(String recaccountno) {
@@ -209,7 +199,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.RecBank
      *
      * @return the value of TBa_SupplyRecordInfo.RecBank
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRecbank() {
@@ -221,7 +210,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.RecBank
      *
      * @param recbank the value for TBa_SupplyRecordInfo.RecBank
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRecbank(String recbank) {
@@ -233,7 +221,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.Remark
      *
      * @return the value of TBa_SupplyRecordInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -245,7 +232,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.Remark
      *
      * @param remark the value for TBa_SupplyRecordInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -257,7 +243,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.TotalMoney
      *
      * @return the value of TBa_SupplyRecordInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getTotalmoney() {
@@ -269,7 +254,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.TotalMoney
      *
      * @param totalmoney the value for TBa_SupplyRecordInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setTotalmoney(Float totalmoney) {
@@ -281,7 +265,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method returns the value of the database column TBa_SupplyRecordInfo.SupplyTime
      *
      * @return the value of TBa_SupplyRecordInfo.SupplyTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getSupplytime() {
@@ -293,7 +276,6 @@ public class TbaSupplyrecordinfo implements Serializable {
      * This method sets the value of the database column TBa_SupplyRecordInfo.SupplyTime
      *
      * @param supplytime the value for TBa_SupplyRecordInfo.SupplyTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSupplytime(Date supplytime) {
@@ -319,14 +301,14 @@ public class TbaSupplyrecordinfo implements Serializable {
         }
         TbaSupplyrecordinfo other = (TbaSupplyrecordinfo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
-            && (this.getPayaccountno() == null ? other.getPayaccountno() == null : this.getPayaccountno().equals(other.getPayaccountno()))
-            && (this.getPaybank() == null ? other.getPaybank() == null : this.getPaybank().equals(other.getPaybank()))
-            && (this.getRecaccountno() == null ? other.getRecaccountno() == null : this.getRecaccountno().equals(other.getRecaccountno()))
-            && (this.getRecbank() == null ? other.getRecbank() == null : this.getRecbank().equals(other.getRecbank()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()))
-            && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
-            && (this.getSupplytime() == null ? other.getSupplytime() == null : this.getSupplytime().equals(other.getSupplytime()));
+                && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
+                && (this.getPayaccountno() == null ? other.getPayaccountno() == null : this.getPayaccountno().equals(other.getPayaccountno()))
+                && (this.getPaybank() == null ? other.getPaybank() == null : this.getPaybank().equals(other.getPaybank()))
+                && (this.getRecaccountno() == null ? other.getRecaccountno() == null : this.getRecaccountno().equals(other.getRecaccountno()))
+                && (this.getRecbank() == null ? other.getRecbank() == null : this.getRecbank().equals(other.getRecbank()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()))
+                && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
+                && (this.getSupplytime() == null ? other.getSupplytime() == null : this.getSupplytime().equals(other.getSupplytime()));
     }
 
     /**

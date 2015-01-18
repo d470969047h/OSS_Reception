@@ -1,16 +1,20 @@
 /** jQuery Calculation Plug-in**/
-(function($) {
-    var defaults = {reNumbers: /(-|-\$)?(\d+(,\d{3})*(\.\d{1,})?|\.\d{1,})/g, cleanseNumber: function (v) {
-        return v.replace(/[^0-9.\-]/g, "");
-    }, useFieldPlugin: (!!$.fn.getValue), onParseError: null, onParseClear: null};
-    $.Calculation = {version: "0.4.07",setDefaults: function(options) {
-        $.extend(defaults, options);
-    }};
-    $.fn.parseNumber = function(options) {
+(function ($) {
+    var defaults = {
+        reNumbers: /(-|-\$)?(\d+(,\d{3})*(\.\d{1,})?|\.\d{1,})/g, cleanseNumber: function (v) {
+            return v.replace(/[^0-9.\-]/g, "");
+        }, useFieldPlugin: (!!$.fn.getValue), onParseError: null, onParseClear: null
+    };
+    $.Calculation = {
+        version: "0.4.07", setDefaults: function (options) {
+            $.extend(defaults, options);
+        }
+    };
+    $.fn.parseNumber = function (options) {
         var aValues = [];
         options = $.extend(options, defaults);
         this.each(function () {
-            var $el = $(this),sMethod = ($el.is(":input") ? (defaults.useFieldPlugin ? "getValue" : "val") : "text"),v = $.trim($el[sMethod]()).match(defaults.reNumbers, "");
+            var $el = $(this), sMethod = ($el.is(":input") ? (defaults.useFieldPlugin ? "getValue" : "val") : "text"), v = $.trim($el[sMethod]()).match(defaults.reNumbers, "");
             if (v == null) {
                 v = 0;
                 if (jQuery.isFunction(options.onParseError)) options.onParseError.apply($el, [sMethod]);
@@ -26,7 +30,7 @@
         });
         return aValues;
     };
-    $.fn.calc = function(expr, vars, cbFormat, cbDone) {
+    $.fn.calc = function (expr, vars, cbFormat, cbDone) {
         var $this = this, exprValue = "", precision = 0, $el, parsedVars = {}, tmp, sMethod, _, bIsError = false;
         for (var k in vars) {
             expr = expr.replace((new RegExp("(" + k + ")", "g")), "_.$1");
@@ -62,7 +66,7 @@
                     var tmp = cbFormat.apply(this, [exprValue]);
                     if (!!tmp) exprValue = tmp;
                 }
-            } catch(e) {
+            } catch (e) {
                 exprValue = e;
                 bIsError = true;
             }
@@ -75,7 +79,11 @@
         $.fn[method] = function (bind, selector) {
             if (arguments.length == 0)return math[method](this.parseNumber());
             var bSelOpt = selector && (selector.constructor == Object) && !(selector instanceof jQuery);
-            var opt = bind && bind.constructor == Object ? bind : {bind: bind || "keyup", selector: (!bSelOpt) ? selector : null, oncalc: null};
+            var opt = bind && bind.constructor == Object ? bind : {
+                bind: bind || "keyup",
+                selector: (!bSelOpt) ? selector : null,
+                oncalc: null
+            };
             if (bSelOpt) opt = jQuery.extend(opt, selector);
             if (!!opt.selector) opt.selector = $(opt.selector);
             var self = this, sMethod, doCalc = function () {
@@ -90,20 +98,22 @@
             return self.bind(opt.bind, doCalc);
         }
     });
-    var math = {sum: function (a) {
-        var total = 0, precision = 0;
-        $.each(a, function (i, v) {
-            var p = v.toString().match(/\.\d+$/gi), len = (p) ? p[0].length - 1 : 0;
-            if (len > precision) precision = len;
-            total += v;
-        });
-        if (precision) total = Number(total.toFixed(precision));
-        return total;
-    },avg: function (a) {
-        return math.sum(a) / a.length;
-    },min: function (a) {
-        return Math.min.apply(Math, a);
-    },max: function (a) {
-        return Math.max.apply(Math, a);
-    }};
+    var math = {
+        sum: function (a) {
+            var total = 0, precision = 0;
+            $.each(a, function (i, v) {
+                var p = v.toString().match(/\.\d+$/gi), len = (p) ? p[0].length - 1 : 0;
+                if (len > precision) precision = len;
+                total += v;
+            });
+            if (precision) total = Number(total.toFixed(precision));
+            return total;
+        }, avg: function (a) {
+            return math.sum(a) / a.length;
+        }, min: function (a) {
+            return Math.min.apply(Math, a);
+        }, max: function (a) {
+            return Math.max.apply(Math, a);
+        }
+    };
 })(jQuery);

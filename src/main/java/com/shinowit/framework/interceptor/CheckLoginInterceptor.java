@@ -27,8 +27,8 @@ public class CheckLoginInterceptor extends HandlerInterceptorAdapter {
                 || (uri.endsWith("/reg/validCode")) || (uri.endsWith("/login/userlogin"))
                 || (uri.endsWith("/reg/userReg")) || (uri.endsWith("/reg/valid"))
                 || (uri.endsWith("/innerpage/merDetail"))
-                || (uri.startsWith("/css"))|| (uri.startsWith("/js"))
-                || (uri.startsWith("/images"))|| (uri.startsWith("/common"))) {
+                || (uri.startsWith("/css")) || (uri.startsWith("/js"))
+                || (uri.startsWith("/images")) || (uri.startsWith("/common"))) {
             return true;
         }
         response.sendRedirect(request.getContextPath() + "/login/login");

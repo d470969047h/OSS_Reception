@@ -9,9 +9,9 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<%String path=request.getContextPath();%>
+<%String path = request.getContextPath();%>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>口口香用户登录</title>
     <style>
         .errorClass {
@@ -26,8 +26,11 @@
 <div id="box">
     <!--top start -->
     <div id="top">
-        <a href="index.html"><img src="<%=path%>/images/logo.gif" alt="Estimation" width="255" height="58" border="0" class="logo" /></a>
+        <a href="index.html"><img src="<%=path%>/images/logo.gif" alt="Estimation" width="255" height="58" border="0"
+                                  class="logo"/></a>
+
         <p class="topDiv"></p>
+
         <p class="navLeft"></p>
         <ul>
             <li><a href="index.html" class="hover">首页</a></li>
@@ -36,10 +39,12 @@
             <li class="chart"><a href="<%=path%>/trolley/trolley">购物车</a></li>
         </ul>
         <p class="navRight"></p>
+
         <p class="topDiv"></p>
+
         <form name="serch" action="#" method="post">
-            <input type="text" name="txtbox" value="购物搜索" class="txtBox" />
-            <input type="submit" name="go" value="搜" class="go" />
+            <input type="text" name="txtbox" value="购物搜索" class="txtBox"/>
+            <input type="submit" name="go" value="搜" class="go"/>
         </form>
     </div>
     <!--top end -->
@@ -57,25 +62,28 @@
             <li><a href="#">台湾牛轧糖</a></li>
             <li><a href="#">蜜饯果脯</a></li>
             <li class="last">
-                <div id="welcome" class="welmsgdiv2"><span>您好，欢迎光临果果香。</span><a href="login.html">登录</a><span class="Lloginfg">&nbsp;</span><a href="reg.html">注册</a></div>
+                <div id="welcome" class="welmsgdiv2"><span>您好，欢迎光临果果香。</span><a href="login.html">登录</a><span
+                        class="Lloginfg">&nbsp;</span><a href="reg.html">注册</a></div>
             </li>
         </ul>
     </div>
     <!--header end -->
     <!--guide01 start -->
     <div class="guide01">
-        <img src="<%=path%>/images/guide_01.jpg" width="973" height="62" border="0" usemap="#Map" />
+        <img src="<%=path%>/images/guide_01.jpg" width="973" height="62" border="0" usemap="#Map"/>
         <map name="Map" id="Map">
-            <area shape="rect" coords="398,11,493,51" href="#" />
-            <area shape="rect" coords="540,12,633,51" href="#" />
-            <area shape="rect" coords="684,12,790,53" href="#" />
-            <area shape="rect" coords="830,10,953,54" href="#" />
+            <area shape="rect" coords="398,11,493,51" href="#"/>
+            <area shape="rect" coords="540,12,633,51" href="#"/>
+            <area shape="rect" coords="684,12,790,53" href="#"/>
+            <area shape="rect" coords="830,10,953,54" href="#"/>
         </map>
-    </div><!--guide01 end -->
+    </div>
+    <!--guide01 end -->
     <!--body start -->
     <div id="body">
         <div id="Login">
             <h1 align="left" style="width:343px;"><img src="<%=path%>/images/pic_dl.gif"></h1>
+
             <div class="dlC">
                 <div class="regSetTabBox">
                     <div class="regSetTabMenu">
@@ -88,41 +96,48 @@
                     </div>
                     <form:form action="${ctx}/login/userlogin" method="post" modelAttribute="member">
                         <div class="regSetTabCon">
-                            <div style="display: block;" id="con_one_1"> <span class="blank20"></span>
+                            <div style="display: block;" id="con_one_1"><span class="blank20"></span>
+
                                 <div class="FTextArea"><span>用户名：</span>
-                                    <form:input path="username" ></form:input>
+                                    <form:input path="username"></form:input>
                                 </div>
                                 <span class="blank20"></span>
+
                                 <div class="FTextArea"><span>密&nbsp;&nbsp;码：</span>
                                     <form:password path="pwd"></form:password>
                                 </div>
                                 <span class="blank15"></span>
+
                                 <div class="btnReg">
                                     <input type="submit"
                                            style="width:91px; height:25px; border:0;margin-left:115px;background-image: url(<%=path%>/images/loginPic.gif)"
                                            value=""/>
                                     <span><a href="GetPwd1.html" title="" target="_new">密码忘记了？</a></span></div>
-                                <span class="blank20"></span> </div>
-                            <div id="con_one_2" style="display: none;"> <span class="blank20"></span>
-                                <%--<form name="PartnerForm" id="PartnerForm" method="post" style="margin: 0;">--%>
+                                <span class="blank20"></span></div>
+                            <div id="con_one_2" style="display: none;"><span class="blank20"></span>
+                                    <%--<form name="PartnerForm" id="PartnerForm" method="post" style="margin: 0;">--%>
                                     <%--<input name="Logintrue" value="true" type="hidden" />--%>
-                                <%--</form>--%>
-                                <span class="blank20"></span> </div>
+                                    <%--</form>--%>
+                                <span class="blank20"></span></div>
                         </div>
                     </form:form>
                     <span class="blank20"></span>
+
                     <div class="tishiArea">
                         <div class="tishiHead">温馨提示：</div>
                         <ul>
                             <li>1、请输入您的口口香用户名及密码进行登陆；</li>
-                            <li>2、如果还未注册口口香用户名，您可以使用VJIA用户名进行登陆,登陆后系统会自动为您注册一个与VJIA帐户相关联的口口香帐户。帐户关联后您可共享VJIA的会员积分和累积消费金额。</li>
+                            <li>
+                                2、如果还未注册口口香用户名，您可以使用VJIA用户名进行登陆,登陆后系统会自动为您注册一个与VJIA帐户相关联的口口香帐户。帐户关联后您可共享VJIA的会员积分和累积消费金额。
+                            </li>
                         </ul>
-                        <div class="">如有疑问请进入<a href="#" target="_blank">帮助中心</a>或<a href="#" target="_blank">联系客服</a></div>
+                        <div class="">如有疑问请进入<a href="#" target="_blank">帮助中心</a>或<a href="#" target="_blank">联系客服</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br class="spacer" />
+        <br class="spacer"/>
     </div>
     <!--footer start -->
     <div id="footer">
@@ -136,9 +151,12 @@
         <p class="copyright">Copyright 2010 vancl.com All Rights Reserved 冀ICP证xxxxxx号
 
         </p>
+
         <p class="design"><a href="http://www.CSSK8.com/" target="_blank" class="link">启奥科技</a></p>
-    </div><!--footer end -->
+    </div>
+    <!--footer end -->
     <!--body end -->
-</div><!--box-->
+</div>
+<!--box-->
 </body>
 </html>

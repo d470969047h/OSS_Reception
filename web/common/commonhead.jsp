@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link href="<%=request.getContextPath()%>/css/getpwd.jsp" rel="stylesheet" type="text/css" />
+    <link href="<%=request.getContextPath()%>/css/getpwd.jsp" rel="stylesheet" type="text/css"/>
     <link href="<%=request.getContextPath()%>/css/gmxx.jsp" rel="stylesheet" type="text/css"/>
     <link href="<%=request.getContextPath()%>/css/gwc.jsp" rel="stylesheet" type="text/css"/>
     <link href="<%=request.getContextPath()%>/css/innerstyle.jsp" rel="stylesheet" type="text/css"/>

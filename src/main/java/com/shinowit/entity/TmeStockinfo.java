@@ -48,7 +48,6 @@ public class TmeStockinfo implements Serializable {
      * This method returns the value of the database column TMe_StockInfo.ID
      *
      * @return the value of TMe_StockInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -60,7 +59,6 @@ public class TmeStockinfo implements Serializable {
      * This method sets the value of the database column TMe_StockInfo.ID
      *
      * @param id the value for TMe_StockInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -72,7 +70,6 @@ public class TmeStockinfo implements Serializable {
      * This method returns the value of the database column TMe_StockInfo.MerchandiseID
      *
      * @return the value of TMe_StockInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandiseid() {
@@ -84,7 +81,6 @@ public class TmeStockinfo implements Serializable {
      * This method sets the value of the database column TMe_StockInfo.MerchandiseID
      *
      * @param merchandiseid the value for TMe_StockInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandiseid(String merchandiseid) {
@@ -96,7 +92,6 @@ public class TmeStockinfo implements Serializable {
      * This method returns the value of the database column TMe_StockInfo.AvgPrice
      *
      * @return the value of TMe_StockInfo.AvgPrice
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getAvgprice() {
@@ -108,7 +103,6 @@ public class TmeStockinfo implements Serializable {
      * This method sets the value of the database column TMe_StockInfo.AvgPrice
      *
      * @param avgprice the value for TMe_StockInfo.AvgPrice
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setAvgprice(Float avgprice) {
@@ -120,7 +114,6 @@ public class TmeStockinfo implements Serializable {
      * This method returns the value of the database column TMe_StockInfo.Num
      *
      * @return the value of TMe_StockInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getNum() {
@@ -132,7 +125,6 @@ public class TmeStockinfo implements Serializable {
      * This method sets the value of the database column TMe_StockInfo.Num
      *
      * @param num the value for TMe_StockInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setNum(Integer num) {
@@ -158,9 +150,9 @@ public class TmeStockinfo implements Serializable {
         }
         TmeStockinfo other = (TmeStockinfo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
-            && (this.getAvgprice() == null ? other.getAvgprice() == null : this.getAvgprice().equals(other.getAvgprice()))
-            && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()));
+                && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
+                && (this.getAvgprice() == null ? other.getAvgprice() == null : this.getAvgprice().equals(other.getAvgprice()))
+                && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()));
     }
 
     /**

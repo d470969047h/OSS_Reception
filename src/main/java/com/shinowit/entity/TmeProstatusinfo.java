@@ -48,7 +48,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method returns the value of the database column TMe_ProStatusInfo.ProStatusID
      *
      * @return the value of TMe_ProStatusInfo.ProStatusID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getProstatusid() {
@@ -60,7 +59,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method sets the value of the database column TMe_ProStatusInfo.ProStatusID
      *
      * @param prostatusid the value for TMe_ProStatusInfo.ProStatusID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setProstatusid(Integer prostatusid) {
@@ -72,7 +70,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method returns the value of the database column TMe_ProStatusInfo.ProStatusName
      *
      * @return the value of TMe_ProStatusInfo.ProStatusName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getProstatusname() {
@@ -84,7 +81,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method sets the value of the database column TMe_ProStatusInfo.ProStatusName
      *
      * @param prostatusname the value for TMe_ProStatusInfo.ProStatusName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setProstatusname(String prostatusname) {
@@ -96,7 +92,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method returns the value of the database column TMe_ProStatusInfo.Status
      *
      * @return the value of TMe_ProStatusInfo.Status
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getStatus() {
@@ -108,7 +103,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method sets the value of the database column TMe_ProStatusInfo.Status
      *
      * @param status the value for TMe_ProStatusInfo.Status
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setStatus(Boolean status) {
@@ -120,7 +114,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method returns the value of the database column TMe_ProStatusInfo.Remark
      *
      * @return the value of TMe_ProStatusInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -132,7 +125,6 @@ public class TmeProstatusinfo implements Serializable {
      * This method sets the value of the database column TMe_ProStatusInfo.Remark
      *
      * @param remark the value for TMe_ProStatusInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -158,9 +150,9 @@ public class TmeProstatusinfo implements Serializable {
         }
         TmeProstatusinfo other = (TmeProstatusinfo) that;
         return (this.getProstatusid() == null ? other.getProstatusid() == null : this.getProstatusid().equals(other.getProstatusid()))
-            && (this.getProstatusname() == null ? other.getProstatusname() == null : this.getProstatusname().equals(other.getProstatusname()))
-            && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
+                && (this.getProstatusname() == null ? other.getProstatusname() == null : this.getProstatusname().equals(other.getProstatusname()))
+                && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
     }
 
     /**

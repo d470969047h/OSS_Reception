@@ -64,7 +64,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockDetailsInfo.ID
      *
      * @return the value of TMe_OutStockDetailsInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -76,7 +75,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockDetailsInfo.ID
      *
      * @param id the value for TMe_OutStockDetailsInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -88,7 +86,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockDetailsInfo.MerchandiseID
      *
      * @return the value of TMe_OutStockDetailsInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandiseid() {
@@ -100,7 +97,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockDetailsInfo.MerchandiseID
      *
      * @param merchandiseid the value for TMe_OutStockDetailsInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandiseid(String merchandiseid) {
@@ -112,7 +108,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockDetailsInfo.OutBillCode
      *
      * @return the value of TMe_OutStockDetailsInfo.OutBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOutbillcode() {
@@ -124,7 +119,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockDetailsInfo.OutBillCode
      *
      * @param outbillcode the value for TMe_OutStockDetailsInfo.OutBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOutbillcode(String outbillcode) {
@@ -136,7 +130,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockDetailsInfo.Num
      *
      * @return the value of TMe_OutStockDetailsInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getNum() {
@@ -148,7 +141,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockDetailsInfo.Num
      *
      * @param num the value for TMe_OutStockDetailsInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setNum(Integer num) {
@@ -160,7 +152,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockDetailsInfo.Price
      *
      * @return the value of TMe_OutStockDetailsInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getPrice() {
@@ -172,7 +163,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockDetailsInfo.Price
      *
      * @param price the value for TMe_OutStockDetailsInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPrice(Float price) {
@@ -184,7 +174,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockDetailsInfo.stock_price
      *
      * @return the value of TMe_OutStockDetailsInfo.stock_price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getStockPrice() {
@@ -196,7 +185,6 @@ public class TmeOutstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockDetailsInfo.stock_price
      *
      * @param stockPrice the value for TMe_OutStockDetailsInfo.stock_price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setStockPrice(Float stockPrice) {
@@ -222,11 +210,11 @@ public class TmeOutstockdetailsinfo implements Serializable {
         }
         TmeOutstockdetailsinfo other = (TmeOutstockdetailsinfo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
-            && (this.getOutbillcode() == null ? other.getOutbillcode() == null : this.getOutbillcode().equals(other.getOutbillcode()))
-            && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()))
-            && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()))
-            && (this.getStockPrice() == null ? other.getStockPrice() == null : this.getStockPrice().equals(other.getStockPrice()));
+                && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
+                && (this.getOutbillcode() == null ? other.getOutbillcode() == null : this.getOutbillcode().equals(other.getOutbillcode()))
+                && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()))
+                && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()))
+                && (this.getStockPrice() == null ? other.getStockPrice() == null : this.getStockPrice().equals(other.getStockPrice()));
     }
 
     /**

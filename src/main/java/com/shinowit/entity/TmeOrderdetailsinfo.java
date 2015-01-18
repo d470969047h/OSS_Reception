@@ -64,7 +64,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderDetailsInfo.ID
      *
      * @return the value of TMe_OrderDetailsInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -76,7 +75,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderDetailsInfo.ID
      *
      * @param id the value for TMe_OrderDetailsInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -88,7 +86,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderDetailsInfo.BillCode
      *
      * @return the value of TMe_OrderDetailsInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getBillcode() {
@@ -100,7 +97,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderDetailsInfo.BillCode
      *
      * @param billcode the value for TMe_OrderDetailsInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setBillcode(String billcode) {
@@ -112,7 +108,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderDetailsInfo.MerchandiseID
      *
      * @return the value of TMe_OrderDetailsInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandiseid() {
@@ -124,7 +119,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderDetailsInfo.MerchandiseID
      *
      * @param merchandiseid the value for TMe_OrderDetailsInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandiseid(String merchandiseid) {
@@ -136,7 +130,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderDetailsInfo.UnitID
      *
      * @return the value of TMe_OrderDetailsInfo.UnitID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getUnitid() {
@@ -148,7 +141,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderDetailsInfo.UnitID
      *
      * @param unitid the value for TMe_OrderDetailsInfo.UnitID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUnitid(Integer unitid) {
@@ -160,7 +152,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderDetailsInfo.Num
      *
      * @return the value of TMe_OrderDetailsInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getNum() {
@@ -172,7 +163,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderDetailsInfo.Num
      *
      * @param num the value for TMe_OrderDetailsInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setNum(Integer num) {
@@ -184,7 +174,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderDetailsInfo.Price
      *
      * @return the value of TMe_OrderDetailsInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getPrice() {
@@ -196,7 +185,6 @@ public class TmeOrderdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderDetailsInfo.Price
      *
      * @param price the value for TMe_OrderDetailsInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPrice(Float price) {
@@ -222,11 +210,11 @@ public class TmeOrderdetailsinfo implements Serializable {
         }
         TmeOrderdetailsinfo other = (TmeOrderdetailsinfo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getBillcode() == null ? other.getBillcode() == null : this.getBillcode().equals(other.getBillcode()))
-            && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
-            && (this.getUnitid() == null ? other.getUnitid() == null : this.getUnitid().equals(other.getUnitid()))
-            && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()))
-            && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()));
+                && (this.getBillcode() == null ? other.getBillcode() == null : this.getBillcode().equals(other.getBillcode()))
+                && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
+                && (this.getUnitid() == null ? other.getUnitid() == null : this.getUnitid().equals(other.getUnitid()))
+                && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()))
+                && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()));
     }
 
     /**

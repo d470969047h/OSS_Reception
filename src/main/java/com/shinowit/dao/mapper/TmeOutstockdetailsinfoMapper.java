@@ -2,8 +2,9 @@ package com.shinowit.dao.mapper;
 
 import com.shinowit.entity.TmeOutstockdetailsinfo;
 import com.shinowit.entity.TmeOutstockdetailsinfoExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TmeOutstockdetailsinfoMapper {
     /**

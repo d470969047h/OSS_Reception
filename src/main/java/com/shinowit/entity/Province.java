@@ -40,7 +40,6 @@ public class Province implements Serializable {
      * This method returns the value of the database column province.id
      *
      * @return the value of province.id
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getId() {
@@ -52,7 +51,6 @@ public class Province implements Serializable {
      * This method sets the value of the database column province.id
      *
      * @param id the value for province.id
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(String id) {
@@ -64,7 +62,6 @@ public class Province implements Serializable {
      * This method returns the value of the database column province.name
      *
      * @return the value of province.name
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getName() {
@@ -76,7 +73,6 @@ public class Province implements Serializable {
      * This method sets the value of the database column province.name
      *
      * @param name the value for province.name
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setName(String name) {
@@ -88,7 +84,6 @@ public class Province implements Serializable {
      * This method returns the value of the database column province.orderid
      *
      * @return the value of province.orderid
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOrderid() {
@@ -100,7 +95,6 @@ public class Province implements Serializable {
      * This method sets the value of the database column province.orderid
      *
      * @param orderid the value for province.orderid
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOrderid(String orderid) {
@@ -126,8 +120,8 @@ public class Province implements Serializable {
         }
         Province other = (Province) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-            && (this.getOrderid() == null ? other.getOrderid() == null : this.getOrderid().equals(other.getOrderid()));
+                && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+                && (this.getOrderid() == null ? other.getOrderid() == null : this.getOrderid().equals(other.getOrderid()));
     }
 
     /**

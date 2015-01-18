@@ -96,7 +96,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.DeliveryID
      *
      * @return the value of TBa_DeliveryInfo.DeliveryID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getDeliveryid() {
@@ -108,7 +107,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.DeliveryID
      *
      * @param deliveryid the value for TBa_DeliveryInfo.DeliveryID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setDeliveryid(String deliveryid) {
@@ -120,7 +118,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.ID
      *
      * @return the value of TBa_DeliveryInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Byte getId() {
@@ -132,7 +129,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.ID
      *
      * @param id the value for TBa_DeliveryInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Byte id) {
@@ -144,7 +140,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.DeliveryName
      *
      * @return the value of TBa_DeliveryInfo.DeliveryName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getDeliveryname() {
@@ -156,7 +151,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.DeliveryName
      *
      * @param deliveryname the value for TBa_DeliveryInfo.DeliveryName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setDeliveryname(String deliveryname) {
@@ -168,7 +162,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.Address
      *
      * @return the value of TBa_DeliveryInfo.Address
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getAddress() {
@@ -180,7 +173,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.Address
      *
      * @param address the value for TBa_DeliveryInfo.Address
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setAddress(String address) {
@@ -192,7 +184,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.LinkName
      *
      * @return the value of TBa_DeliveryInfo.LinkName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getLinkname() {
@@ -204,7 +195,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.LinkName
      *
      * @param linkname the value for TBa_DeliveryInfo.LinkName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setLinkname(String linkname) {
@@ -216,7 +206,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.LinkTel
      *
      * @return the value of TBa_DeliveryInfo.LinkTel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getLinktel() {
@@ -228,7 +217,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.LinkTel
      *
      * @param linktel the value for TBa_DeliveryInfo.LinkTel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setLinktel(String linktel) {
@@ -240,7 +228,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.QQ
      *
      * @return the value of TBa_DeliveryInfo.QQ
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getQq() {
@@ -252,7 +239,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.QQ
      *
      * @param qq the value for TBa_DeliveryInfo.QQ
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setQq(String qq) {
@@ -264,7 +250,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.Email
      *
      * @return the value of TBa_DeliveryInfo.Email
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getEmail() {
@@ -276,7 +261,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.Email
      *
      * @param email the value for TBa_DeliveryInfo.Email
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setEmail(String email) {
@@ -288,7 +272,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.SortID
      *
      * @return the value of TBa_DeliveryInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Byte getSortid() {
@@ -300,7 +283,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.SortID
      *
      * @param sortid the value for TBa_DeliveryInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSortid(Byte sortid) {
@@ -312,7 +294,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method returns the value of the database column TBa_DeliveryInfo.State
      *
      * @return the value of TBa_DeliveryInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getState() {
@@ -324,7 +305,6 @@ public class TbaDeliveryinfo implements Serializable {
      * This method sets the value of the database column TBa_DeliveryInfo.State
      *
      * @param state the value for TBa_DeliveryInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setState(Boolean state) {
@@ -350,15 +330,15 @@ public class TbaDeliveryinfo implements Serializable {
         }
         TbaDeliveryinfo other = (TbaDeliveryinfo) that;
         return (this.getDeliveryid() == null ? other.getDeliveryid() == null : this.getDeliveryid().equals(other.getDeliveryid()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getDeliveryname() == null ? other.getDeliveryname() == null : this.getDeliveryname().equals(other.getDeliveryname()))
-            && (this.getAddress() == null ? other.getAddress() == null : this.getAddress().equals(other.getAddress()))
-            && (this.getLinkname() == null ? other.getLinkname() == null : this.getLinkname().equals(other.getLinkname()))
-            && (this.getLinktel() == null ? other.getLinktel() == null : this.getLinktel().equals(other.getLinktel()))
-            && (this.getQq() == null ? other.getQq() == null : this.getQq().equals(other.getQq()))
-            && (this.getEmail() == null ? other.getEmail() == null : this.getEmail().equals(other.getEmail()))
-            && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
-            && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getDeliveryname() == null ? other.getDeliveryname() == null : this.getDeliveryname().equals(other.getDeliveryname()))
+                && (this.getAddress() == null ? other.getAddress() == null : this.getAddress().equals(other.getAddress()))
+                && (this.getLinkname() == null ? other.getLinkname() == null : this.getLinkname().equals(other.getLinkname()))
+                && (this.getLinktel() == null ? other.getLinktel() == null : this.getLinktel().equals(other.getLinktel()))
+                && (this.getQq() == null ? other.getQq() == null : this.getQq().equals(other.getQq()))
+                && (this.getEmail() == null ? other.getEmail() == null : this.getEmail().equals(other.getEmail()))
+                && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
+                && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()));
     }
 
     /**

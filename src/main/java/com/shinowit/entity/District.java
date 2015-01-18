@@ -48,7 +48,6 @@ public class District implements Serializable {
      * This method returns the value of the database column district.id
      *
      * @return the value of district.id
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getId() {
@@ -60,7 +59,6 @@ public class District implements Serializable {
      * This method sets the value of the database column district.id
      *
      * @param id the value for district.id
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(String id) {
@@ -72,7 +70,6 @@ public class District implements Serializable {
      * This method returns the value of the database column district.cityId
      *
      * @return the value of district.cityId
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getCityid() {
@@ -84,7 +81,6 @@ public class District implements Serializable {
      * This method sets the value of the database column district.cityId
      *
      * @param cityid the value for district.cityId
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setCityid(String cityid) {
@@ -96,7 +92,6 @@ public class District implements Serializable {
      * This method returns the value of the database column district.name
      *
      * @return the value of district.name
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getName() {
@@ -108,7 +103,6 @@ public class District implements Serializable {
      * This method sets the value of the database column district.name
      *
      * @param name the value for district.name
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setName(String name) {
@@ -120,7 +114,6 @@ public class District implements Serializable {
      * This method returns the value of the database column district.postCode
      *
      * @return the value of district.postCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPostcode() {
@@ -132,7 +125,6 @@ public class District implements Serializable {
      * This method sets the value of the database column district.postCode
      *
      * @param postcode the value for district.postCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPostcode(String postcode) {
@@ -158,9 +150,9 @@ public class District implements Serializable {
         }
         District other = (District) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getCityid() == null ? other.getCityid() == null : this.getCityid().equals(other.getCityid()))
-            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-            && (this.getPostcode() == null ? other.getPostcode() == null : this.getPostcode().equals(other.getPostcode()));
+                && (this.getCityid() == null ? other.getCityid() == null : this.getCityid().equals(other.getCityid()))
+                && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+                && (this.getPostcode() == null ? other.getPostcode() == null : this.getPostcode().equals(other.getPostcode()));
     }
 
     /**

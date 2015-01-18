@@ -56,7 +56,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseCInfo.MerchandiseCID
      *
      * @return the value of TMe_MerchandiseCInfo.MerchandiseCID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandisecid() {
@@ -68,7 +67,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseCInfo.MerchandiseCID
      *
      * @param merchandisecid the value for TMe_MerchandiseCInfo.MerchandiseCID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandisecid(String merchandisecid) {
@@ -80,7 +78,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseCInfo.ID
      *
      * @return the value of TMe_MerchandiseCInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -92,7 +89,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseCInfo.ID
      *
      * @param id the value for TMe_MerchandiseCInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -104,7 +100,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseCInfo.MerchandiseCName
      *
      * @return the value of TMe_MerchandiseCInfo.MerchandiseCName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandisecname() {
@@ -116,7 +111,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseCInfo.MerchandiseCName
      *
      * @param merchandisecname the value for TMe_MerchandiseCInfo.MerchandiseCName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandisecname(String merchandisecname) {
@@ -128,7 +122,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseCInfo.SortID
      *
      * @return the value of TMe_MerchandiseCInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getSortid() {
@@ -140,7 +133,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseCInfo.SortID
      *
      * @param sortid the value for TMe_MerchandiseCInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSortid(Integer sortid) {
@@ -152,7 +144,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseCInfo.State
      *
      * @return the value of TMe_MerchandiseCInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getState() {
@@ -164,7 +155,6 @@ public class TmeMerchandisecinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseCInfo.State
      *
      * @param state the value for TMe_MerchandiseCInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setState(Boolean state) {
@@ -190,10 +180,10 @@ public class TmeMerchandisecinfo implements Serializable {
         }
         TmeMerchandisecinfo other = (TmeMerchandisecinfo) that;
         return (this.getMerchandisecid() == null ? other.getMerchandisecid() == null : this.getMerchandisecid().equals(other.getMerchandisecid()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getMerchandisecname() == null ? other.getMerchandisecname() == null : this.getMerchandisecname().equals(other.getMerchandisecname()))
-            && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
-            && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getMerchandisecname() == null ? other.getMerchandisecname() == null : this.getMerchandisecname().equals(other.getMerchandisecname()))
+                && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
+                && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()));
     }
 
     /**

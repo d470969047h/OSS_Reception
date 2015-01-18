@@ -97,7 +97,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.UserName
      *
      * @return the value of TBa_MemberInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getUsername() {
@@ -109,7 +108,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.UserName
      *
      * @param username the value for TBa_MemberInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUsername(String username) {
@@ -121,7 +119,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.ID
      *
      * @return the value of TBa_MemberInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -133,7 +130,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.ID
      *
      * @param id the value for TBa_MemberInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -145,7 +141,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.Pwd
      *
      * @return the value of TBa_MemberInfo.Pwd
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPwd() {
@@ -157,7 +152,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.Pwd
      *
      * @param pwd the value for TBa_MemberInfo.Pwd
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPwd(String pwd) {
@@ -169,7 +163,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.Email
      *
      * @return the value of TBa_MemberInfo.Email
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getEmail() {
@@ -181,7 +174,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.Email
      *
      * @param email the value for TBa_MemberInfo.Email
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setEmail(String email) {
@@ -193,7 +185,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.lName
      *
      * @return the value of TBa_MemberInfo.lName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getLname() {
@@ -205,7 +196,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.lName
      *
      * @param lname the value for TBa_MemberInfo.lName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setLname(String lname) {
@@ -217,7 +207,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.Balance
      *
      * @return the value of TBa_MemberInfo.Balance
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getBalance() {
@@ -229,7 +218,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.Balance
      *
      * @param balance the value for TBa_MemberInfo.Balance
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setBalance(Float balance) {
@@ -241,7 +229,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.Status
      *
      * @return the value of TBa_MemberInfo.Status
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getStatus() {
@@ -253,7 +240,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.Status
      *
      * @param status the value for TBa_MemberInfo.Status
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setStatus(Boolean status) {
@@ -265,7 +251,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.RegDate
      *
      * @return the value of TBa_MemberInfo.RegDate
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getRegdate() {
@@ -277,7 +262,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.RegDate
      *
      * @param regdate the value for TBa_MemberInfo.RegDate
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRegdate(Date regdate) {
@@ -289,7 +273,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.ActiveDate
      *
      * @return the value of TBa_MemberInfo.ActiveDate
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getActivedate() {
@@ -301,7 +284,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.ActiveDate
      *
      * @param activedate the value for TBa_MemberInfo.ActiveDate
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setActivedate(Date activedate) {
@@ -313,7 +295,6 @@ public class TbaMemberinfo implements Serializable {
      * This method returns the value of the database column TBa_MemberInfo.Remark
      *
      * @return the value of TBa_MemberInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -325,7 +306,6 @@ public class TbaMemberinfo implements Serializable {
      * This method sets the value of the database column TBa_MemberInfo.Remark
      *
      * @param remark the value for TBa_MemberInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -351,15 +331,15 @@ public class TbaMemberinfo implements Serializable {
         }
         TbaMemberinfo other = (TbaMemberinfo) that;
         return (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getPwd() == null ? other.getPwd() == null : this.getPwd().equals(other.getPwd()))
-            && (this.getEmail() == null ? other.getEmail() == null : this.getEmail().equals(other.getEmail()))
-            && (this.getLname() == null ? other.getLname() == null : this.getLname().equals(other.getLname()))
-            && (this.getBalance() == null ? other.getBalance() == null : this.getBalance().equals(other.getBalance()))
-            && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
-            && (this.getRegdate() == null ? other.getRegdate() == null : this.getRegdate().equals(other.getRegdate()))
-            && (this.getActivedate() == null ? other.getActivedate() == null : this.getActivedate().equals(other.getActivedate()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getPwd() == null ? other.getPwd() == null : this.getPwd().equals(other.getPwd()))
+                && (this.getEmail() == null ? other.getEmail() == null : this.getEmail().equals(other.getEmail()))
+                && (this.getLname() == null ? other.getLname() == null : this.getLname().equals(other.getLname()))
+                && (this.getBalance() == null ? other.getBalance() == null : this.getBalance().equals(other.getBalance()))
+                && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
+                && (this.getRegdate() == null ? other.getRegdate() == null : this.getRegdate().equals(other.getRegdate()))
+                && (this.getActivedate() == null ? other.getActivedate() == null : this.getActivedate().equals(other.getActivedate()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
     }
 
     /**

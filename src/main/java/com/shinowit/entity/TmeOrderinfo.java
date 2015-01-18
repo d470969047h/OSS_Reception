@@ -129,7 +129,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.BillCode
      *
      * @return the value of TMe_OrderInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getBillcode() {
@@ -141,7 +140,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.BillCode
      *
      * @param billcode the value for TMe_OrderInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setBillcode(String billcode) {
@@ -153,7 +151,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.UserName
      *
      * @return the value of TMe_OrderInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getUsername() {
@@ -165,7 +162,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.UserName
      *
      * @param username the value for TMe_OrderInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUsername(String username) {
@@ -177,7 +173,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.DeliveryID
      *
      * @return the value of TMe_OrderInfo.DeliveryID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getDeliveryid() {
@@ -189,7 +184,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.DeliveryID
      *
      * @param deliveryid the value for TMe_OrderInfo.DeliveryID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setDeliveryid(String deliveryid) {
@@ -201,7 +195,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.OperID
      *
      * @return the value of TMe_OrderInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOperid() {
@@ -213,7 +206,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.OperID
      *
      * @param operid the value for TMe_OrderInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOperid(String operid) {
@@ -225,7 +217,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.OutBillCode
      *
      * @return the value of TMe_OrderInfo.OutBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOutbillcode() {
@@ -237,7 +228,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.OutBillCode
      *
      * @param outbillcode the value for TMe_OrderInfo.OutBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOutbillcode(String outbillcode) {
@@ -249,7 +239,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.PostBillCode
      *
      * @return the value of TMe_OrderInfo.PostBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPostbillcode() {
@@ -261,7 +250,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.PostBillCode
      *
      * @param postbillcode the value for TMe_OrderInfo.PostBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPostbillcode(String postbillcode) {
@@ -273,7 +261,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.BillStatus
      *
      * @return the value of TMe_OrderInfo.BillStatus
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Byte getBillstatus() {
@@ -285,7 +272,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.BillStatus
      *
      * @param billstatus the value for TMe_OrderInfo.BillStatus
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setBillstatus(Byte billstatus) {
@@ -297,7 +283,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.OrderTime
      *
      * @return the value of TMe_OrderInfo.OrderTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getOrdertime() {
@@ -309,7 +294,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.OrderTime
      *
      * @param ordertime the value for TMe_OrderInfo.OrderTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOrdertime(Date ordertime) {
@@ -321,7 +305,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.RecMan
      *
      * @return the value of TMe_OrderInfo.RecMan
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRecman() {
@@ -333,7 +316,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.RecMan
      *
      * @param recman the value for TMe_OrderInfo.RecMan
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRecman(String recman) {
@@ -345,7 +327,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.LinkTel
      *
      * @return the value of TMe_OrderInfo.LinkTel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getLinktel() {
@@ -357,7 +338,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.LinkTel
      *
      * @param linktel the value for TMe_OrderInfo.LinkTel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setLinktel(String linktel) {
@@ -369,7 +349,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.RecAddress
      *
      * @return the value of TMe_OrderInfo.RecAddress
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRecaddress() {
@@ -381,7 +360,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.RecAddress
      *
      * @param recaddress the value for TMe_OrderInfo.RecAddress
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRecaddress(String recaddress) {
@@ -393,7 +371,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.PostCode
      *
      * @return the value of TMe_OrderInfo.PostCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPostcode() {
@@ -405,7 +382,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.PostCode
      *
      * @param postcode the value for TMe_OrderInfo.PostCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPostcode(String postcode) {
@@ -417,7 +393,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.TotalMoney
      *
      * @return the value of TMe_OrderInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getTotalmoney() {
@@ -429,7 +404,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.TotalMoney
      *
      * @param totalmoney the value for TMe_OrderInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setTotalmoney(Float totalmoney) {
@@ -441,7 +415,6 @@ public class TmeOrderinfo implements Serializable {
      * This method returns the value of the database column TMe_OrderInfo.Remark
      *
      * @return the value of TMe_OrderInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -453,7 +426,6 @@ public class TmeOrderinfo implements Serializable {
      * This method sets the value of the database column TMe_OrderInfo.Remark
      *
      * @param remark the value for TMe_OrderInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -479,19 +451,19 @@ public class TmeOrderinfo implements Serializable {
         }
         TmeOrderinfo other = (TmeOrderinfo) that;
         return (this.getBillcode() == null ? other.getBillcode() == null : this.getBillcode().equals(other.getBillcode()))
-            && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
-            && (this.getDeliveryid() == null ? other.getDeliveryid() == null : this.getDeliveryid().equals(other.getDeliveryid()))
-            && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
-            && (this.getOutbillcode() == null ? other.getOutbillcode() == null : this.getOutbillcode().equals(other.getOutbillcode()))
-            && (this.getPostbillcode() == null ? other.getPostbillcode() == null : this.getPostbillcode().equals(other.getPostbillcode()))
-            && (this.getBillstatus() == null ? other.getBillstatus() == null : this.getBillstatus().equals(other.getBillstatus()))
-            && (this.getOrdertime() == null ? other.getOrdertime() == null : this.getOrdertime().equals(other.getOrdertime()))
-            && (this.getRecman() == null ? other.getRecman() == null : this.getRecman().equals(other.getRecman()))
-            && (this.getLinktel() == null ? other.getLinktel() == null : this.getLinktel().equals(other.getLinktel()))
-            && (this.getRecaddress() == null ? other.getRecaddress() == null : this.getRecaddress().equals(other.getRecaddress()))
-            && (this.getPostcode() == null ? other.getPostcode() == null : this.getPostcode().equals(other.getPostcode()))
-            && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
+                && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
+                && (this.getDeliveryid() == null ? other.getDeliveryid() == null : this.getDeliveryid().equals(other.getDeliveryid()))
+                && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
+                && (this.getOutbillcode() == null ? other.getOutbillcode() == null : this.getOutbillcode().equals(other.getOutbillcode()))
+                && (this.getPostbillcode() == null ? other.getPostbillcode() == null : this.getPostbillcode().equals(other.getPostbillcode()))
+                && (this.getBillstatus() == null ? other.getBillstatus() == null : this.getBillstatus().equals(other.getBillstatus()))
+                && (this.getOrdertime() == null ? other.getOrdertime() == null : this.getOrdertime().equals(other.getOrdertime()))
+                && (this.getRecman() == null ? other.getRecman() == null : this.getRecman().equals(other.getRecman()))
+                && (this.getLinktel() == null ? other.getLinktel() == null : this.getLinktel().equals(other.getLinktel()))
+                && (this.getRecaddress() == null ? other.getRecaddress() == null : this.getRecaddress().equals(other.getRecaddress()))
+                && (this.getPostcode() == null ? other.getPostcode() == null : this.getPostcode().equals(other.getPostcode()))
+                && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
     }
 
     /**

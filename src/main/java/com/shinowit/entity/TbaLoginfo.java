@@ -65,7 +65,6 @@ public class TbaLoginfo implements Serializable {
      * This method returns the value of the database column TBa_LogInfo.ID
      *
      * @return the value of TBa_LogInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -77,7 +76,6 @@ public class TbaLoginfo implements Serializable {
      * This method sets the value of the database column TBa_LogInfo.ID
      *
      * @param id the value for TBa_LogInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -89,7 +87,6 @@ public class TbaLoginfo implements Serializable {
      * This method returns the value of the database column TBa_LogInfo.OperID
      *
      * @return the value of TBa_LogInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOperid() {
@@ -101,7 +98,6 @@ public class TbaLoginfo implements Serializable {
      * This method sets the value of the database column TBa_LogInfo.OperID
      *
      * @param operid the value for TBa_LogInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOperid(String operid) {
@@ -113,7 +109,6 @@ public class TbaLoginfo implements Serializable {
      * This method returns the value of the database column TBa_LogInfo.MenuID
      *
      * @return the value of TBa_LogInfo.MenuID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMenuid() {
@@ -125,7 +120,6 @@ public class TbaLoginfo implements Serializable {
      * This method sets the value of the database column TBa_LogInfo.MenuID
      *
      * @param menuid the value for TBa_LogInfo.MenuID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMenuid(String menuid) {
@@ -137,7 +131,6 @@ public class TbaLoginfo implements Serializable {
      * This method returns the value of the database column TBa_LogInfo.LogTime
      *
      * @return the value of TBa_LogInfo.LogTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getLogtime() {
@@ -149,7 +142,6 @@ public class TbaLoginfo implements Serializable {
      * This method sets the value of the database column TBa_LogInfo.LogTime
      *
      * @param logtime the value for TBa_LogInfo.LogTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setLogtime(Date logtime) {
@@ -161,7 +153,6 @@ public class TbaLoginfo implements Serializable {
      * This method returns the value of the database column TBa_LogInfo.IP
      *
      * @return the value of TBa_LogInfo.IP
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getIp() {
@@ -173,7 +164,6 @@ public class TbaLoginfo implements Serializable {
      * This method sets the value of the database column TBa_LogInfo.IP
      *
      * @param ip the value for TBa_LogInfo.IP
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setIp(String ip) {
@@ -185,7 +175,6 @@ public class TbaLoginfo implements Serializable {
      * This method returns the value of the database column TBa_LogInfo.Content
      *
      * @return the value of TBa_LogInfo.Content
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getContent() {
@@ -197,7 +186,6 @@ public class TbaLoginfo implements Serializable {
      * This method sets the value of the database column TBa_LogInfo.Content
      *
      * @param content the value for TBa_LogInfo.Content
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setContent(String content) {
@@ -223,11 +211,11 @@ public class TbaLoginfo implements Serializable {
         }
         TbaLoginfo other = (TbaLoginfo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
-            && (this.getMenuid() == null ? other.getMenuid() == null : this.getMenuid().equals(other.getMenuid()))
-            && (this.getLogtime() == null ? other.getLogtime() == null : this.getLogtime().equals(other.getLogtime()))
-            && (this.getIp() == null ? other.getIp() == null : this.getIp().equals(other.getIp()))
-            && (this.getContent() == null ? other.getContent() == null : this.getContent().equals(other.getContent()));
+                && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
+                && (this.getMenuid() == null ? other.getMenuid() == null : this.getMenuid().equals(other.getMenuid()))
+                && (this.getLogtime() == null ? other.getLogtime() == null : this.getLogtime().equals(other.getLogtime()))
+                && (this.getIp() == null ? other.getIp() == null : this.getIp().equals(other.getIp()))
+                && (this.getContent() == null ? other.getContent() == null : this.getContent().equals(other.getContent()));
     }
 
     /**

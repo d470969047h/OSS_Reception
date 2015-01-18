@@ -142,14 +142,14 @@
                                     id="CheckNewUserName" class="Reginput"></span></td>
                         <td class="sty03 sty04" valign="top" align="left">　请输入中您的真实姓名</td>
                     </tr>
-                    <%--<tr>--%>
+                        <%--<tr>--%>
                         <%--<td class="sty03" valign="top" align="right">备注：</td>--%>
                         <%--<td class="sty01" valign="top">--%>
-                                <%--<form:textarea path="remark" cssStyle="height: 50px;width: 170px;"/>--%>
-                            <%--<span--%>
-                                    <%--id="CheckNewUserName" class="Reginput"></span></td>--%>
+                        <%--<form:textarea path="remark" cssStyle="height: 50px;width: 170px;"/>--%>
+                        <%--<span--%>
+                        <%--id="CheckNewUserName" class="Reginput"></span></td>--%>
                         <%--<td class="sty03 sty04" valign="top" align="left">　</td>--%>
-                    <%--</tr>--%>
+                        <%--</tr>--%>
                     <tr>
                         <td class="sty03" valign="top" align="right">请输入验证码：</td>
                         <td class="sty02" colspan="2" valign="top"><input name="validCode" id="Validate_Code"

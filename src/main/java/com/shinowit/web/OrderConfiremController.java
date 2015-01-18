@@ -16,7 +16,7 @@ public class OrderConfiremController {
 
     //进入配送地址页
     @RequestMapping(value = "/order")
-    public ModelAndView orderSubmit( HttpServletRequest request) {
+    public ModelAndView orderSubmit(HttpServletRequest request) {
         ModelAndView reslut = new ModelAndView("chartorder");
 
         return reslut;
@@ -25,7 +25,7 @@ public class OrderConfiremController {
 
     //进入订单最后一页
     @RequestMapping(value = "/orderOver")
-    public ModelAndView orderEnd( HttpServletRequest request) {
+    public ModelAndView orderEnd(HttpServletRequest request) {
         ModelAndView reslut = new ModelAndView("chartover");
 
         return reslut;

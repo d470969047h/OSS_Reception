@@ -89,7 +89,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.BillCode
      *
      * @return the value of TMe_InStockInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getBillcode() {
@@ -101,7 +100,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.BillCode
      *
      * @param billcode the value for TMe_InStockInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setBillcode(String billcode) {
@@ -113,7 +111,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.ID
      *
      * @return the value of TMe_InStockInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -125,7 +122,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.ID
      *
      * @param id the value for TMe_InStockInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -137,7 +133,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.OperID
      *
      * @return the value of TMe_InStockInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOperid() {
@@ -149,7 +144,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.OperID
      *
      * @param operid the value for TMe_InStockInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOperid(String operid) {
@@ -161,7 +155,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.SupplierID
      *
      * @return the value of TMe_InStockInfo.SupplierID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getSupplierid() {
@@ -173,7 +166,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.SupplierID
      *
      * @param supplierid the value for TMe_InStockInfo.SupplierID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSupplierid(String supplierid) {
@@ -185,7 +177,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.InType
      *
      * @return the value of TMe_InStockInfo.InType
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Byte getIntype() {
@@ -197,7 +188,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.InType
      *
      * @param intype the value for TMe_InStockInfo.InType
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setIntype(Byte intype) {
@@ -209,7 +199,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.InTime
      *
      * @return the value of TMe_InStockInfo.InTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getIntime() {
@@ -221,7 +210,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.InTime
      *
      * @param intime the value for TMe_InStockInfo.InTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setIntime(Date intime) {
@@ -233,7 +221,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.Handler
      *
      * @return the value of TMe_InStockInfo.Handler
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getHandler() {
@@ -245,7 +232,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.Handler
      *
      * @param handler the value for TMe_InStockInfo.Handler
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setHandler(String handler) {
@@ -257,7 +243,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.TotalMoney
      *
      * @return the value of TMe_InStockInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getTotalmoney() {
@@ -269,7 +254,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.TotalMoney
      *
      * @param totalmoney the value for TMe_InStockInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setTotalmoney(Float totalmoney) {
@@ -281,7 +265,6 @@ public class TmeInstockinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockInfo.Remark
      *
      * @return the value of TMe_InStockInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -293,7 +276,6 @@ public class TmeInstockinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockInfo.Remark
      *
      * @param remark the value for TMe_InStockInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -319,14 +301,14 @@ public class TmeInstockinfo implements Serializable {
         }
         TmeInstockinfo other = (TmeInstockinfo) that;
         return (this.getBillcode() == null ? other.getBillcode() == null : this.getBillcode().equals(other.getBillcode()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
-            && (this.getSupplierid() == null ? other.getSupplierid() == null : this.getSupplierid().equals(other.getSupplierid()))
-            && (this.getIntype() == null ? other.getIntype() == null : this.getIntype().equals(other.getIntype()))
-            && (this.getIntime() == null ? other.getIntime() == null : this.getIntime().equals(other.getIntime()))
-            && (this.getHandler() == null ? other.getHandler() == null : this.getHandler().equals(other.getHandler()))
-            && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
+                && (this.getSupplierid() == null ? other.getSupplierid() == null : this.getSupplierid().equals(other.getSupplierid()))
+                && (this.getIntype() == null ? other.getIntype() == null : this.getIntype().equals(other.getIntype()))
+                && (this.getIntime() == null ? other.getIntime() == null : this.getIntime().equals(other.getIntime()))
+                && (this.getHandler() == null ? other.getHandler() == null : this.getHandler().equals(other.getHandler()))
+                && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
     }
 
     /**

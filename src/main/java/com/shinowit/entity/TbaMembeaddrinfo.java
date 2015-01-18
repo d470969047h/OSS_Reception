@@ -72,7 +72,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method returns the value of the database column TBa_MembeAddrInfo.ID
      *
      * @return the value of TBa_MembeAddrInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -84,7 +83,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method sets the value of the database column TBa_MembeAddrInfo.ID
      *
      * @param id the value for TBa_MembeAddrInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -96,7 +94,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method returns the value of the database column TBa_MembeAddrInfo.UserName
      *
      * @return the value of TBa_MembeAddrInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getUsername() {
@@ -108,7 +105,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method sets the value of the database column TBa_MembeAddrInfo.UserName
      *
      * @param username the value for TBa_MembeAddrInfo.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUsername(String username) {
@@ -120,7 +116,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method returns the value of the database column TBa_MembeAddrInfo.RecMan
      *
      * @return the value of TBa_MembeAddrInfo.RecMan
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRecman() {
@@ -132,7 +127,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method sets the value of the database column TBa_MembeAddrInfo.RecMan
      *
      * @param recman the value for TBa_MembeAddrInfo.RecMan
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRecman(String recman) {
@@ -144,7 +138,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method returns the value of the database column TBa_MembeAddrInfo.Tel
      *
      * @return the value of TBa_MembeAddrInfo.Tel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getTel() {
@@ -156,7 +149,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method sets the value of the database column TBa_MembeAddrInfo.Tel
      *
      * @param tel the value for TBa_MembeAddrInfo.Tel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setTel(String tel) {
@@ -168,7 +160,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method returns the value of the database column TBa_MembeAddrInfo.RecAddress
      *
      * @return the value of TBa_MembeAddrInfo.RecAddress
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRecaddress() {
@@ -180,7 +171,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method sets the value of the database column TBa_MembeAddrInfo.RecAddress
      *
      * @param recaddress the value for TBa_MembeAddrInfo.RecAddress
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRecaddress(String recaddress) {
@@ -192,7 +182,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method returns the value of the database column TBa_MembeAddrInfo.PostCode
      *
      * @return the value of TBa_MembeAddrInfo.PostCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPostcode() {
@@ -204,7 +193,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method sets the value of the database column TBa_MembeAddrInfo.PostCode
      *
      * @param postcode the value for TBa_MembeAddrInfo.PostCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPostcode(String postcode) {
@@ -216,7 +204,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method returns the value of the database column TBa_MembeAddrInfo.IsDefault
      *
      * @return the value of TBa_MembeAddrInfo.IsDefault
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getIsdefault() {
@@ -228,7 +215,6 @@ public class TbaMembeaddrinfo implements Serializable {
      * This method sets the value of the database column TBa_MembeAddrInfo.IsDefault
      *
      * @param isdefault the value for TBa_MembeAddrInfo.IsDefault
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setIsdefault(Boolean isdefault) {
@@ -254,12 +240,12 @@ public class TbaMembeaddrinfo implements Serializable {
         }
         TbaMembeaddrinfo other = (TbaMembeaddrinfo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
-            && (this.getRecman() == null ? other.getRecman() == null : this.getRecman().equals(other.getRecman()))
-            && (this.getTel() == null ? other.getTel() == null : this.getTel().equals(other.getTel()))
-            && (this.getRecaddress() == null ? other.getRecaddress() == null : this.getRecaddress().equals(other.getRecaddress()))
-            && (this.getPostcode() == null ? other.getPostcode() == null : this.getPostcode().equals(other.getPostcode()))
-            && (this.getIsdefault() == null ? other.getIsdefault() == null : this.getIsdefault().equals(other.getIsdefault()));
+                && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
+                && (this.getRecman() == null ? other.getRecman() == null : this.getRecman().equals(other.getRecman()))
+                && (this.getTel() == null ? other.getTel() == null : this.getTel().equals(other.getTel()))
+                && (this.getRecaddress() == null ? other.getRecaddress() == null : this.getRecaddress().equals(other.getRecaddress()))
+                && (this.getPostcode() == null ? other.getPostcode() == null : this.getPostcode().equals(other.getPostcode()))
+                && (this.getIsdefault() == null ? other.getIsdefault() == null : this.getIsdefault().equals(other.getIsdefault()));
     }
 
     /**

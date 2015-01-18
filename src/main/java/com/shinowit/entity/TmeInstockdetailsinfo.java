@@ -56,7 +56,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockDetailsInfo.ID
      *
      * @return the value of TMe_InStockDetailsInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -68,7 +67,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockDetailsInfo.ID
      *
      * @param id the value for TMe_InStockDetailsInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -80,7 +78,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockDetailsInfo.MerchandiseID
      *
      * @return the value of TMe_InStockDetailsInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandiseid() {
@@ -92,7 +89,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockDetailsInfo.MerchandiseID
      *
      * @param merchandiseid the value for TMe_InStockDetailsInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandiseid(String merchandiseid) {
@@ -104,7 +100,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockDetailsInfo.BillCode
      *
      * @return the value of TMe_InStockDetailsInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getBillcode() {
@@ -116,7 +111,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockDetailsInfo.BillCode
      *
      * @param billcode the value for TMe_InStockDetailsInfo.BillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setBillcode(String billcode) {
@@ -128,7 +122,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockDetailsInfo.Num
      *
      * @return the value of TMe_InStockDetailsInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getNum() {
@@ -140,7 +133,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockDetailsInfo.Num
      *
      * @param num the value for TMe_InStockDetailsInfo.Num
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setNum(Integer num) {
@@ -152,7 +144,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method returns the value of the database column TMe_InStockDetailsInfo.Price
      *
      * @return the value of TMe_InStockDetailsInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getPrice() {
@@ -164,7 +155,6 @@ public class TmeInstockdetailsinfo implements Serializable {
      * This method sets the value of the database column TMe_InStockDetailsInfo.Price
      *
      * @param price the value for TMe_InStockDetailsInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPrice(Float price) {
@@ -190,10 +180,10 @@ public class TmeInstockdetailsinfo implements Serializable {
         }
         TmeInstockdetailsinfo other = (TmeInstockdetailsinfo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
-            && (this.getBillcode() == null ? other.getBillcode() == null : this.getBillcode().equals(other.getBillcode()))
-            && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()))
-            && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()));
+                && (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
+                && (this.getBillcode() == null ? other.getBillcode() == null : this.getBillcode().equals(other.getBillcode()))
+                && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()))
+                && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()));
     }
 
     /**

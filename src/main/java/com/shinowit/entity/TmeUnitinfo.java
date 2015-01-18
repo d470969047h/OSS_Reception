@@ -48,7 +48,6 @@ public class TmeUnitinfo implements Serializable {
      * This method returns the value of the database column TMe_UnitInfo.UnitID
      *
      * @return the value of TMe_UnitInfo.UnitID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getUnitid() {
@@ -60,7 +59,6 @@ public class TmeUnitinfo implements Serializable {
      * This method sets the value of the database column TMe_UnitInfo.UnitID
      *
      * @param unitid the value for TMe_UnitInfo.UnitID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUnitid(Integer unitid) {
@@ -72,7 +70,6 @@ public class TmeUnitinfo implements Serializable {
      * This method returns the value of the database column TMe_UnitInfo.Name
      *
      * @return the value of TMe_UnitInfo.Name
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getName() {
@@ -84,7 +81,6 @@ public class TmeUnitinfo implements Serializable {
      * This method sets the value of the database column TMe_UnitInfo.Name
      *
      * @param name the value for TMe_UnitInfo.Name
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setName(String name) {
@@ -96,7 +92,6 @@ public class TmeUnitinfo implements Serializable {
      * This method returns the value of the database column TMe_UnitInfo.Status
      *
      * @return the value of TMe_UnitInfo.Status
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getStatus() {
@@ -108,7 +103,6 @@ public class TmeUnitinfo implements Serializable {
      * This method sets the value of the database column TMe_UnitInfo.Status
      *
      * @param status the value for TMe_UnitInfo.Status
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setStatus(Boolean status) {
@@ -120,7 +114,6 @@ public class TmeUnitinfo implements Serializable {
      * This method returns the value of the database column TMe_UnitInfo.Remark
      *
      * @return the value of TMe_UnitInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -132,7 +125,6 @@ public class TmeUnitinfo implements Serializable {
      * This method sets the value of the database column TMe_UnitInfo.Remark
      *
      * @param remark the value for TMe_UnitInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -158,9 +150,9 @@ public class TmeUnitinfo implements Serializable {
         }
         TmeUnitinfo other = (TmeUnitinfo) that;
         return (this.getUnitid() == null ? other.getUnitid() == null : this.getUnitid().equals(other.getUnitid()))
-            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-            && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
+                && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+                && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
     }
 
     /**

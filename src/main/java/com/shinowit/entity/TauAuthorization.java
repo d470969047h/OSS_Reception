@@ -48,7 +48,6 @@ public class TauAuthorization implements Serializable {
      * This method returns the value of the database column TAu_Authorization.ID
      *
      * @return the value of TAu_Authorization.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -60,7 +59,6 @@ public class TauAuthorization implements Serializable {
      * This method sets the value of the database column TAu_Authorization.ID
      *
      * @param id the value for TAu_Authorization.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -72,7 +70,6 @@ public class TauAuthorization implements Serializable {
      * This method returns the value of the database column TAu_Authorization.MenuID
      *
      * @return the value of TAu_Authorization.MenuID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMenuid() {
@@ -84,7 +81,6 @@ public class TauAuthorization implements Serializable {
      * This method sets the value of the database column TAu_Authorization.MenuID
      *
      * @param menuid the value for TAu_Authorization.MenuID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMenuid(String menuid) {
@@ -96,7 +92,6 @@ public class TauAuthorization implements Serializable {
      * This method returns the value of the database column TAu_Authorization.RoleID
      *
      * @return the value of TAu_Authorization.RoleID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRoleid() {
@@ -108,7 +103,6 @@ public class TauAuthorization implements Serializable {
      * This method sets the value of the database column TAu_Authorization.RoleID
      *
      * @param roleid the value for TAu_Authorization.RoleID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRoleid(String roleid) {
@@ -120,7 +114,6 @@ public class TauAuthorization implements Serializable {
      * This method returns the value of the database column TAu_Authorization.IsEnabled
      *
      * @return the value of TAu_Authorization.IsEnabled
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getIsenabled() {
@@ -132,7 +125,6 @@ public class TauAuthorization implements Serializable {
      * This method sets the value of the database column TAu_Authorization.IsEnabled
      *
      * @param isenabled the value for TAu_Authorization.IsEnabled
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setIsenabled(Boolean isenabled) {
@@ -158,9 +150,9 @@ public class TauAuthorization implements Serializable {
         }
         TauAuthorization other = (TauAuthorization) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getMenuid() == null ? other.getMenuid() == null : this.getMenuid().equals(other.getMenuid()))
-            && (this.getRoleid() == null ? other.getRoleid() == null : this.getRoleid().equals(other.getRoleid()))
-            && (this.getIsenabled() == null ? other.getIsenabled() == null : this.getIsenabled().equals(other.getIsenabled()));
+                && (this.getMenuid() == null ? other.getMenuid() == null : this.getMenuid().equals(other.getMenuid()))
+                && (this.getRoleid() == null ? other.getRoleid() == null : this.getRoleid().equals(other.getRoleid()))
+                && (this.getIsenabled() == null ? other.getIsenabled() == null : this.getIsenabled().equals(other.getIsenabled()));
     }
 
     /**

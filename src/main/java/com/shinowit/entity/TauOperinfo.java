@@ -112,7 +112,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.OperID
      *
      * @return the value of TAu_OperInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOperid() {
@@ -124,7 +123,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.OperID
      *
      * @param operid the value for TAu_OperInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOperid(String operid) {
@@ -136,7 +134,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.ID
      *
      * @return the value of TAu_OperInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Short getId() {
@@ -148,7 +145,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.ID
      *
      * @param id the value for TAu_OperInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Short id) {
@@ -160,7 +156,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.RoleID
      *
      * @return the value of TAu_OperInfo.RoleID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRoleid() {
@@ -172,7 +167,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.RoleID
      *
      * @param roleid the value for TAu_OperInfo.RoleID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRoleid(String roleid) {
@@ -184,7 +178,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.OperName
      *
      * @return the value of TAu_OperInfo.OperName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOpername() {
@@ -196,7 +189,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.OperName
      *
      * @param opername the value for TAu_OperInfo.OperName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOpername(String opername) {
@@ -208,7 +200,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.Pwd
      *
      * @return the value of TAu_OperInfo.Pwd
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPwd() {
@@ -220,7 +211,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.Pwd
      *
      * @param pwd the value for TAu_OperInfo.Pwd
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPwd(String pwd) {
@@ -232,7 +222,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.Address
      *
      * @return the value of TAu_OperInfo.Address
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getAddress() {
@@ -244,7 +233,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.Address
      *
      * @param address the value for TAu_OperInfo.Address
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setAddress(String address) {
@@ -256,7 +244,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.LinkTel
      *
      * @return the value of TAu_OperInfo.LinkTel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getLinktel() {
@@ -268,7 +255,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.LinkTel
      *
      * @param linktel the value for TAu_OperInfo.LinkTel
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setLinktel(String linktel) {
@@ -280,7 +266,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.QQ
      *
      * @return the value of TAu_OperInfo.QQ
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getQq() {
@@ -292,7 +277,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.QQ
      *
      * @param qq the value for TAu_OperInfo.QQ
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setQq(String qq) {
@@ -304,7 +288,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.Email
      *
      * @return the value of TAu_OperInfo.Email
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getEmail() {
@@ -316,7 +299,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.Email
      *
      * @param email the value for TAu_OperInfo.Email
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setEmail(String email) {
@@ -328,7 +310,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.Mobile
      *
      * @return the value of TAu_OperInfo.Mobile
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMobile() {
@@ -340,7 +321,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.Mobile
      *
      * @param mobile the value for TAu_OperInfo.Mobile
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMobile(String mobile) {
@@ -352,7 +332,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.SortID
      *
      * @return the value of TAu_OperInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Short getSortid() {
@@ -364,7 +343,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.SortID
      *
      * @param sortid the value for TAu_OperInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSortid(Short sortid) {
@@ -376,7 +354,6 @@ public class TauOperinfo implements Serializable {
      * This method returns the value of the database column TAu_OperInfo.State
      *
      * @return the value of TAu_OperInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getState() {
@@ -388,7 +365,6 @@ public class TauOperinfo implements Serializable {
      * This method sets the value of the database column TAu_OperInfo.State
      *
      * @param state the value for TAu_OperInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setState(Boolean state) {
@@ -414,17 +390,17 @@ public class TauOperinfo implements Serializable {
         }
         TauOperinfo other = (TauOperinfo) that;
         return (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getRoleid() == null ? other.getRoleid() == null : this.getRoleid().equals(other.getRoleid()))
-            && (this.getOpername() == null ? other.getOpername() == null : this.getOpername().equals(other.getOpername()))
-            && (this.getPwd() == null ? other.getPwd() == null : this.getPwd().equals(other.getPwd()))
-            && (this.getAddress() == null ? other.getAddress() == null : this.getAddress().equals(other.getAddress()))
-            && (this.getLinktel() == null ? other.getLinktel() == null : this.getLinktel().equals(other.getLinktel()))
-            && (this.getQq() == null ? other.getQq() == null : this.getQq().equals(other.getQq()))
-            && (this.getEmail() == null ? other.getEmail() == null : this.getEmail().equals(other.getEmail()))
-            && (this.getMobile() == null ? other.getMobile() == null : this.getMobile().equals(other.getMobile()))
-            && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
-            && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getRoleid() == null ? other.getRoleid() == null : this.getRoleid().equals(other.getRoleid()))
+                && (this.getOpername() == null ? other.getOpername() == null : this.getOpername().equals(other.getOpername()))
+                && (this.getPwd() == null ? other.getPwd() == null : this.getPwd().equals(other.getPwd()))
+                && (this.getAddress() == null ? other.getAddress() == null : this.getAddress().equals(other.getAddress()))
+                && (this.getLinktel() == null ? other.getLinktel() == null : this.getLinktel().equals(other.getLinktel()))
+                && (this.getQq() == null ? other.getQq() == null : this.getQq().equals(other.getQq()))
+                && (this.getEmail() == null ? other.getEmail() == null : this.getEmail().equals(other.getEmail()))
+                && (this.getMobile() == null ? other.getMobile() == null : this.getMobile().equals(other.getMobile()))
+                && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
+                && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()));
     }
 
     /**

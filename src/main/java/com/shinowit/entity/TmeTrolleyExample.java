@@ -155,7 +155,7 @@ public class TmeTrolleyExample {
     }
 
     public void setPageIndex(int pageIndex) {
-        this.pageIndex=pageIndex;
+        this.pageIndex = pageIndex;
     }
 
     public int getPageIndex() {
@@ -163,7 +163,7 @@ public class TmeTrolleyExample {
     }
 
     public void setPageSize(int pageSize) {
-        this.pageSize=pageSize;
+        this.pageSize = pageSize;
     }
 
     public int getPageSize() {
@@ -171,7 +171,7 @@ public class TmeTrolleyExample {
     }
 
     public void setCustomCriteria(String customCriteria) {
-        this.customCriteria=customCriteria;
+        this.customCriteria = customCriteria;
     }
 
     public String getCustomCriteria() {
@@ -179,21 +179,21 @@ public class TmeTrolleyExample {
     }
 
     public int getSkipRecordCount() {
-        int count=(this.pageIndex-1)*this.pageSize;
-        if (count<0){
-             count=0;
+        int count = (this.pageIndex - 1) * this.pageSize;
+        if (count < 0) {
+            count = 0;
         }
         return count;
     }
 
     public int getEndRecordCount() {
-        return this.pageIndex*this.pageSize;
+        return this.pageIndex * this.pageSize;
     }
 
     public TmeTrolleyExample(int pageSize, int pageIndex) {
         this();
-        this.pageSize=pageSize;
-        this.pageIndex=pageIndex;
+        this.pageSize = pageSize;
+        this.pageIndex = pageIndex;
     }
 
     /**

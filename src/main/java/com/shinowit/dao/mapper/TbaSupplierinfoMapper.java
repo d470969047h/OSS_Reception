@@ -2,8 +2,9 @@ package com.shinowit.dao.mapper;
 
 import com.shinowit.entity.TbaSupplierinfo;
 import com.shinowit.entity.TbaSupplierinfoExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbaSupplierinfoMapper {
     /**

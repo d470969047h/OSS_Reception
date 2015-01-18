@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 @ContextConfiguration(locations = {"classpath:application-context.xml"})
 public class Test extends AbstractJUnit4SpringContextTests {
 
-    protected final Logger logger=Logger.getLogger(getClass());
+    protected final Logger logger = Logger.getLogger(getClass());
 
 
     public class LoginInterceptor implements HandlerInterceptor {

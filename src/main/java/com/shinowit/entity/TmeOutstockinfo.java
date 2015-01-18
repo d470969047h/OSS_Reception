@@ -81,7 +81,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.OutBillCode
      *
      * @return the value of TMe_OutStockInfo.OutBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOutbillcode() {
@@ -93,7 +92,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.OutBillCode
      *
      * @param outbillcode the value for TMe_OutStockInfo.OutBillCode
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOutbillcode(String outbillcode) {
@@ -105,7 +103,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.ID
      *
      * @return the value of TMe_OutStockInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -117,7 +114,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.ID
      *
      * @param id the value for TMe_OutStockInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -129,7 +125,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.OperID
      *
      * @return the value of TMe_OutStockInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getOperid() {
@@ -141,7 +136,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.OperID
      *
      * @param operid the value for TMe_OutStockInfo.OperID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOperid(String operid) {
@@ -153,7 +147,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.OutTime
      *
      * @return the value of TMe_OutStockInfo.OutTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getOuttime() {
@@ -165,7 +158,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.OutTime
      *
      * @param outtime the value for TMe_OutStockInfo.OutTime
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOuttime(Date outtime) {
@@ -177,7 +169,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.Handler
      *
      * @return the value of TMe_OutStockInfo.Handler
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getHandler() {
@@ -189,7 +180,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.Handler
      *
      * @param handler the value for TMe_OutStockInfo.Handler
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setHandler(String handler) {
@@ -201,7 +191,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.OutType
      *
      * @return the value of TMe_OutStockInfo.OutType
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Byte getOuttype() {
@@ -213,7 +202,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.OutType
      *
      * @param outtype the value for TMe_OutStockInfo.OutType
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setOuttype(Byte outtype) {
@@ -225,7 +213,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.TotalMoney
      *
      * @return the value of TMe_OutStockInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getTotalmoney() {
@@ -237,7 +224,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.TotalMoney
      *
      * @param totalmoney the value for TMe_OutStockInfo.TotalMoney
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setTotalmoney(Float totalmoney) {
@@ -249,7 +235,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method returns the value of the database column TMe_OutStockInfo.Remark
      *
      * @return the value of TMe_OutStockInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -261,7 +246,6 @@ public class TmeOutstockinfo implements Serializable {
      * This method sets the value of the database column TMe_OutStockInfo.Remark
      *
      * @param remark the value for TMe_OutStockInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -287,13 +271,13 @@ public class TmeOutstockinfo implements Serializable {
         }
         TmeOutstockinfo other = (TmeOutstockinfo) that;
         return (this.getOutbillcode() == null ? other.getOutbillcode() == null : this.getOutbillcode().equals(other.getOutbillcode()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
-            && (this.getOuttime() == null ? other.getOuttime() == null : this.getOuttime().equals(other.getOuttime()))
-            && (this.getHandler() == null ? other.getHandler() == null : this.getHandler().equals(other.getHandler()))
-            && (this.getOuttype() == null ? other.getOuttype() == null : this.getOuttype().equals(other.getOuttype()))
-            && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getOperid() == null ? other.getOperid() == null : this.getOperid().equals(other.getOperid()))
+                && (this.getOuttime() == null ? other.getOuttime() == null : this.getOuttime().equals(other.getOuttime()))
+                && (this.getHandler() == null ? other.getHandler() == null : this.getHandler().equals(other.getHandler()))
+                && (this.getOuttype() == null ? other.getOuttype() == null : this.getOuttype().equals(other.getOuttype()))
+                && (this.getTotalmoney() == null ? other.getTotalmoney() == null : this.getTotalmoney().equals(other.getTotalmoney()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
     }
 
     /**

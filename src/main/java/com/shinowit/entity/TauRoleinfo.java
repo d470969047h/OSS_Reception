@@ -64,7 +64,6 @@ public class TauRoleinfo implements Serializable {
      * This method returns the value of the database column TAu_RoleInfo.RoleID
      *
      * @return the value of TAu_RoleInfo.RoleID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRoleid() {
@@ -76,7 +75,6 @@ public class TauRoleinfo implements Serializable {
      * This method sets the value of the database column TAu_RoleInfo.RoleID
      *
      * @param roleid the value for TAu_RoleInfo.RoleID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRoleid(String roleid) {
@@ -88,7 +86,6 @@ public class TauRoleinfo implements Serializable {
      * This method returns the value of the database column TAu_RoleInfo.ID
      *
      * @return the value of TAu_RoleInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -100,7 +97,6 @@ public class TauRoleinfo implements Serializable {
      * This method sets the value of the database column TAu_RoleInfo.ID
      *
      * @param id the value for TAu_RoleInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -112,7 +108,6 @@ public class TauRoleinfo implements Serializable {
      * This method returns the value of the database column TAu_RoleInfo.RoleName
      *
      * @return the value of TAu_RoleInfo.RoleName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRolename() {
@@ -124,7 +119,6 @@ public class TauRoleinfo implements Serializable {
      * This method sets the value of the database column TAu_RoleInfo.RoleName
      *
      * @param rolename the value for TAu_RoleInfo.RoleName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRolename(String rolename) {
@@ -136,7 +130,6 @@ public class TauRoleinfo implements Serializable {
      * This method returns the value of the database column TAu_RoleInfo.SortID
      *
      * @return the value of TAu_RoleInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Short getSortid() {
@@ -148,7 +141,6 @@ public class TauRoleinfo implements Serializable {
      * This method sets the value of the database column TAu_RoleInfo.SortID
      *
      * @param sortid the value for TAu_RoleInfo.SortID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSortid(Short sortid) {
@@ -160,7 +152,6 @@ public class TauRoleinfo implements Serializable {
      * This method returns the value of the database column TAu_RoleInfo.State
      *
      * @return the value of TAu_RoleInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getState() {
@@ -172,7 +163,6 @@ public class TauRoleinfo implements Serializable {
      * This method sets the value of the database column TAu_RoleInfo.State
      *
      * @param state the value for TAu_RoleInfo.State
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setState(Boolean state) {
@@ -184,7 +174,6 @@ public class TauRoleinfo implements Serializable {
      * This method returns the value of the database column TAu_RoleInfo.checked
      *
      * @return the value of TAu_RoleInfo.checked
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getChecked() {
@@ -196,7 +185,6 @@ public class TauRoleinfo implements Serializable {
      * This method sets the value of the database column TAu_RoleInfo.checked
      *
      * @param checked the value for TAu_RoleInfo.checked
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setChecked(Boolean checked) {
@@ -222,11 +210,11 @@ public class TauRoleinfo implements Serializable {
         }
         TauRoleinfo other = (TauRoleinfo) that;
         return (this.getRoleid() == null ? other.getRoleid() == null : this.getRoleid().equals(other.getRoleid()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getRolename() == null ? other.getRolename() == null : this.getRolename().equals(other.getRolename()))
-            && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
-            && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()))
-            && (this.getChecked() == null ? other.getChecked() == null : this.getChecked().equals(other.getChecked()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getRolename() == null ? other.getRolename() == null : this.getRolename().equals(other.getRolename()))
+                && (this.getSortid() == null ? other.getSortid() == null : this.getSortid().equals(other.getSortid()))
+                && (this.getState() == null ? other.getState() == null : this.getState().equals(other.getState()))
+                && (this.getChecked() == null ? other.getChecked() == null : this.getChecked().equals(other.getChecked()));
     }
 
     /**

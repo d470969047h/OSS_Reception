@@ -9,175 +9,168 @@
 // mail: renzi.mrc@gmail.com
 //**************************************************************
 
-(function($){
+(function ($) {
 
-		$.fn.jqueryzoom = function(options){
+    $.fn.jqueryzoom = function (options) {
 
-		var settings = {
-				xzoom: 200,		//zoomed width default width
-				yzoom: 200,		//zoomed div default width
-				offset: 10,		//zoomed div default offset
-				position: "right", //zoomed div default position,offset position is to the right of the image
-				preload: 1
+        var settings = {
+            xzoom: 200,		//zoomed width default width
+            yzoom: 200,		//zoomed div default width
+            offset: 10,		//zoomed div default offset
+            position: "right", //zoomed div default position,offset position is to the right of the image
+            preload: 1
 
-			};
+        };
 
-			if(options) {
-				$.extend(settings, options);
-			}
+        if (options) {
+            $.extend(settings, options);
+        }
 
-		    var noalt='';
+        var noalt = '';
 
-		    $(this).hover(function(){
+        $(this).hover(function () {
 
-		    var imageLeft = this.offsetLeft;
-		    var imageRight = this.offsetRight;
-		    var imageTop =  $(this).get(0).offsetTop;
-		    var imageWidth = $(this).children('img').get(0).offsetWidth;
-		    var imageHeight = $(this).children('img').get(0).offsetHeight;
-
-
-                noalt= $(this).children("img").attr("alt");
-
-		    var bigimage = $(this).children("img").attr("jqimg");
-                $(this).children("img").attr("alt",'');
-
-		    if($("div.zoomdiv").get().length == 0){
-
-		    $(this).after("<div class='zoomdiv'><img class='bigimg' src='"+bigimage+"'/></div>");
-
-		    $(this).append("<div class='jqZoomPup'>&nbsp;</div>");
-
-		    }
+            var imageLeft = this.offsetLeft;
+            var imageRight = this.offsetRight;
+            var imageTop = $(this).get(0).offsetTop;
+            var imageWidth = $(this).children('img').get(0).offsetWidth;
+            var imageHeight = $(this).children('img').get(0).offsetHeight;
 
 
-		    if(settings.position == "right"){
+            noalt = $(this).children("img").attr("alt");
 
-		    leftpos = imageLeft + imageWidth + settings.offset;
+            var bigimage = $(this).children("img").attr("jqimg");
+            $(this).children("img").attr("alt", '');
 
-		    }else{
+            if ($("div.zoomdiv").get().length == 0) {
 
-		    leftpos = imageLeft - settings.xzoom - settings.offset;
+                $(this).after("<div class='zoomdiv'><img class='bigimg' src='" + bigimage + "'/></div>");
 
-		    }
+                $(this).append("<div class='jqZoomPup'>&nbsp;</div>");
 
-		    $("div.zoomdiv").css({ top: imageTop,left: leftpos });
+            }
 
-		    $("div.zoomdiv").width(settings.xzoom);
 
-		    $("div.zoomdiv").height(settings.yzoom);
+            if (settings.position == "right") {
+
+                leftpos = imageLeft + imageWidth + settings.offset;
+
+            } else {
+
+                leftpos = imageLeft - settings.xzoom - settings.offset;
+
+            }
+
+            $("div.zoomdiv").css({top: imageTop, left: leftpos});
+
+            $("div.zoomdiv").width(settings.xzoom);
+
+            $("div.zoomdiv").height(settings.yzoom);
 
             $("div.zoomdiv").show();
 
 
+            $(document.body).mousemove(function (e) {
 
 
-					$(document.body).mousemove(function(e){
+                $("div.jqZoomPup").hide();
 
 
+                var bigwidth = $(".bigimg").get(0).offsetWidth;
 
-                   $("div.jqZoomPup").hide();
+                var bigheight = $(".bigimg").get(0).offsetHeight;
 
+                var scaley = 'x';
 
-				    var bigwidth = $(".bigimg").get(0).offsetWidth;
-
-				    var bigheight = $(".bigimg").get(0).offsetHeight;
-
-				    var scaley ='x';
-
-				    var scalex= 'y';
+                var scalex = 'y';
 
 
-				    if(isNaN(scalex)|isNaN(scaley)){
+                if (isNaN(scalex) | isNaN(scaley)) {
 
-				    var scalex = (bigwidth/imageWidth);
+                    var scalex = (bigwidth / imageWidth);
 
-				    var scaley = (bigheight/imageHeight);
-
-
-
-				    $("div.jqZoomPup").width((settings.xzoom)/scalex );
-
-		    		$("div.jqZoomPup").height((settings.yzoom)/scaley);
+                    var scaley = (bigheight / imageHeight);
 
 
-                     $('div.jqZoomPup').show();
+                    $("div.jqZoomPup").width((settings.xzoom) / scalex);
 
-                     $("div.jqZoomPup").css('visibility','visible');
-
-
-				   }
+                    $("div.jqZoomPup").height((settings.yzoom) / scaley);
 
 
-			    	mouse = new MouseEvent(e);
+                    $('div.jqZoomPup').show();
+
+                    $("div.jqZoomPup").css('visibility', 'visible');
 
 
-                    xpos = mouse.x - $("div.jqZoomPup").width()/2 - imageLeft;
-
-                    ypos = mouse.y - $("div.jqZoomPup").height()/2 - imageTop ;
+                }
 
 
+                mouse = new MouseEvent(e);
 
 
-                    xpos = (mouse.x - $("div.jqZoomPup").width()/2 < imageLeft ) ? 0 : (mouse.x + $("div.jqZoomPup").width()/2 > imageWidth + imageLeft ) ?  (imageWidth -$("div.jqZoomPup").width() -2)  : xpos;
+                xpos = mouse.x - $("div.jqZoomPup").width() / 2 - imageLeft;
 
-					ypos = (mouse.y - $("div.jqZoomPup").height()/2 < imageTop ) ? 0 : (mouse.y + $("div.jqZoomPup").height()/2  > imageHeight + imageTop ) ?  (imageHeight - $("div.jqZoomPup").height() -2 ) : ypos;
-
-
-
-                    $("div.jqZoomPup").css({ top: ypos,left: xpos });
-
-                    $("div.jqZoomPup").show();
+                ypos = mouse.y - $("div.jqZoomPup").height() / 2 - imageTop;
 
 
-                    //scrolly = mouse.y - imageTop - ($("div.zoomdiv").height()*1/scaley)/2 ;
+                xpos = (mouse.x - $("div.jqZoomPup").width() / 2 < imageLeft ) ? 0 : (mouse.x + $("div.jqZoomPup").width() / 2 > imageWidth + imageLeft ) ? (imageWidth - $("div.jqZoomPup").width() - 2) : xpos;
 
-					scrolly = ypos;
-
-					$("div.zoomdiv").get(0).scrollTop = scrolly * scaley;
-
-					scrollx = xpos;
-
-				    //scrollx =    mouse.x - imageLeft - ($("div.zoomdiv").width()*1/scalex)/2 ;
-
-					$("div.zoomdiv").get(0).scrollLeft = (scrollx) * scalex ;
+                ypos = (mouse.y - $("div.jqZoomPup").height() / 2 < imageTop ) ? 0 : (mouse.y + $("div.jqZoomPup").height() / 2 > imageHeight + imageTop ) ? (imageHeight - $("div.jqZoomPup").height() - 2 ) : ypos;
 
 
-				    });
-		    },function(){
+                $("div.jqZoomPup").css({top: ypos, left: xpos});
 
-                   $(this).children("img").attr("alt",noalt);
-		       $(document.body).unbind("mousemove");
-		       $("div.jqZoomPup").remove();
-		       $("div.zoomdiv").remove();
+                $("div.jqZoomPup").show();
 
-		    });
 
-             count=0;
+                //scrolly = mouse.y - imageTop - ($("div.zoomdiv").height()*1/scaley)/2 ;
 
-		if(settings.preload){
+                scrolly = ypos;
 
-		$('body').append("<div style='display:none;' class='jqPreload"+count+"'>sdsdssdsd</div>");
+                $("div.zoomdiv").get(0).scrollTop = scrolly * scaley;
 
-		$(this).each(function(){
+                scrollx = xpos;
 
-        var imagetopreload= $(this).children("img").attr("jqimg");
+                //scrollx =    mouse.x - imageLeft - ($("div.zoomdiv").width()*1/scalex)/2 ;
 
-        var content = jQuery('div.jqPreload'+count+'').html();
+                $("div.zoomdiv").get(0).scrollLeft = (scrollx) * scalex;
 
-        jQuery('div.jqPreload'+count+'').html(content+'<img src=\"'+imagetopreload+'\">');
 
-		});
+            });
+        }, function () {
 
-		}
+            $(this).children("img").attr("alt", noalt);
+            $(document.body).unbind("mousemove");
+            $("div.jqZoomPup").remove();
+            $("div.zoomdiv").remove();
 
-		}
+        });
+
+        count = 0;
+
+        if (settings.preload) {
+
+            $('body').append("<div style='display:none;' class='jqPreload" + count + "'>sdsdssdsd</div>");
+
+            $(this).each(function () {
+
+                var imagetopreload = $(this).children("img").attr("jqimg");
+
+                var content = jQuery('div.jqPreload' + count + '').html();
+
+                jQuery('div.jqPreload' + count + '').html(content + '<img src=\"' + imagetopreload + '\">');
+
+            });
+
+        }
+
+    }
 
 })(jQuery);
 
 function MouseEvent(e) {
-this.x = e.pageX
-this.y = e.pageY
+    this.x = e.pageX
+    this.y = e.pageY
 }
 
 

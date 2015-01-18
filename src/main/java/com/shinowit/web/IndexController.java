@@ -42,13 +42,13 @@ public class IndexController {
             MerCpageIndex = 1;
         }
 
-        if(null==tmemerchandisec.getMerchandisecid()){
+        if (null == tmemerchandisec.getMerchandisecid()) {
             if (null == merDispageIndex) {
                 merDispageIndex = 1;
             }
-        }else{
-            if(null==merDispageIndex){
-                merDispageIndex=1;
+        } else {
+            if (null == merDispageIndex) {
+                merDispageIndex = 1;
             }
             //商品信息展示
             result.addObject("tmemerchandisec", tmemerchandisec);
@@ -68,7 +68,6 @@ public class IndexController {
         example.setPageIndex(MerCpageIndex);
         example.setPageSize(10);
         example1.createCriteria().andMerchandisecidIsNotNull();
-
 
 
         //商品信息

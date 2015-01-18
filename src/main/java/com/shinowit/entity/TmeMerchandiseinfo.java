@@ -128,7 +128,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.MerchandiseID
      *
      * @return the value of TMe_MerchandiseInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandiseid() {
@@ -140,7 +139,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.MerchandiseID
      *
      * @param merchandiseid the value for TMe_MerchandiseInfo.MerchandiseID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandiseid(String merchandiseid) {
@@ -152,7 +150,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.ID
      *
      * @return the value of TMe_MerchandiseInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getId() {
@@ -164,7 +161,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.ID
      *
      * @param id the value for TMe_MerchandiseInfo.ID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setId(Integer id) {
@@ -176,7 +172,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.UnitID
      *
      * @return the value of TMe_MerchandiseInfo.UnitID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getUnitid() {
@@ -188,7 +183,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.UnitID
      *
      * @param unitid the value for TMe_MerchandiseInfo.UnitID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUnitid(Integer unitid) {
@@ -200,7 +194,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.ProStatusID
      *
      * @return the value of TMe_MerchandiseInfo.ProStatusID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getProstatusid() {
@@ -212,7 +205,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.ProStatusID
      *
      * @param prostatusid the value for TMe_MerchandiseInfo.ProStatusID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setProstatusid(Integer prostatusid) {
@@ -224,7 +216,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.MerchandiseCID
      *
      * @return the value of TMe_MerchandiseInfo.MerchandiseCID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandisecid() {
@@ -236,7 +227,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.MerchandiseCID
      *
      * @param merchandisecid the value for TMe_MerchandiseInfo.MerchandiseCID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandisecid(String merchandisecid) {
@@ -248,7 +238,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.MerchandiseName
      *
      * @return the value of TMe_MerchandiseInfo.MerchandiseName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandisename() {
@@ -260,7 +249,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.MerchandiseName
      *
      * @param merchandisename the value for TMe_MerchandiseInfo.MerchandiseName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandisename(String merchandisename) {
@@ -272,7 +260,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.MerchandiseAB
      *
      * @return the value of TMe_MerchandiseInfo.MerchandiseAB
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getMerchandiseab() {
@@ -284,7 +271,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.MerchandiseAB
      *
      * @param merchandiseab the value for TMe_MerchandiseInfo.MerchandiseAB
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setMerchandiseab(String merchandiseab) {
@@ -296,7 +282,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.Price
      *
      * @return the value of TMe_MerchandiseInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Float getPrice() {
@@ -308,7 +293,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.Price
      *
      * @param price the value for TMe_MerchandiseInfo.Price
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPrice(Float price) {
@@ -320,7 +304,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.SaleStatus
      *
      * @return the value of TMe_MerchandiseInfo.SaleStatus
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getSalestatus() {
@@ -332,7 +315,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.SaleStatus
      *
      * @param salestatus the value for TMe_MerchandiseInfo.SaleStatus
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSalestatus(Boolean salestatus) {
@@ -344,7 +326,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.Spec
      *
      * @return the value of TMe_MerchandiseInfo.Spec
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getSpec() {
@@ -356,7 +337,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.Spec
      *
      * @param spec the value for TMe_MerchandiseInfo.Spec
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setSpec(String spec) {
@@ -368,7 +348,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.Describe
      *
      * @return the value of TMe_MerchandiseInfo.Describe
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getDescribe() {
@@ -380,7 +359,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.Describe
      *
      * @param describe the value for TMe_MerchandiseInfo.Describe
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setDescribe(String describe) {
@@ -392,7 +370,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.PicPath
      *
      * @return the value of TMe_MerchandiseInfo.PicPath
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getPicpath() {
@@ -404,7 +381,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.PicPath
      *
      * @param picpath the value for TMe_MerchandiseInfo.PicPath
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setPicpath(String picpath) {
@@ -416,7 +392,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.ClickCount
      *
      * @return the value of TMe_MerchandiseInfo.ClickCount
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getClickcount() {
@@ -428,7 +403,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.ClickCount
      *
      * @param clickcount the value for TMe_MerchandiseInfo.ClickCount
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setClickcount(Integer clickcount) {
@@ -440,7 +414,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method returns the value of the database column TMe_MerchandiseInfo.Remark
      *
      * @return the value of TMe_MerchandiseInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getRemark() {
@@ -452,7 +425,6 @@ public class TmeMerchandiseinfo implements Serializable {
      * This method sets the value of the database column TMe_MerchandiseInfo.Remark
      *
      * @param remark the value for TMe_MerchandiseInfo.Remark
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setRemark(String remark) {
@@ -478,19 +450,19 @@ public class TmeMerchandiseinfo implements Serializable {
         }
         TmeMerchandiseinfo other = (TmeMerchandiseinfo) that;
         return (this.getMerchandiseid() == null ? other.getMerchandiseid() == null : this.getMerchandiseid().equals(other.getMerchandiseid()))
-            && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getUnitid() == null ? other.getUnitid() == null : this.getUnitid().equals(other.getUnitid()))
-            && (this.getProstatusid() == null ? other.getProstatusid() == null : this.getProstatusid().equals(other.getProstatusid()))
-            && (this.getMerchandisecid() == null ? other.getMerchandisecid() == null : this.getMerchandisecid().equals(other.getMerchandisecid()))
-            && (this.getMerchandisename() == null ? other.getMerchandisename() == null : this.getMerchandisename().equals(other.getMerchandisename()))
-            && (this.getMerchandiseab() == null ? other.getMerchandiseab() == null : this.getMerchandiseab().equals(other.getMerchandiseab()))
-            && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()))
-            && (this.getSalestatus() == null ? other.getSalestatus() == null : this.getSalestatus().equals(other.getSalestatus()))
-            && (this.getSpec() == null ? other.getSpec() == null : this.getSpec().equals(other.getSpec()))
-            && (this.getDescribe() == null ? other.getDescribe() == null : this.getDescribe().equals(other.getDescribe()))
-            && (this.getPicpath() == null ? other.getPicpath() == null : this.getPicpath().equals(other.getPicpath()))
-            && (this.getClickcount() == null ? other.getClickcount() == null : this.getClickcount().equals(other.getClickcount()))
-            && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
+                && (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+                && (this.getUnitid() == null ? other.getUnitid() == null : this.getUnitid().equals(other.getUnitid()))
+                && (this.getProstatusid() == null ? other.getProstatusid() == null : this.getProstatusid().equals(other.getProstatusid()))
+                && (this.getMerchandisecid() == null ? other.getMerchandisecid() == null : this.getMerchandisecid().equals(other.getMerchandisecid()))
+                && (this.getMerchandisename() == null ? other.getMerchandisename() == null : this.getMerchandisename().equals(other.getMerchandisename()))
+                && (this.getMerchandiseab() == null ? other.getMerchandiseab() == null : this.getMerchandiseab().equals(other.getMerchandiseab()))
+                && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()))
+                && (this.getSalestatus() == null ? other.getSalestatus() == null : this.getSalestatus().equals(other.getSalestatus()))
+                && (this.getSpec() == null ? other.getSpec() == null : this.getSpec().equals(other.getSpec()))
+                && (this.getDescribe() == null ? other.getDescribe() == null : this.getDescribe().equals(other.getDescribe()))
+                && (this.getPicpath() == null ? other.getPicpath() == null : this.getPicpath().equals(other.getPicpath()))
+                && (this.getClickcount() == null ? other.getClickcount() == null : this.getClickcount().equals(other.getClickcount()))
+                && (this.getRemark() == null ? other.getRemark() == null : this.getRemark().equals(other.getRemark()));
     }
 
     /**

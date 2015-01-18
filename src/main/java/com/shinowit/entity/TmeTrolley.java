@@ -49,7 +49,6 @@ public class TmeTrolley implements Serializable {
      * This method returns the value of the database column TMe_Trolley.TrolleyID
      *
      * @return the value of TMe_Trolley.TrolleyID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Integer getTrolleyid() {
@@ -61,7 +60,6 @@ public class TmeTrolley implements Serializable {
      * This method sets the value of the database column TMe_Trolley.TrolleyID
      *
      * @param trolleyid the value for TMe_Trolley.TrolleyID
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setTrolleyid(Integer trolleyid) {
@@ -73,7 +71,6 @@ public class TmeTrolley implements Serializable {
      * This method returns the value of the database column TMe_Trolley.UserName
      *
      * @return the value of TMe_Trolley.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public String getUsername() {
@@ -85,7 +82,6 @@ public class TmeTrolley implements Serializable {
      * This method sets the value of the database column TMe_Trolley.UserName
      *
      * @param username the value for TMe_Trolley.UserName
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setUsername(String username) {
@@ -97,7 +93,6 @@ public class TmeTrolley implements Serializable {
      * This method returns the value of the database column TMe_Trolley.CreateDate
      *
      * @return the value of TMe_Trolley.CreateDate
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Date getCreatedate() {
@@ -109,7 +104,6 @@ public class TmeTrolley implements Serializable {
      * This method sets the value of the database column TMe_Trolley.CreateDate
      *
      * @param createdate the value for TMe_Trolley.CreateDate
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setCreatedate(Date createdate) {
@@ -121,7 +115,6 @@ public class TmeTrolley implements Serializable {
      * This method returns the value of the database column TMe_Trolley.TrolleyState
      *
      * @return the value of TMe_Trolley.TrolleyState
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public Boolean getTrolleystate() {
@@ -133,7 +126,6 @@ public class TmeTrolley implements Serializable {
      * This method sets the value of the database column TMe_Trolley.TrolleyState
      *
      * @param trolleystate the value for TMe_Trolley.TrolleyState
-     *
      * @mbggenerated Wed Jan 07 14:34:57 CST 2015
      */
     public void setTrolleystate(Boolean trolleystate) {
@@ -159,9 +151,9 @@ public class TmeTrolley implements Serializable {
         }
         TmeTrolley other = (TmeTrolley) that;
         return (this.getTrolleyid() == null ? other.getTrolleyid() == null : this.getTrolleyid().equals(other.getTrolleyid()))
-            && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
-            && (this.getCreatedate() == null ? other.getCreatedate() == null : this.getCreatedate().equals(other.getCreatedate()))
-            && (this.getTrolleystate() == null ? other.getTrolleystate() == null : this.getTrolleystate().equals(other.getTrolleystate()));
+                && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
+                && (this.getCreatedate() == null ? other.getCreatedate() == null : this.getCreatedate().equals(other.getCreatedate()))
+                && (this.getTrolleystate() == null ? other.getTrolleystate() == null : this.getTrolleystate().equals(other.getTrolleystate()));
     }
 
     /**

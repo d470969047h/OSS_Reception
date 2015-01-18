@@ -65,10 +65,10 @@ public class TrolleyController {
             trolleyitemExample.createCriteria().andIsbuyEqualTo(false);//未付款的商品
             trolleyitemExample.createCriteria().andTrolleyidEqualTo(currentTrolleyID);//当前未成交的购物车
             trolleyitemList = trolleyitemDAO.selectByExample(trolleyitemExample);//查询以上条件的商品
-            float totalMoney=0;//总金额
-            Integer count=0;
-            for(TmeTrolleyitem detail:trolleyitemList){
-                totalMoney=totalMoney+detail.getSubtotal();
+            float totalMoney = 0;//总金额
+            Integer count = 0;
+            for (TmeTrolleyitem detail : trolleyitemList) {
+                totalMoney = totalMoney + detail.getSubtotal();
             }
             result.addObject("trolleyitemList", trolleyitemList);
             result.addObject("totalMoney", totalMoney);
@@ -230,9 +230,9 @@ public class TrolleyController {
 
     //修改购物车商品数量
     @RequestMapping(value = "/updateTolleyItem/{num}/{trolleyitemid}")
-    public String updateTolleyItem(@PathVariable("num") Integer num,@PathVariable("trolleyitemid") Integer trolleyitemid, RedirectAttributes redirectAttributes) {
+    public String updateTolleyItem(@PathVariable("num") Integer num, @PathVariable("trolleyitemid") Integer trolleyitemid, RedirectAttributes redirectAttributes) {
 
-            TmeTrolleyitem trolleyitem=trolleyitemDAO.selectByPrimaryKey(trolleyitemid);
+        TmeTrolleyitem trolleyitem = trolleyitemDAO.selectByPrimaryKey(trolleyitemid);
 
         trolleyitem.setNum(num);//更改后的商品数量
         //单价
@@ -252,7 +252,7 @@ public class TrolleyController {
             return "redirect:/trolley/trolley";
         } else {
             redirectAttributes.addFlashAttribute("someMsg", "亲！您的宝贝数量修改失败啦！");
-            return "redirect:/trolley/trolley" ;
+            return "redirect:/trolley/trolley";
         }
     }
 
@@ -262,10 +262,10 @@ public class TrolleyController {
     public String deleteTolleyItem(@PathVariable("trolleyitemid") Integer trolleyitemid, RedirectAttributes redirectAttributes) {
 
         Integer isSuccess = 0;
-        TmeTrolleyitem trolleyitem=null;
+        TmeTrolleyitem trolleyitem = null;
         try {
-             trolleyitem=trolleyitemDAO.selectByPrimaryKey(trolleyitemid);
-        }catch (Exception e){
+            trolleyitem = trolleyitemDAO.selectByPrimaryKey(trolleyitemid);
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
@@ -275,31 +275,31 @@ public class TrolleyController {
             e.printStackTrace();
         }
         if (isSuccess > 0) {
-            TmeTrolleyitemExample trolleyitemExample=new TmeTrolleyitemExample();
+            TmeTrolleyitemExample trolleyitemExample = new TmeTrolleyitemExample();
             trolleyitemExample.createCriteria().andTrolleyidEqualTo(trolleyitem.getTrolleyid());
-            List<TmeTrolleyitem> trolleyitemList=null;
+            List<TmeTrolleyitem> trolleyitemList = null;
             try {
-                trolleyitemList=trolleyitemDAO.selectByExample(trolleyitemExample);
-            }catch (Exception e){
+                trolleyitemList = trolleyitemDAO.selectByExample(trolleyitemExample);
+            } catch (Exception e) {
                 e.printStackTrace();
             }
-            if(trolleyitemList.size()>0){
+            if (trolleyitemList.size() > 0) {
                 redirectAttributes.addFlashAttribute("someMsg", "亲！您的宝贝已经被你删除了哦！");
                 return "redirect:/trolley/trolley";
-            }else {
-                Integer i=0;
+            } else {
+                Integer i = 0;
                 try {
-                    i=trolleyDAO.deleteByPrimaryKey(trolleyitem.getTrolleyid());
-                }catch (Exception e){
+                    i = trolleyDAO.deleteByPrimaryKey(trolleyitem.getTrolleyid());
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
-                if(i>0){
+                if (i > 0) {
                     redirectAttributes.addFlashAttribute("someMsg", "亲！您的宝贝已经被你删除了哦！");
-                    return "redirect:/trolley/trolley" ;
+                    return "redirect:/trolley/trolley";
                 }
             }
         }
         redirectAttributes.addFlashAttribute("someMsg", "亲！您的宝贝已经被你删除了哦！");
-        return "redirect:/trolley/trolley" ;
+        return "redirect:/trolley/trolley";
     }
 }
