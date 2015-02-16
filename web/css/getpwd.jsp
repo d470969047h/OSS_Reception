@@ -71,7 +71,7 @@ div {
 .Emai {
     margin: 0 auto;
     margin-bottom: 10px;
-    border: #ccc 1px solid;
+    <%--border: #ccc 1px solid;--%>
     padding: 15px;
 }
 

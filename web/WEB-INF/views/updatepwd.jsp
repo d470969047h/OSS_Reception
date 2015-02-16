@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <%String path = request.getContextPath();%>
@@ -13,6 +14,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>密码找回</title>
     <%@ include file="/common/commonhead.jsp" %>
+    <style>
+        .errorClass {
+            color: #ff0000;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -87,45 +94,46 @@
     <!--body start -->
     <div id="body">
         <div id="Login">
-            <h1 align="left"><span class="h1"><img src="<%=path%>/images/buttonPassword.gif" alt="找回密码"/></span></h1>
+            <h1 align="left" style="width:490px;"><span class="h1"><img src="<%=path%>/images/buttonPassword.gif"
+                                                                        alt="找回密码"/></span></h1>
 
-            <div class="FPaContent">
-                <form name="Form1" method="post" action="GetPwdStep2_email.aspx" id="Form1">
-                    <div>
-                        <input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden"/>
-                        <input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden"/>
-                        <input name="__VIEWSTATE" id="__VIEWSTATE"
-                               value="/wEPDwUJMjcxMDA0NzQ3DxYGHgdfdXNlcklEBQc4MTAyNzEzHgdfbTJNYWlsBRAxNzk3NzgzMThAcXEuY29tHglfY2hlY2tOdW0FJGVhYzViZWU0LTg3OTMtNDkxNy1hM2ZjLWQ5MzYzYjUyYjBmNmRk"
-                               type="hidden"/>
-                    </div>
-                    <script type="text/javascript">
-                        //<![CDATA[
-                        var theForm = document.forms['Form1'];
-                        if (!theForm) {
-                            theForm = document.Form1;
-                        }
-                        function __doPostBack(eventTarget, eventArgument) {
-                            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-                                theForm.__EVENTTARGET.value = eventTarget;
-                                theForm.__EVENTARGUMENT.value = eventArgument;
-                                theForm.submit();
-                            }
-                        }
-                        //]]>
-                    </script>
-                    <div>
-                        <input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgL+lPmEAwLM9PumDw=="
-                               type="hidden"/>
-                    </div>
-                    <p class="mailTi"><span class="mailTitle">我们已经把验证邮件发送至您的邮箱，请在未关闭当前浏览器内通过邮件内的链接继续设置新的密码。</span><br/>
-                    </p>
-                </form>
-                <p class="dxSty">　</p>
+            <div class="Emai">
+                <div class="dlTitle">
+                </div>
 
-                <p class="textSty">如果有任何疑问，请访问晖晖在线 <span class="color3"><a href="#" target="_blank">帮助中心</a></span>，或与晖晖在线客服部取得联系。<br/>
-                    客服邮箱：service@huihuizaixian.com<br/>
-                    客服热线：400-650-7099 (仅收市话费，客服工作时间：8：00-次日凌晨1：00)<br/>
-                    客服传真：0315-83603605</p>
+                <div class="dlContent">
+                    <label class="errorClass" >${some_msg}</label>
+                    <div class="dlContentC">
+                        <p class="colSty1"> 请输入您的用户名和注册时使用的Email地址：</p>
+
+                        <form:form action="${ctx}/password/updatePassword" method="post" modelAttribute="member">
+                        <p class="pSty1B pSty2B"> 请输入您的用户名：
+                            <form:input path="username" cssStyle="margin-left: 24px;"></form:input>
+                        </p>
+                        <p class="pSty1B pSty2B"> 请输入您新的密码：
+                            <form:password path="pwd" cssStyle="margin-left: 24px;"></form:password>
+                        </p>
+                           <p class="pSty1B pSty2B"> 请再次输入您新的密码：
+                               <input id="RexPassWord" name="password" maxlength="16" type="password">
+                          </p>
+                        <!-- onchange="EmailGetPwd(false);"-->
+                          <input type="submit"
+                                 style="width:105px;float: left;margin: 20px 0 0 150px; height:25px; border:0;cursor: pointer; background-image: url(<%=path%>/images/button_000.gif)"
+                                 value=""/>
+                      </form:form>
+                        <p class="pSty4">如果该电子邮箱地址不正确，或者您已经忘记注册时填写的邮箱地址，那我们无法帮您找回密码，建议创建一个新帐户。</p>
+
+                        <p class="pSty7 color3" style="margin-top:20px;">如果有任何疑问，请访问晖晖在线购物<a href="#"
+                                                                                          target="_blank">帮助中心</a>，或与口口香客服部取得联系。
+                        </p>
+
+                        <p class="pSty7">客服邮箱：service@koukouxiang.com</p>
+
+                        <p class="pSty7">客服热线：400-650-7099 (仅收市话费，客服工作时间：8：00-次日凌晨1：00)</p>
+
+                        <p class="pSty7">客服传真：0315-83607020</p>
+                    </div>
+                </div>
             </div>
         </div>
         <br class="spacer"/>

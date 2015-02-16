@@ -13,7 +13,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-    <title>无标题文档</title>
+    <title>地址确认</title>
     <%@ include file="/common/commonhead.jsp" %>
 </head>
 
@@ -21,17 +21,17 @@
 <div id="box">
     <!--top start -->
     <div id="top">
-        <a href="index.html"><img src="<%=path%>/images/logo.gif" alt="Estimation" width="255" height="58" border="0"
+        <a href="index.html"><img src="<%=path%>/images/logo.jpg" alt="Estimation" width="255" height="58" border="0"
                                   class="logo"/></a>
 
         <p class="topDiv"></p>
 
         <p class="navLeft"></p>
         <ul>
-            <li><a href="index.html" class="hover">首页</a></li>
+            <li><a href="<%=path%>/index/index" class="hover">首页</a></li>
             <li><a href="#">关于我们</a></li>
             <li><a href="#">在线客服</a></li>
-            <li class="chart"><a href="chart.html">购物车</a></li>
+            <li class="chart"><a href="<%=path%>/trolley/trolley">购物车</a></li>
         </ul>
         <p class="navRight"></p>
 
@@ -51,14 +51,26 @@
             <li><a href="#">经典肉类</a></li>
             <li><a href="#">进口零食</a></li>
             <li><a href="#">美味糖果</a></li>
-            <li><a href="#">天然干果</a></li>
-            <li><a href="#">蒙古奶酪</a></li>
             <li><a href="#">台湾牛轧糖</a></li>
-            <li><a href="#">蜜饯果脯</a></li>
+            <%
+                if (null==request.getSession(true).getAttribute("userName")){
+            %>
             <li class="last">
-                <div id="welcome" class="welmsgdiv2"><span>您好，欢迎光临果果香。</span><a href="login.html">登录</a><span
-                        class="Lloginfg">&nbsp;</span><a href="reg.html">注册</a></div>
+                <div id="welcome" class="welmsgdiv2">
+                    <span>您好，欢迎光临晖晖在线购物。</span>
+                    <a href="<%=path%>/login/login">登录</a>
+                    <span class="Lloginfg">&nbsp;</span>
+                    <a href="<%=path%>/reg/reg">注册</a>
+                </div>
             </li>
+            <%}else{%>
+            <li class="last">
+                <div id="welcome" class="welmsgdiv2">
+                    <span style="color: red">您好, <%=request.getSession(true).getAttribute("userName")%></span>
+                    <span class="Lloginfg">&nbsp;</span>
+                    <a href="<%=path%>/login/layout">注销</a>
+                </div>
+                    <%}%>
         </ul>
     </div>
     <!--header end -->
@@ -186,8 +198,6 @@
         <p class="copyright">Copyright 2010 All Rights Reserved 冀ICP证xxxxxx号
 
         </p>
-
-        <p class="design"><a href="#" target="_blank" class="link">启奥科技</a></p>
     </div>
     <!--footer end -->
     <!--body end -->

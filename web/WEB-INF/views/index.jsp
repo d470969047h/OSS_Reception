@@ -22,6 +22,7 @@
     </style>
     <%@ include file="/common/commonhead.jsp" %>
     <script type="text/javascript" src="<%=path%>/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="<%=path%>/js/AdScroll.js"></script>
     <script type="text/javascript" src="<%=path%>/js/jquery.paginate.js"></script>
     <link type="text/css" href="<%=path%>/css/pagestyle.jsp" rel="stylesheet"/>
     <script type="text/javascript">
@@ -62,7 +63,7 @@
 <div id="box">
     <!--top start -->
     <div id="top">
-        <a href="index.html"><img src="<%=path%>/images/logo.gif" alt="Estimation" width="255" height="58" border="0"
+        <a href="index.html"><img src="<%=path%>/images/logo.jpg" alt="Estimation" width="255" height="58" border="0"
                                   class="logo"/></a>
 
         <%--辅助存储标签,用户分页--%>
@@ -93,7 +94,7 @@
     <div id="header">
         <!--nav start -->
         <div class="nav">
-            ${some_msg}
+
             <ul>
                 <li class="first"><a href="#">新品上架</a></li>
                 <li><a href="#">坚果炒货</a></li>
@@ -101,15 +102,26 @@
                 <li><a href="#">经典肉类</a></li>
                 <li><a href="#">进口零食</a></li>
                 <li><a href="#">美味糖果</a></li>
-                <li><a href="#">天然干果</a></li>
-                <li><a href="#">蒙古奶酪</a></li>
                 <li><a href="#">台湾牛轧糖</a></li>
-                <li><a href="#">蜜饯果脯</a></li>
+                    <%
+                        if (null==request.getSession(true).getAttribute("userName")){
+                    %>
                 <li class="last">
-                    <div id="welcome" class="welmsgdiv2"><span>您好，欢迎光临果果香。</span><a
-                            href="<%=path%>/login/login">登录</a><span class="Lloginfg">&nbsp;</span><a
-                            href="<%=path%>/reg/reg">注册</a></div>
+                <div id="welcome" class="welmsgdiv2">
+                    <span>您好，欢迎光临晖晖在线购物。</span>
+                    <a href="<%=path%>/login/login">登录</a>
+                    <span class="Lloginfg">&nbsp;</span>
+                    <a href="<%=path%>/reg/reg">注册</a>
+                </div>
                 </li>
+                <%}else{%>
+                    <li class="last">
+                    <div id="welcome" class="welmsgdiv2">
+                    <span>您好,${currentUser}</span>
+                    <span class="Lloginfg">&nbsp;</span>
+                    <a href="<%=path%>/login/layout">注销</a>
+                    </div>
+             <%}%>
             </ul>
         </div>
         <!--nav end -->
@@ -117,29 +129,31 @@
     </div>
     <!--header end -->
     <!--guide01 start -->
-    <div class="guide01">
-        <img src="<%=path%>/images/guide_01.jpg" width="973" height="62" border="0" usemap="#Map"/>
-        <map name="Map" id="Map">
-            <area shape="rect" coords="398,11,493,51" href="#"/>
-            <area shape="rect" coords="540,12,633,51" href="#"/>
-            <area shape="rect" coords="684,12,790,53" href="#"/>
-            <area shape="rect" coords="830,10,953,54" href="#"/>
-        </map>
-    </div>
+    <%--<div class="guide01">--%>
+        <%--<img src="<%=path%>/images/guide_01.jpg" width="973" height="62" border="0" usemap="#Map"/>--%>
+        <%--<map name="Map" id="Map">--%>
+            <%--<area shape="rect" coords="398,11,493,51" href="#"/>--%>
+            <%--<area shape="rect" coords="540,12,633,51" href="#"/>--%>
+            <%--<area shape="rect" coords="684,12,790,53" href="#"/>--%>
+            <%--<area shape="rect" coords="830,10,953,54" href="#"/>--%>
+        <%--</map>--%>
+    <%--</div>--%>
     <!--guide01 end -->
     <!--guide02 start-->
-    <div class="guide02"><a href="#"><img src="<%=path%>/images/guide_02.jpg" width="492" height="107"
-                                          border="0"/></a><a href="#"><img src="<%=path%>/images/guide_03.jpg"
-                                                                           width="481" height="107" border="0"/></a>
-    </div>
+
+    <%--<div class="guide02"><a href="#"><img src="<%=path%>/images/guide_02.jpg" width="492" height="107"--%>
+                                          <%--border="0"/></a><a href="#"><img src="<%=path%>/images/guide_03.jpg"--%>
+                                                                           <%--width="481" height="107" border="0"/></a>--%>
+    <%--</div>--%>
+
     <!--guide02 end -->
     <!--recommend start-->
-    <div class="recommend">
-        <h2>推荐美国山核桃长寿果 大杏仁 15.8/半斤 奶香味</h2>
+    <%--<div class="recommend">--%>
+        <%--<h2>推荐美国山核桃长寿果 大杏仁 15.8/半斤 奶香味</h2>--%>
 
-        <p><img src="<%=path%>/images/coma.gif" width="15" height="12" style="margin-right:12px;"/>山核桃,又名胡桃、马核桃、核桃楸果,是乔木核桃楸的种子。山核桃营养丰富,价值很高,是一种优质木本高级油料作物。此外,还含锌、锰、铬等微量元素与尼克酸等。<img
-                src="<%=path%>/images/coma_inverse.gif" width="15" height="12" style="margin-left:12px;"/></p>
-    </div>
+        <%--<p><img src="<%=path%>/images/coma.gif" width="15" height="12" style="margin-right:12px;"/>山核桃,又名胡桃、马核桃、核桃楸果,是乔木核桃楸的种子。山核桃营养丰富,价值很高,是一种优质木本高级油料作物。此外,还含锌、锰、铬等微量元素与尼克酸等。<img--%>
+                <%--src="<%=path%>/images/coma_inverse.gif" width="15" height="12" style="margin-left:12px;"/></p>--%>
+    <%--</div>--%>
     <!--recommend end-->
     <!--body start -->
     <div id="body">
@@ -180,9 +194,29 @@
         <!--leftMain end -->
         <!--mid start -->
         <div id="mid">
-            <h2>新品上市</h2>
+            <h2>年度大促销</h2>
             <!--hotsale_ad start -->
-            <div class="hotsale_ad"><img src="<%=path%>/images/pic1.jpg" width="780" height="274"/></div>
+            <div class="content_right">
+            <div class="hotsale_ad">
+                <%--<img src="<%=path%>/images/pic1.jpg" width="780" height="274"/>--%>
+                <div class="ad" >
+                    <ul class="slider" >
+                        <li><img src="<%=path%>/images/scroll/pic1.jpg" width="780" height="274"/></li>
+                        <li><img src="<%=path%>/images/scroll/manyThings.jpg" width="780" height="274"/></li>
+                        <li><img src="<%=path%>/images/scroll/shape.jpg" width="780" height="274"/></li>
+                        <li><img src="<%=path%>/images/scroll/somany.jpg" width="780" height="274"/></li>
+                        <li><img src="<%=path%>/images/scroll/book.gif" width="780" height="274"/></li>
+                    </ul>
+                    <ul class="num" >
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
             <!--hotsale_ad end -->
             <!--hotsale start -->
             <div class="hotsale">
@@ -222,7 +256,7 @@
 
         </p>
 
-        <p class="design"><a href="http://www.CSSK8.com/" target="_blank" class="link">启奥科技</a></p>
+        <%--<p class="design"><a href="http://www.CSSK8.com/" target="_blank" class="link">启奥科技</a></p>--%>
     </div>
     <!--footer end -->
     <!--body end -->

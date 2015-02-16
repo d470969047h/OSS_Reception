@@ -24,4 +24,24 @@ public class UpdateUserInfoDAO {
         }
         return result;
     }
+
+    public boolean updateUserPassword(String username,String pwd) {
+        boolean result = false;
+        String sql = "update TBa_MemberInfo set Pwd=? where UserName=?";
+        int i = jdbcTemplate.update(sql, new Object[]{pwd,username}, new int[]{Types.VARCHAR,Types.VARCHAR});
+        if (i > 0) {
+            result = true;
+        }
+        return result;
+    }
+
+    public boolean updateUserRemark(String username,String valid_string) {
+        boolean result = false;
+        String sql = "update TBa_MemberInfo set Remark=? where UserName=?";
+        int i = jdbcTemplate.update(sql, new Object[]{valid_string,username}, new int[]{Types.VARCHAR,Types.VARCHAR});
+        if (i > 0) {
+            result = true;
+        }
+        return result;
+    }
 }

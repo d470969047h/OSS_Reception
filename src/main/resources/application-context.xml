@@ -71,7 +71,7 @@
     <!--end of log4jdbc,SQL调试日志框架-->
 
 
-    <!--邮件发送-->
+
     <!-- transaction manager, use JtaTransactionManager for global tx -->
     <bean id="transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -98,7 +98,7 @@
         <!-- 用户名 发信的邮箱 -->
         <property name="username" value="1073736605@qq.com"/>
         <!--  密码   -->
-        <property name="password" value="123456789wyh"/>
+        <property name="password" value="wyh199221"/>
         <!-- SMTP服务器验证 -->
         <property name="javaMailProperties">
             <props>
@@ -123,7 +123,7 @@
     <bean id="htmlEmail" class="com.shinowit.tools.SendHtmlEmail">
         <property name="smtpServer" value="smtp.qq.com"></property>
         <property name="sendFromEmail" value="1073736605@qq.com"></property>
-        <property name="sendPassword" value="123456789wyh"></property>
+        <property name="sendPassword" value="wyh199221"></property>
     </bean>
 </beans>
 

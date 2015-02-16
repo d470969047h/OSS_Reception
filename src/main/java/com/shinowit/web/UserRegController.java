@@ -53,7 +53,7 @@ public class UserRegController {
     //用户注册
     @RequestMapping(value = "/userReg")
     public String userReg(@Valid @ModelAttribute("member") TbaMemberinfo tbaMemberinfo, BindingResult bindingResult, @RequestParam("password") String password,
-                          @RequestParam("validCode") String validCode, RedirectAttributes redirectAttributes, Model model, HttpServletRequest request) {
+                          @RequestParam("validCode") String validCode, HttpServletRequest request) {
 
         //判断用户是否存在
         TbaMemberinfoExample example = new TbaMemberinfoExample();
@@ -61,16 +61,19 @@ public class UserRegController {
         example.createCriteria().andEmailEqualTo(tbaMemberinfo.getEmail());
         List<TbaMemberinfo> memberinfoList = memberDAO.selectByExample(example);
         if (memberinfoList.size() > 0) {
+            request.setAttribute("some_msg", "该用户已存在！");
             return "/reg";
         }
 
         //判断两次密码是否相同
         if (!tbaMemberinfo.getPwd().equals(password)) {
+            request.setAttribute("some_msg", "两次输入的密码不一致！");
             return "/reg";
         }
         //判断验证码是否正确
         HttpSession session = request.getSession(true);
         if (!(session.getAttribute("rand")).equals(validCode)) {
+            request.setAttribute("some_msg", "验证码输入不正确！");
             return "/reg";
         }
 
@@ -87,7 +90,7 @@ public class UserRegController {
         tbaMemberinfo.setStatus(false);
         int isSuccess = memberDAO.insert(tbaMemberinfo);
         if (isSuccess > 0) {
-            String valid_url = "<a href='http://10.2.25.51:8080/reg/valid?username=" + tbaMemberinfo.getUsername() + "&validString=" + valid_string + "' target='_balnk'>点击我激活账号</a>";
+            String valid_url = "<a href='http://127.0.0.1:10086/reg/valid?username=" + tbaMemberinfo.getUsername() + "&validString=" + valid_string + "' target='_balnk'>点击我激活账号</a>";
             try {
                 email.sendMessage(tbaMemberinfo.getEmail(), "用户激活", valid_url);
             } catch (MessagingException e) {

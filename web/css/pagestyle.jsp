@@ -140,5 +140,55 @@ span.jPag-snext-img {
     background-color: #f7f7f7;
 }
 
-
+/*create by daihui on 2015.2.15*/
+/*滚动广告样式*/
+.content_right .ad {
+    margin-bottom:10px;
+    width:780px;
+    height:274px;
+    overflow:hidden;
+    position:relative;
+}
+.content_right .slider,.content_right .num{
+    position:absolute;
+}
+.content_right .slider li{
+    list-style:none;
+    display:inline;
+}
+.content_right .slider img{
+    width:780px;
+    height:274px;
+    display:block;
+}
+.content_right .num{
+    right:5px;
+    bottom:5px;
+}
+.content_right .num li{
+    float: left;
+    color: #FF7300;
+    text-align: center;
+    line-height: 16px;
+    width: 16px;
+    height: 16px;
+    font-family: Arial;
+    font-size: 12px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 3px 1px;
+    border: 1px solid #FF7300;
+    background-color: #fff;
+}
+.content_right .num li.on{
+    color: #fff;
+    line-height: 21px;
+    width: 21px;
+    height: 21px;
+    font-size: 16px;
+    margin: 0 1px;
+    border: 0;
+    background-color: #FF7300;
+    font-weight: bold;
+}
 

@@ -2,239 +2,225 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f81376e-3e67-40c9-8d16-dd962688dc5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/dic/main2012.dic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/AnalyzeContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/CJKSegmenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/CN_QuantifierSegmenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/CharacterUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/cfg/Configuration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/cfg/DefaultConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/dic/DictSegment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/dic/Dictionary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/dic/Hit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/IKAnalyzer.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/lucene/IKAnalyzer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/sample/IKAnalzyerDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/IKArbitrator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/query/IKQueryExpressionParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/IKSegmenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/lucene/IKTokenizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/ISegmenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/LetterSegmenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/Lexeme.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/LexemePath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/sample/LuceneIndexAndSearchDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/tools/LuceneTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_randomizedtesting_junit4_ant_2_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_randomizedtesting_randomizedtesting_runner_2_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_codecs_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_test_framework_4_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/core/QuickSortSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/query/SWMCQueryBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/addressTo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/addressTo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ext.dic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/wltea/analyzer/dic/quantifier.dic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/stopword.dic" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Intellij-IDEA-F2E" afterPath="$PROJECT_DIR$/../Intellij-IDEA-F2E" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MySqlDGTool" afterPath="$PROJECT_DIR$/../MySqlDGTool" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/scroll/book.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/scroll/manyThings.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/scroll/pic1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/scroll/shape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/scroll/somany.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/AdScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/LuceneController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/PasswordController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/layout.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sqljdbc4_4_0_2206_100.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/updatepwd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/welcome.jsp" />
+      <change type="DELETED" beforePath="E:\GitRepository\Intellij-IDEA-F2E" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\MySqlDGTool" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\artifacts\Shiro_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\artifacts\Shiro_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__asm_asm_3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__cglib_cglib_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__com_alibaba_druid_1_0_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_databind_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__commons_io_commons_io_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__javax_servlet_jstl_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__net_sf_ehcache_ehcache_core_2_6_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_apache_poi_poi_3_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_apache_shiro_shiro_ehcache_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_apache_shiro_shiro_quartz_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_aspectj_aspectjrt_1_6_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_6_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_hibernate_hibernate_validator_4_3_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_mybatis_mybatis_3_2_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_opensymphony_quartz_quartz_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_aop_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_beans_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_context_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_context_support_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_core_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_expression_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_jdbc_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_orm_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_test_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_tx_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_web_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\libraries\Maven__taglibs_standard_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\Shiro.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\entity\SysUser.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\framework\convert\CustomDateConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\framework\convert\CustomDateSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\framework\convert\CustomDateTimeSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\framework\convert\CustomTimestampConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\security\PasswordHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\security\credentials\RetryLimitSimpleCredentialsMatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\security\dao\UserDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\security\filter\ValidFormAuthenticationFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\security\realm\UserRealm.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\java\com\shinowit\web\LoginController.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\application-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\messages_en_US.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\messages_zh_CN.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\shiro.ini" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\spring-shiro-web.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\main\resources\springmvc_servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\src\test\java\Shiro.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\web\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\Shiro\web\static\login.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\artifacts\SpringMVC_Mybatis_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\artifacts\SpringMVC_Mybatis_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__asm_asm_3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__cglib_cglib_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__com_alibaba_druid_1_0_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_databind_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__com_mchange_c3p0_0_9_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__javax_mail_mail_1_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__javax_servlet_jsp_api_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__javax_servlet_jstl_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__javax_servlet_servlet_api_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__javax_validation_validation_api_1_0_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_27.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_aspectj_aspectjrt_1_6_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_aspectj_aspectjweaver_1_6_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_hibernate_hibernate_validator_4_3_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_mybatis_mybatis_3_2_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_aop_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_beans_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_context_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_context_support_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_core_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_expression_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_jdbc_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_orm_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_test_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_tx_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_web_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_11_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\libraries\Maven__taglibs_standard_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\META-INF\persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\SpringMVC_Mybatis.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\dao\mapper\StudentMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\dao\mapper\Teacher1Mapper.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\dao\mapper\UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\entity\Student.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\entity\StudentExample.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\entity\Teacher1.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\entity\Teacher1Example.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\entity\User.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\entity\UserExample.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\tools\Email.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\tools\SendHtmlEmail.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\web\EmailController.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\java\com\shinowit\web\UserRegContorller.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\application-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\com\shinowit\dao\mapper\StudentMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\com\shinowit\dao\mapper\Teacher1Mapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\com\shinowit\dao\mapper\UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\message.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\message_zh_CN.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\main\resources\springmvc_servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\src\test\java\com\shinowit\test\TestMybatis.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\web\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\web\html\email.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\SpringMVC_Mybatis\web\html\reg.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\mybatis_page_plugin.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\oss" afterPath="" />
+      <change type="DELETED" beforePath="E:\GitRepository\pom.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringMVC_SSH" afterPath="$PROJECT_DIR$/../SpringMVC_SSH" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../oss" afterPath="$PROJECT_DIR$/../oss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/AddressController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/AddressController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/Calculation.js" afterPath="$PROJECT_DIR$/web/js/Calculation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/interceptor/CheckLoginInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/interceptor/CheckLoginInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/City.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/City.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/CityExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/CityExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/CityMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/CityMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/CityMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/CityMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/ConfirmAddressController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/ConfirmAddressController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomDateConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomDateConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomDateSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomDateSerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomDateTimeSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomDateTimeSerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomTimestampConverter.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/convert/CustomTimestampConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/District.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/District.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/DistrictExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/DistrictExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/DistrictMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/DistrictMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/DistrictMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/DistrictMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/InnerpageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/InnerpageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/tools/LuceneTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/tools/LuceneTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OSS_Reception.iml" afterPath="$PROJECT_DIR$/OSS_Reception.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/OrderConfiremController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/OrderConfiremController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/Province.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/Province.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/ProvinceExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/ProvinceExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/ProvinceMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/ProvinceMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/ProvinceMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/ProvinceMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorization.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorizationExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorizationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauAuthorizationMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauAuthorizationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauAuthorizationMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauAuthorizationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauMenuinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauMenuinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauMenuinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauMenuinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauMenuinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauOperinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauOperinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauOperinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauOperinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauOperinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauRoleinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauRoleinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TauRoleinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauRoleinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TauRoleinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaDeliveryinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaLoginfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaLoginfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaLoginfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaLoginfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaLoginfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMemberinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaMemberinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMemberinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaMemberinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplierinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplierinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplierinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplierinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplierinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaSupplyrecordinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/shinowit/test/Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/shinowit/test/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockdetailsinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeInstockinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeInstockinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeInstockinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandisecinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeMerchandiseinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderdetailsinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOrderinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOrderinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOrderinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockdetailsinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeOutstockinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeOutstockinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeOutstockinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeProstatusinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeProstatusinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeProstatusinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeProstatusinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeProstatusinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeStockinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeStockinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeStockinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeStockinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeStockinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolley.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolley.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitem.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitemExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeTrolleyitemExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyitemMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeTrolleyitemMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyitemMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeTrolleyitemMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/entity/TmeUnitinfoExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeUnitinfoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/TmeUnitinfoMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeUnitinfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/shinowit/dao/mapper/TmeUnitinfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/dao/UpdateUserInfoDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/framework/dao/UpdateUserInfoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/shinowit/web/UserRegController.java" afterPath="$PROJECT_DIR$/src/main/java/com/shinowit/web/UserRegController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/addressTo.jsp" afterPath="$PROJECT_DIR$/web/css/addressTo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/application-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chart.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chart.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/commonhead.jsp" afterPath="$PROJECT_DIR$/web/common/commonhead.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/getpwd.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/getpwd.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/getpwd.jsp" afterPath="$PROJECT_DIR$/web/css/getpwd.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/getpwdover.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/getpwdover.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/gmxx.jsp" afterPath="$PROJECT_DIR$/web/css/gmxx.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/gwc.jsp" afterPath="$PROJECT_DIR$/web/css/gwc.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/index.jsp" afterPath="$PROJECT_DIR$/web/css/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/innerstyle.jsp" afterPath="$PROJECT_DIR$/web/css/innerstyle.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/web/js/jquery-1.9.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.1.4.2-min.js" afterPath="$PROJECT_DIR$/web/js/jquery.1.4.2-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.jqzoom.js" afterPath="$PROJECT_DIR$/web/js/jquery.jqzoom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.paginate.js" afterPath="$PROJECT_DIR$/web/js/jquery.paginate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/liandong.js" afterPath="$PROJECT_DIR$/web/js/liandong.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/loginandreg.jsp" afterPath="$PROJECT_DIR$/web/css/loginandreg.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/pagestyle.jsp" afterPath="$PROJECT_DIR$/web/css/pagestyle.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/reg.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/reg.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.jsp" afterPath="$PROJECT_DIR$/web/css/style.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/test.js" afterPath="$PROJECT_DIR$/web/js/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/test.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/test.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/validCode.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/validCode.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\CityMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/CityMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\DistrictMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/DistrictMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\ProvinceMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/ProvinceMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TauAuthorizationMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TauAuthorizationMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TauMenuinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TauMenuinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TauOperinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TauOperinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TauRoleinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TauRoleinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TbaDeliveryinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TbaDeliveryinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TbaLoginfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TbaLoginfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TbaMembeaddrinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TbaMembeaddrinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TbaMemberinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TbaMemberinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TbaSupplierinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TbaSupplierinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TbaSupplyrecordinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TbaSupplyrecordinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeInstockdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeInstockdetailsinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeInstockinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeInstockinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeMerchandisecinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeMerchandisecinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeMerchandiseinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeMerchandiseinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeOrderdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeOrderdetailsinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeOrderinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeOrderinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeOutstockdetailsinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeOutstockdetailsinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeOutstockinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeOutstockinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeProstatusinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeProstatusinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeStockinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeStockinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeTrolleyMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeTrolleyMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeTrolleyitemMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeTrolleyitemMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\src\main\resources\com\shinowit\dao\mapper\TmeUnitinfoMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/classes/com/shinowit/dao/mapper/TmeUnitinfoMapper.xml" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\WEB-INF\views\innerpage.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/WEB-INF/views/innerpage.jsp" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\css\getpwd.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/css/getpwd.jsp" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\css\gwc.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/css/gwc.jsp" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\css\index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/css/index.jsp" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\css\loginandreg.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/css/loginandreg.jsp" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\css\pagestyle.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/css/pagestyle.jsp" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\css\style.jsp" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/css/style.jsp" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\js\jquery-1.9.1.js" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/js/jquery-1.9.1.js" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\js\jquery.jqzoom.js" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/js/jquery.jqzoom.js" />
-      <change type="MOVED" beforePath="E:\GitRepository\OSS_Reception\web\js\jquery.paginate.js" afterPath="$PROJECT_DIR$/out/artifacts/OSS_Reception_war_exploded/js/jquery.paginate.js" />
     </list>
     <ignored path="OSS_Reception.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -260,62 +246,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="getpwdover.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/getpwdover.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6354" max-vertical-offset="6732">
-              <caret line="353" column="0" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.516129" vertical-offset="1404" max-vertical-offset="2826">
+              <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityMapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/dao/mapper/CityMapper.java">
+      <file leaf-file-name="PasswordController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/PasswordController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1296">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CityExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/CityExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="11790">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30100334" vertical-offset="0" max-vertical-offset="774">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TauAuthorizationExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/TauAuthorizationExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="11250">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="City.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/City.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="3258">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1179" max-vertical-offset="2052">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -333,7 +281,36 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/web/welcome.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/tools/LuceneTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shinowit/test/Test.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/LuceneController.java" />
+        <option value="$PROJECT_DIR$/web/css/pagestyle.jsp" />
+        <option value="$PROJECT_DIR$/web/js/AdScroll.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/layout.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/reg.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/web/css/addressTo.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chart.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java" />
+        <option value="$PROJECT_DIR$/web/css/getpwd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/framework/interceptor/CheckLoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/framework/dao/UpdateUserInfoDAO.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/getpwd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/UserRegController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/updatepwd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shinowit/web/PasswordController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/getpwdover.jsp" />
       </list>
     </option>
   </component>
@@ -416,7 +393,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -467,20 +444,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="OSS_Reception">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -523,76 +486,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OSS_Reception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OSS_Reception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OSS_Reception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OSS_Reception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OSS_Reception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OSS_Reception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shinowit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -607,6 +500,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -621,6 +586,84 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="shinowit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shinowit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSS_Reception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shinowit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="OSS_Reception">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -639,7 +682,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -653,14 +696,23 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/GitRepository/OSS_Reception/web/WEB-INF/views/chartadderss.jsp" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.IntelliJIdea13/config/jdbc-drivers/sqljdbc4-4.0.2206.100.jar!/" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shinowit.tools" />
+      <recent name="com.shinowit.framework.dao" />
+      <recent name="com.shinowit.web" />
+      <recent name="com.shinowit.framework.interceptor" />
+      <recent name="com.shinowit.framework.convert.interceptor" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitRepository\OSS_Reception\src\main\java" />
-      <recent name="E:\GitRepository\OSS_Reception\src\main\resources" />
-      <recent name="E:\GitRepository\OSS_Reception\web\css" />
+      <recent name="E:\GitRepository\OSS_Reception\web\WEB-INF\views" />
+      <recent name="E:\GitRepository\OSS_Reception\web\images" />
+      <recent name="E:\GitRepository\OSS_Reception\web\images\scroll" />
       <recent name="E:\GitRepository\OSS_Reception\web\js" />
-      <recent name="E:\GitRepository\OSS_Reception\web\sql" />
+      <recent name="E:\GitRepository\OSS_Reception\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitRepository\OSS_Reception\web\html" />
@@ -670,15 +722,8 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shinowit.tools" />
-      <recent name="com.shinowit.framework.dao" />
-      <recent name="com.shinowit.web" />
-      <recent name="com.shinowit.framework.interceptor" />
-      <recent name="com.shinowit.framework.convert.interceptor" />
-    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Tomcat Server.OSS_Reception">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -940,9 +985,8 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.53" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="OSS_Reception" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.53" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -1020,7 +1064,7 @@
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.OSS_Reception" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1074,7 +1118,13 @@
       <workItem from="1421559242351" duration="78000" />
       <workItem from="1421559403100" duration="165000" />
       <workItem from="1421559686109" duration="717000" />
-      <workItem from="1421560650715" duration="67000" />
+      <workItem from="1421560650715" duration="17401000" />
+      <workItem from="1421628116585" duration="10640000" />
+      <workItem from="1421653703163" duration="179000" />
+      <workItem from="1421659147479" duration="1250000" />
+      <workItem from="1423212129527" duration="2936000" />
+      <workItem from="1423965178249" duration="25817000" />
+      <workItem from="1424077377286" duration="17544000" />
     </task>
     <task id="LOCAL-00001" summary="商品图片">
       <created>1419827049633</created>
@@ -1104,11 +1154,15 @@
       <created>1420619872503</created>
       <updated>1420619872503</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="收货地添加和索引没做">
+      <created>1421561039959</created>
+      <updated>1421561039959</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458600000" />
+    <option name="totallyTimeSpent" value="534300000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1131,10 +1185,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5584" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1142,18 +1196,19 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5088" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4688" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18588771" sideWeight="0.5008" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3888" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18588771" sideWeight="0.5008" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26399395" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23065251" sideWeight="0.4992" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26626325" sideWeight="0.4992" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1161,7 +1216,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3904" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1218,11 +1272,12 @@
     <MESSAGE value="新添加了购物车表和购物车明细表" />
     <MESSAGE value="添加到购物车，还差alert功能和库存关联" />
     <MESSAGE value="购物车部分还差jQuery选择器" />
-    <option name="LAST_COMMIT_MESSAGE" value="购物车部分还差jQuery选择器" />
+    <MESSAGE value="收货地添加和索引没做" />
+    <option name="LAST_COMMIT_MESSAGE" value="收货地添加和索引没做" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="89" />
+      <option name="time" value="100" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -1242,300 +1297,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80597013" vertical-offset="378" max-vertical-offset="5310">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3548387" vertical-offset="1602" max-vertical-offset="2376">
-          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.paginate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43076923" vertical-offset="1998" max-vertical-offset="4572">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/innerstyle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="18054">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/gwc.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3042">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/common/commonhead.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34676006" vertical-offset="0" max-vertical-offset="571">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/NumAdd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50437826" vertical-offset="0" max-vertical-offset="612">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32258064" vertical-offset="2988" max-vertical-offset="3852">
-          <caret line="176" column="15" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3655914" vertical-offset="2460" max-vertical-offset="5634">
-          <caret line="148" column="87" selection-start-line="148" selection-start-column="87" selection-end-line="148" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.1.4.2-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.476923" vertical-offset="2268" max-vertical-offset="53982">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61290324" vertical-offset="324" max-vertical-offset="1026">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/getpwd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.22580644" vertical-offset="774" max-vertical-offset="1764">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/pagestyle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7110332" vertical-offset="1661" max-vertical-offset="2394">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sql/three.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33846155" vertical-offset="0" max-vertical-offset="62892">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15588">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/OrderConfiremController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65625" vertical-offset="0" max-vertical-offset="630">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/InnerpageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7881944" vertical-offset="50" max-vertical-offset="810">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1207814" vertical-offset="1356" max-vertical-offset="1962">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/UserRegController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6234458" vertical-offset="747" max-vertical-offset="1764">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/liandong.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73846155" vertical-offset="108" max-vertical-offset="3942">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="76266">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.38709676" vertical-offset="432" max-vertical-offset="2376">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09375" vertical-offset="1998" max-vertical-offset="3456">
-          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.21875" vertical-offset="1044" max-vertical-offset="1998">
-          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc_servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13676731" vertical-offset="1219" max-vertical-offset="1782">
-          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0285715" vertical-offset="648" max-vertical-offset="2448">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/gmxx.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.548387" vertical-offset="2142" max-vertical-offset="5706">
-          <caret line="167" column="30" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/addressTo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5989492" vertical-offset="0" max-vertical-offset="571">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/addressTo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54180604" vertical-offset="0" max-vertical-offset="598">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29032257" vertical-offset="1494" max-vertical-offset="2700">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMembeaddrinfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33846155" vertical-offset="0" max-vertical-offset="4698">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.419355" vertical-offset="2052" max-vertical-offset="4284">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/ConfirmAddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="720">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/TrolleyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="4554">
-          <caret line="261" column="128" selection-start-line="261" selection-start-column="128" selection-end-line="261" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5591398" vertical-offset="4494" max-vertical-offset="6984">
-          <caret line="267" column="42" selection-start-line="267" selection-start-column="42" selection-end-line="267" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2970">
-          <caret line="95" column="85" selection-start-line="95" selection-start-column="85" selection-end-line="95" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0645162" vertical-offset="1944" max-vertical-offset="5400">
-          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.11.RELEASE/spring-web-3.2.11.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.951505" vertical-offset="1529" max-vertical-offset="4500">
-          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4837607" vertical-offset="986" max-vertical-offset="2124">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wltea/analyzer/sample/LuceneIndexAndSearchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6923077" vertical-offset="0" max-vertical-offset="2322">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wltea/analyzer/cfg/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.36120403" vertical-offset="216" max-vertical-offset="1116">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ext.dic">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598">
@@ -1543,10 +1304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/tools/SendHtmlEmail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/CityExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="1152">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.48160535" vertical-offset="0" max-vertical-offset="10800">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1554,23 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10260">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="3258">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6354" max-vertical-offset="6732">
-          <caret line="353" column="0" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1578,29 +1322,480 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1296">
           <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="3258">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/OrderConfiremController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.632107" vertical-offset="0" max-vertical-offset="630">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/ConfirmAddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9230769" vertical-offset="0" max-vertical-offset="720">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2206655" vertical-offset="0" max-vertical-offset="571">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.shinowit:OSS_Reception:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.shinowit:OSS_Reception:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9</node>
+            <node x="" y="">javax.servlet:jstl:jar:1.1.2</node>
+            <node x="" y="">org.springframework:spring-orm:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.apache.lucene:lucene-queryparser:jar:4.10.3/org.apache.lucene:lucene-core:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.11.RELEASE/org.springframework:spring-context:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.11.RELEASE/org.springframework:spring-expression:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:3.2.11.RELEASE/org.springframework:spring-context:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.2.8</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.2.2</node>
+            <node x="" y="">org.hibernate:hibernate-validator:jar:4.3.1.Final/javax.validation:validation-api:jar:1.0.0.GA</node>
+            <node x="" y="">com.googlecode.log4jdbc:log4jdbc:jar:1.2</node>
+            <node x="" y="">org.mybatis.generator:mybatis-generator-core:jar:1.3.2</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.2.2</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.2.2</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.11.RELEASE/org.springframework:spring-tx:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.aspectj:aspectjrt:jar:1.6.10</node>
+            <node x="" y="">com.mchange:c3p0:jar:0.9.2.1/com.mchange:mchange-commons-java:jar:0.2.3.4</node>
+            <node x="" y="">org.apache.lucene:lucene-queries:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.11.RELEASE/org.springframework:spring-aop:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.apache.lucene:lucene-test-framework:jar:4.10.3/org.apache.ant:ant:jar:1.8.2</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.hibernate:hibernate-validator:jar:4.3.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="" y="">org.springframework:spring-aop:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:3.2.11.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-tx:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-expression:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0/javax.servlet:servlet-api:jar:2.4</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.2.11.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">javax.mail:mail:jar:1.4.7</node>
+            <node x="" y="">org.apache.lucene:lucene-queryparser:jar:4.10.3/org.apache.lucene:lucene-queries:jar:4.10.3</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.2.2/com.fasterxml.jackson.core:jackson-core:jar:2.2.2</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">org.apache.lucene:lucene-test-framework:jar:4.10.3/com.carrotsearch.randomizedtesting:junit4-ant:jar:2.1.6</node>
+            <node x="" y="">org.springframework:spring-test:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.11.RELEASE</node>
+            <node x="" y="">asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:3.2.11.RELEASE/org.springframework:spring-tx:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.apache.lucene:lucene-core:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.11.RELEASE/org.springframework:spring-expression:jar:3.2.11.RELEASE</node>
+            <node x="" y="">javax.mail:mail:jar:1.4.7/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.2.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.2.2</node>
+            <node x="" y="">org.apache.lucene:lucene-analyzers-common:jar:4.10.3/org.apache.lucene:lucene-core:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-aop:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.11.RELEASE/org.springframework:spring-aop:jar:3.2.11.RELEASE</node>
+            <node x="" y="">cglib:cglib:jar:2.2.2</node>
+            <node x="" y="">log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.apache.lucene:lucene-analyzers-common:jar:4.10.3</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.27</node>
+            <node x="" y="">org.apache.lucene:lucene-highlighter:jar:4.10.3</node>
+            <node x="" y="">org.apache.lucene:lucene-highlighter:jar:4.10.3/org.apache.lucene:lucene-core:jar:4.10.3</node>
+            <node x="" y="">org.apache.lucene:lucene-highlighter:jar:4.10.3/org.apache.lucene:lucene-queries:jar:4.10.3</node>
+            <node x="" y="">org.apache.lucene:lucene-queryparser:jar:4.10.3</node>
+            <node x="" y="">org.apache.lucene:lucene-queryparser:jar:4.10.3/org.apache.lucene:lucene-sandbox:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.11.RELEASE/org.springframework:spring-context:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:3.2.11.RELEASE/org.springframework:spring-jdbc:jar:3.2.11.RELEASE</node>
+            <node x="" y="">com.shinowit:OSS_Reception:1.0-SNAPSHOT</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.6.10</node>
+            <node x="" y="">org.apache.lucene:lucene-test-framework:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-expression:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.apache.lucene:lucene-test-framework:jar:4.10.3/org.apache.lucene:lucene-codecs:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.11.RELEASE/org.springframework:spring-web:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.apache.lucene:lucene-test-framework:jar:4.10.3/org.apache.lucene:lucene-core:jar:4.10.3</node>
+            <node x="" y="">com.googlecode.log4jdbc:log4jdbc:jar:1.2/org.slf4j:slf4j-api:jar:1.6.0</node>
+            <node x="" y="">org.springframework:spring-aop:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.apache.lucene:lucene-highlighter:jar:4.10.3/org.apache.lucene:lucene-memory:jar:4.10.3</node>
+            <node x="" y="">org.apache.lucene:lucene-queries:jar:4.10.3/org.apache.lucene:lucene-core:jar:4.10.3</node>
+            <node x="" y="">org.springframework:spring-test:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-validator:jar:4.3.1.Final</node>
+            <node x="" y="">org.springframework:spring-orm:jar:3.2.11.RELEASE/org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.apache.lucene:lucene-test-framework:jar:4.10.3/com.carrotsearch.randomizedtesting:randomizedtesting-runner:jar:2.1.6</node>
+            <node x="" y="">cglib:cglib:jar:2.2.2/asm:asm:jar:3.3.1</node>
+            <node x="" y="">org.apache.lucene:lucene-test-framework:jar:4.10.3/junit:junit:jar:4.10</node>
+            <node x="" y="">org.springframework:spring-beans:jar:3.2.11.RELEASE</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0</node>
+            <node x="" y="">javax.validation:validation-api:jar:1.0.0.GA</node>
+            <node x="" y="">org.springframework:spring-beans:jar:3.2.11.RELEASE/org.springframework:spring-core:jar:3.2.11.RELEASE</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">com.mchange:c3p0:jar:0.9.2.1</node>
+            <node x="" y="">taglibs:standard:jar:1.1.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9944822888283378" x="207.0" y="1894.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2484" max-vertical-offset="6750">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/LuceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0" vertical-offset="1977" max-vertical-offset="3204">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/tools/LuceneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2769231" vertical-offset="0" max-vertical-offset="2628">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        <state vertical-scroll-proportion="-0.087804876" vertical-offset="324" max-vertical-offset="3150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/CityExample.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shinowit/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10800">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.77070063" vertical-offset="164" max-vertical-offset="792">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc_servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1782">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/20120418.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/pic1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/pagestyle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40105078" vertical-offset="2327" max-vertical-offset="3600">
+          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common/commonhead.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/AdScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.092307694" vertical-offset="54" max-vertical-offset="77310">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/validCode.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2232">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.48387095" vertical-offset="270" max-vertical-offset="4194">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/layout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47285464" vertical-offset="0" max-vertical-offset="571">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8" vertical-offset="108" max-vertical-offset="2034">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/addressTo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19672132" vertical-offset="0" max-vertical-offset="738">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.902985" vertical-offset="0" max-vertical-offset="7182">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/innerpage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23507462" vertical-offset="0" max-vertical-offset="5634">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartadderss.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3870968" vertical-offset="0" max-vertical-offset="5634">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48387095" vertical-offset="0" max-vertical-offset="3834">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartorder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28315413" vertical-offset="76" max-vertical-offset="3078">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/chartover.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18637992" vertical-offset="130" max-vertical-offset="3078">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/getpwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3548387" vertical-offset="1188" max-vertical-offset="5688">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.676923" vertical-offset="0" max-vertical-offset="1710">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7.jar!/javax/mail/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7097902" vertical-offset="823" max-vertical-offset="1134">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3286713" vertical-offset="1780" max-vertical-offset="2448">
+          <caret line="120" column="11" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/tools/SendHtmlEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0153847" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36379927" vertical-offset="1831" max-vertical-offset="4896">
+          <caret line="113" column="46" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7076923" vertical-offset="144" max-vertical-offset="2214">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30100334" vertical-offset="0" max-vertical-offset="774">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.78929764" vertical-offset="140" max-vertical-offset="846">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/entity/TbaMemberinfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81270903" vertical-offset="0" max-vertical-offset="5958">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/button_000.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.11.RELEASE/spring-web-3.2.11.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3090586" vertical-offset="3468" max-vertical-offset="4500">
+          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/framework/interceptor/CheckLoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7826087" vertical-offset="0" max-vertical-offset="738">
+          <caret line="30" column="106" selection-start-line="30" selection-start-column="106" selection-end-line="30" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/framework/dao/UpdateUserInfoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8795987" vertical-offset="122" max-vertical-offset="882">
+          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
+          <folding>
+            <marker date="1424091255377" expanded="true" signature="-1:-1" placeholder="update TBa_M..." />
+            <marker date="1424091255377" expanded="true" signature="-1:-1" placeholder="update TBa_M..." />
+            <marker date="1424091255377" expanded="true" signature="-1:-1" placeholder="update TBa_M..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48387095" vertical-offset="54" max-vertical-offset="2934">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/getpwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38709676" vertical-offset="702" max-vertical-offset="1872">
+          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#form#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#&lt;unnamed&gt;#4;tag#jsp:root#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/UserRegController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06153846" vertical-offset="1188" max-vertical-offset="1818">
+          <caret line="92" column="75" selection-start-line="92" selection-start-column="75" selection-end-line="92" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/reg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41935483" vertical-offset="1782" max-vertical-offset="3996">
+          <caret line="112" column="24" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/updatepwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3548387" vertical-offset="1674" max-vertical-offset="2970">
+          <caret line="104" column="66" selection-start-line="104" selection-start-column="66" selection-end-line="104" selection-end-column="66" />
+          <folding>
+            <marker date="1424093965636" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shinowit/web/PasswordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1179" max-vertical-offset="2052">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/getpwdover.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.516129" vertical-offset="1404" max-vertical-offset="2826">
+          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1684,7 +1879,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>sqljdbc4-4.0.2206.100</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

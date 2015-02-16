@@ -6,6 +6,7 @@ import com.shinowit.entity.TmeMerchandisecinfo;
 import com.shinowit.entity.TmeMerchandisecinfoExample;
 import com.shinowit.entity.TmeMerchandiseinfo;
 import com.shinowit.entity.TmeMerchandiseinfoExample;
+import org.omg.CORBA.Request;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -32,11 +34,15 @@ public class IndexController {
     @RequestMapping(value = "/index")
     public ModelAndView index(@RequestParam(value = "ajaxMerInfo", required = false) Integer MerCpageIndex,
                               @RequestParam(value = "merDispageIndex", required = false) Integer merDispageIndex,
-                              @ModelAttribute TmeMerchandisecinfo tmemerchandisec) {
+                              @ModelAttribute TmeMerchandisecinfo tmemerchandisec,HttpServletRequest request) {
 
         TmeMerchandiseinfoExample exampleMerDisplay = new TmeMerchandiseinfoExample();
         List<TmeMerchandiseinfo> merchandiseinfoDisplayList;
         ModelAndView result = new ModelAndView("index");
+
+        //获取当前用户
+        String currentUser=(String)request.getSession(true).getAttribute("userName");
+        result.addObject("currentUser",currentUser);
 
         if (null == MerCpageIndex) {
             MerCpageIndex = 1;
@@ -54,6 +60,7 @@ public class IndexController {
             result.addObject("tmemerchandisec", tmemerchandisec);
             exampleMerDisplay.createCriteria().andMerchandisecidEqualTo(tmemerchandisec.getMerchandisecid());
         }
+
 
 
         int record;

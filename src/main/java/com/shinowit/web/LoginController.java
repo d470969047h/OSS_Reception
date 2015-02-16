@@ -25,6 +25,12 @@ public class LoginController {
         return "/login";
     }
 
+    //用户退出登录
+    @RequestMapping(value = "layout")
+    public String layout(@ModelAttribute("member") TbaMemberinfo tbaMemberinfo){
+        return "/layout";
+    }
+
     //用户登陆
     @RequestMapping(value = "/userlogin")
     public String userLogin(@ModelAttribute("member") TbaMemberinfo tbaMemberinfo, HttpServletRequest request) {

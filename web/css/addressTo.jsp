@@ -4,7 +4,7 @@
 p {
     padding: 0;
     margin: 0;
-    padding: 0px 0px 15px;
+    padding: 0px 0px 6px;
     height: 30px
 }
 
